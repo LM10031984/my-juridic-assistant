@@ -1,0 +1,816 @@
+{
+  "timestamp": "2026-02-08T17:23:33.495504",
+  "total_questions": 50,
+  "tests": [
+    {
+      "test_id": "MANDAT_01",
+      "question": "Quel type de mandat choisir (simple, exclusif, semi-exclusif) et quelles conséquences juridiques ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLe choix entre un mandat simple, exclusif ou semi-exclusif dépend des objectifs du vendeur et de la relation souhaitée avec l'agent immobilier. Un mandat exclusif offre à l'agent le droit exclusif de vendre le bien, tandis qu'un mandat simple permet au vendeur de confier la vente à plusieurs agents ou de vendre lui-même.\n\n### EXPLICATIONS DÉTAILLÉES\n\nUn mandat simple permet au vendeur de confier la vente de son bien à plusieurs agents immobiliers ou de vendre lui-même, sans exclusivité. Cela peut augmenter la visibilité du bien, mais peut aussi diluer les efforts des agents. En revanche, un mandat exclusif engage le vendeur à ne confier la vente qu'à un seul agent, ce qui peut motiver l'agent à investir davantage dans la promotion du bien, sachant qu'il est le seul à pouvoir percevoir une commission. Le mandat semi-exclusif est un compromis, où le vendeur peut vendre lui-même sans commission, mais ne peut pas engager d'autres agents. Les conséquences juridiques d'un mandat exclusif incluent l'obligation pour le vendeur de payer la commission à l'agent même en cas de vente directe pendant la durée du mandat.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet, Article 6** : Obligation d'un mandat écrit pour toute opération immobilière\n- **Loi Hoguet, Article 7** : Limitation dans le temps des mandats exclusifs\n- **Décret 72-678 du 20 juillet 1972, Article 6** : Contenu obligatoire du mandat\n\n### POINTS D'ATTENTION\n\n- Un mandat exclusif doit être expressément mentionné et limité dans le temps.\n- En cas de vente directe pendant un mandat exclusif, l'agent a droit à sa commission.\n- Le mandat simple offre plus de flexibilité au vendeur mais peut réduire l'engagement des agents.\n- Vérifiez toujours que le mandat est écrit et signé pour éviter toute contestation.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 6,
+        "word_count": 315,
+        "length": 1957
+      }
+    },
+    {
+      "test_id": "MANDAT_02",
+      "question": "Quelles clauses sont indispensables dans un mandat pour être valable et opposable ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nPour qu'un mandat soit valable et opposable, il doit contenir certaines clauses obligatoires définies par la loi Hoguet et le décret de 1972. Ces clauses incluent notamment les mentions relatives à l'identité des parties, l'objet du mandat, la durée, et les conditions de rémunération.\n\n### EXPLICATIONS DÉTAILLÉES\n\nUn mandat immobilier doit respecter des conditions de validité strictes pour être opposable aux tiers. Selon la loi Hoguet et le décret de 1972, un mandat doit inclure des mentions obligatoires telles que l'identité complète des parties (mandant et mandataire), l'objet précis du mandat (par exemple, vente ou location d'un bien immobilier), la durée du mandat, et les conditions de rémunération de l'agent immobilier. Le mandat doit également être signé par les deux parties et respecter les règles de formalisme imposées par le décret, notamment en ce qui concerne l'affichage des honoraires et la détention de fonds. En l'absence de ces éléments, le mandat peut être contesté et considéré comme nul.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet du 2 janvier 1970** : Régit les conditions de validité des mandats immobiliers\n- **Décret du 20 juillet 1972** : Précise les mentions obligatoires du mandat et les règles de formalisme\n\n### POINTS D'ATTENTION\n\n- Le mandat doit être écrit et signé par les deux parties pour être valable.\n- Toute omission d'une mention obligatoire peut entraîner la nullité du mandat.\n- Le mandat doit être conforme aux exigences réglementaires, notamment en matière de durée et de conditions de résiliation.\n- Les règles d'affichage des honoraires doivent être respectées pour éviter toute contestation.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 283,
+        "length": 1827
+      }
+    },
+    {
+      "test_id": "MANDAT_03",
+      "question": "Dans quels cas le mandat peut-il être annulé (vice de forme, absence de mentions, signature non conforme) ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nUn mandat peut être annulé en cas de vice de forme, d'absence de mentions obligatoires ou de signature non conforme. Ces éléments sont essentiels pour la validité du mandat selon la Loi Hoguet et le décret de 1972.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa validité d'un mandat immobilier repose sur le respect de certaines conditions formelles. Un vice de forme peut résulter de l'absence de mentions obligatoires telles que l'identité des parties, la désignation du bien, ou les conditions de rémunération. De plus, la signature doit être conforme, c'est-à-dire apposée par les parties concernées et sur chaque exemplaire du mandat. L'absence de ces éléments peut entraîner l'annulation du mandat, car ils sont essentiels pour garantir la transparence et la sécurité des transactions immobilières. Le décret de 1972 précise les mentions obligatoires et les conditions de validité, qui doivent être respectées conjointement avec la Loi Hoguet.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet** : Régit les conditions de validité des mandats immobiliers.\n- **Décret du 20 juillet 1972** : Précise les mentions obligatoires du mandat et les conditions de signature.\n\n### POINTS D'ATTENTION\n\n- Un mandat sans les mentions obligatoires est nul et non avenu.\n- La signature doit être présente sur chaque exemplaire du mandat.\n- La conformité du mandat doit être vérifiée avant toute transaction.\n- En cas de contestation, la charge de la preuve de la validité du mandat incombe au professionnel de l'immobilier.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 4,
+        "word_count": 259,
+        "length": 1672
+      }
+    },
+    {
+      "test_id": "MANDAT_04",
+      "question": "Quand la commission est-elle juridiquement due (conditions de paiement, fait générateur, clause aux frais de l'acquéreur) ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLa commission est juridiquement due à l'agent immobilier lorsque la vente est conclue pendant la durée d'un mandat exclusif valide, même si l'agent n'a pas directement participé à la transaction. Le fait générateur du paiement est la signature de l'acte de vente, et la clause aux frais de l'acquéreur doit être expressément stipulée dans le mandat.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa commission d'un agent immobilier est due lorsque les conditions du mandat sont respectées. Pour un mandat exclusif, l'agent a droit à sa commission si la vente est conclue pendant la durée du mandat, même sans son intervention directe. Le mandat doit être écrit, signé, et mentionner explicitement son caractère exclusif. La commission est généralement calculée sur le prix de vente réel et devient exigible à la signature de l'acte authentique de vente. Si une clause prévoit que la commission est à la charge de l'acquéreur, cela doit être clairement indiqué dans le mandat et l'acte de vente.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet (Loi n°70-9 du 2 janvier 1970), Article 6** : Obligation d'un mandat écrit\n- **Loi Hoguet, Article 7** : Limitation dans le temps du mandat\n- **Décret 72-678 du 20 juillet 1972, Article 6** : Mentions obligatoires du mandat\n- **Code civil, Articles 1991 à 2010** : Réglementation du mandat\n- **Article 1217 du Code civil** : Sanctions de l'inexécution du contrat\n\n### POINTS D'ATTENTION\n\n- La commission est due même si la vente est conclue directement par le vendeur pendant un mandat exclusif.\n- La clause aux frais de l'acquéreur doit être expressément stipulée pour être opposable.\n- En cas de contestation, l'agent doit prouver l'existence d'un mandat valide et l'exclusivité.\n- Le délai de prescription pour réclamer la commission est de 5 ans à compter de la vente.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 9,
+        "word_count": 319,
+        "length": 1973
+      }
+    },
+    {
+      "test_id": "MANDAT_05",
+      "question": "Que risque l'agent en cas de vente en direct du vendeur avec un acquéreur présenté par l'agence ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nEn cas de vente directe par le vendeur avec un acquéreur présenté par l'agence pendant la durée d'un mandat exclusif, l'agent immobilier a droit à sa commission intégrale. Le mandat exclusif interdit au vendeur de vendre directement pendant sa durée, et l'agent peut engager la responsabilité contractuelle du vendeur.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLorsqu'un mandat de vente est exclusif, le vendeur s'engage à ne pas vendre le bien par lui-même ou par l'intermédiaire d'un tiers pendant la durée du mandat. Si le vendeur conclut une vente directe avec un acquéreur présenté par l'agence pendant cette période, l'agent immobilier conserve son droit à la commission intégrale prévue dans le mandat. Cette situation engage la responsabilité contractuelle du vendeur, qui a violé l'obligation d'exclusivité. L'agent peut alors exiger le paiement de la commission et, en cas de refus, engager une action en justice pour obtenir réparation.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet - Article 6** : Obligation de mandat écrit pour les opérations immobilières\n- **Loi Hoguet - Article 7** : Limitation dans le temps du mandat et nullité en cas de durée excessive\n- **Code civil - Articles 1991 à 2010** : Réglementation du mandat\n- **Article 1217 du Code civil** : Sanctions de l'inexécution du contrat\n\n### POINTS D'ATTENTION\n\n- L'agent doit prouver l'existence d'un mandat écrit et signé, ainsi que le caractère exclusif du mandat.\n- La vente doit avoir eu lieu pendant la durée du mandat pour que la commission soit due.\n- En cas de litige, l'agent peut envoyer une mise en demeure au vendeur avant d'engager une action en justice.\n- Le délai de prescription pour réclamer la commission est de 5 ans à compter de la vente.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 6,
+        "word_count": 307,
+        "length": 1899
+      }
+    },
+    {
+      "test_id": "MANDAT_06",
+      "question": "Comment prouver l'intervention de l'agence (bon de visite, preuve de présentation) en cas de litige ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nPour prouver l'intervention de l'agence immobilière, il est essentiel de conserver des documents tels que le bon de visite signé par le client, ainsi que toute preuve de présentation du bien. Ces documents doivent être bien archivés pour être produits en cas de litige.\n\n### EXPLICATIONS DÉTAILLÉES\n\nDans le cadre d'une transaction immobilière, l'agence doit pouvoir justifier de son intervention pour prétendre à une commission. Le bon de visite est un document clé qui atteste que le client a visité le bien par l'intermédiaire de l'agence. Ce document, signé par le client, doit mentionner la date de la visite, le bien visité, et les coordonnées du client. En plus du bon de visite, toute correspondance ou preuve de présentation du bien (emails, échanges écrits) doit être conservée. Ces éléments sont cruciaux pour démontrer l'implication de l'agence en cas de contestation de la commission due.\n\n### BASE JURIDIQUE\n\n- **Article 6 de la Loi Hoguet** : Définit les obligations de l'agent immobilier, notamment en matière de preuve de son intervention.\n- **Décret n°72-678 du 20 juillet 1972** : Implique la tenue de registres et la conservation des documents relatifs aux transactions immobilières.\n\n### POINTS D'ATTENTION\n\n- Assurez-vous que le bon de visite est signé par le client pour qu'il ait une valeur probante.\n- Conservez tous les documents et correspondances liés à la présentation du bien pendant au moins 10 ans.\n- En cas de litige, la charge de la preuve de l'intervention de l'agence repose sur cette dernière.\n- Vérifiez que tous les documents sont conformes aux exigences légales pour éviter toute contestation.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 289,
+        "length": 1819
+      }
+    },
+    {
+      "test_id": "MANDAT_07",
+      "question": "Quelles sont les limites de l'obligation de conseil et d'information de l'agent immobilier ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nL'obligation de conseil et d'information de l'agent immobilier est limitée par la nécessité de fournir des informations claires et précises sur les biens et les transactions, sans pour autant se substituer à un conseil juridique ou fiscal. L'agent doit s'assurer que les informations transmises sont exactes et ne pas induire en erreur ses clients.\n\n### EXPLICATIONS DÉTAILLÉES\n\nL'agent immobilier a une obligation de conseil et d'information envers ses clients, ce qui implique de leur fournir toutes les informations pertinentes concernant le bien immobilier et la transaction envisagée. Cela inclut des détails sur l'état du bien, les diagnostics techniques, les conditions du marché, et les obligations légales liées à la transaction. Cependant, cette obligation ne s'étend pas à des conseils juridiques ou fiscaux approfondis, qui relèvent de la compétence d'autres professionnels, tels que les avocats ou les experts-comptables.\n\nL'agent doit veiller à ce que les informations fournies soient exactes et à jour, et il doit éviter toute présentation trompeuse ou incomplète qui pourrait induire le client en erreur. En cas de manquement à cette obligation, l'agent immobilier peut engager sa responsabilité civile professionnelle.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet** : Réglemente les obligations des agents immobiliers, y compris l'obligation d'information.\n- **Décret n°72-678 du 20 juillet 1972** : Précise les conditions d'application de la loi Hoguet, notamment en matière d'obligations documentaires et de formalisme professionnel.\n\n### POINTS D'ATTENTION\n\n- L'agent immobilier ne doit pas fournir de conseils juridiques ou fiscaux détaillés, qui relèvent de la compétence d'autres professionnels.\n- Toute information fournie doit être exacte et vérifiable, sous peine d'engager la responsabilité de l'agent.\n- L'agent doit s'assurer que le client comprend bien les informations et les implications de la transaction.\n- En cas de doute sur une information, l'agent doit conseiller au client de consulter un professionnel compétent.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 324,
+        "length": 2229
+      }
+    },
+    {
+      "test_id": "MANDAT_08",
+      "question": "Quelle responsabilité si l'annonce contient une erreur (surface, diagnostics, travaux, charges, copropriété) ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLa responsabilité en cas d'erreur dans une annonce immobilière peut engager le professionnel de l'immobilier, notamment si l'erreur concerne des éléments essentiels comme la surface, les diagnostics ou les charges. Cette responsabilité est encadrée par la Loi Hoguet et le Code de la consommation, qui imposent des obligations de véracité et de transparence.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLorsqu'une annonce immobilière contient des erreurs, cela peut être considéré comme une annonce trompeuse, engageant la responsabilité civile et pénale du professionnel. La Loi Hoguet impose aux agents immobiliers de s'assurer de l'exactitude des informations diffusées, notamment en ce qui concerne la surface (Loi Carrez), les diagnostics techniques, et les charges de copropriété. Une erreur sur ces éléments peut entraîner des sanctions, allant de l'annulation de la vente à des amendes. Le Code de la consommation interdit également les pratiques commerciales trompeuses, ce qui inclut la diffusion d'informations inexactes dans les annonces.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet** : Encadre les pratiques des professionnels de l'immobilier, notamment en matière de publicité et d'information (Articles 6-1 et 6-2).\n- **Loi Carrez** : Obligation de mentionner la surface exacte dans les annonces.\n- **Code de la consommation** : Interdiction des pratiques commerciales trompeuses (Article L121-1 et suivants).\n\n### POINTS D'ATTENTION\n\n- Les erreurs sur la surface doivent être corrigées immédiatement pour éviter des sanctions.\n- Les diagnostics doivent être à jour et exacts, sous peine de nullité de la vente.\n- Les charges de copropriété doivent être clairement indiquées et vérifiées.\n- En cas de litige, le professionnel doit prouver qu'il a agi avec diligence et véracité.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 7,
+        "word_count": 287,
+        "length": 1957
+      }
+    },
+    {
+      "test_id": "MANDAT_09",
+      "question": "Peut-on diffuser un bien sans certains documents (DPE, ERP, etc.) et quels risques ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nIl n'est pas légal de diffuser une annonce immobilière sans certains documents obligatoires tels que le Diagnostic de Performance Énergétique (DPE) et l'État des Risques et Pollutions (ERP). L'absence de ces documents peut entraîner des sanctions pour annonce trompeuse.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa diffusion d'une annonce immobilière doit respecter certaines obligations légales, notamment en matière de transparence et d'information du consommateur. Le DPE est un document obligatoire qui doit être mentionné dans toute annonce immobilière, car il informe sur la performance énergétique du bien. De même, l'ERP informe sur les risques naturels, miniers et technologiques auxquels le bien est exposé. L'absence de ces documents dans une annonce peut être considérée comme une annonce trompeuse, ce qui est sanctionné par le Code de la consommation. Les professionnels de l'immobilier doivent s'assurer que tous les documents requis sont disponibles et mentionnés dans les annonces pour éviter des sanctions de la DGCCRF.\n\n### BASE JURIDIQUE\n\n- **Loi Climat** : Obligation d'inclure le DPE dans les annonces immobilières\n- **Code de la consommation** : Sanctions pour annonces trompeuses\n- **Décret n°72-678 du 20 juillet 1972** : Conditions d'application de la loi Hoguet, encadrant les pratiques des professionnels de l'immobilier\n\n### POINTS D'ATTENTION\n\n- La non-présentation du DPE dans une annonce peut entraîner des sanctions administratives et financières.\n- L'ERP doit être mis à jour et disponible pour consultation par les potentiels acquéreurs ou locataires.\n- Les professionnels doivent vérifier la conformité des documents avant la diffusion de l'annonce pour éviter des poursuites pour publicité trompeuse.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 277,
+        "length": 1912
+      }
+    },
+    {
+      "test_id": "MANDAT_10",
+      "question": "Quelles précautions RGPD pour le fichier clients, les relances, la prospection et le partage de données ?",
+      "categorie": "Mandat",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "Je vous remercie pour votre question. Cependant, celle-ci concerne le **droit de la protection des données personnelles (RGPD)**, qui sort du périmètre de ma spécialisation en droit immobilier français.\n\nPour obtenir une réponse fiable et adaptée à votre situation, je vous recommande de consulter :\n\n📍 **CNIL** (Commission Nationale de l'Informatique et des Libertés) : cnil.fr\n\n📍 **Avocat spécialisé** en droit du numérique et protection des données\n\nNotre assistant juridique est spécialisé en **droit immobilier** (location, copropriété, transaction, diagnostics, professionnels de l'immobilier). N'hésitez pas à me poser une question dans ce domaine, je serai ravi de vous aider !",
+      "metrics": {
+        "has_structure": false,
+        "has_disclaimer": false,
+        "citation_count": 0,
+        "word_count": 99,
+        "length": 685
+      }
+    },
+    {
+      "test_id": "ANNONCE_01",
+      "question": "Quelles mentions légales obligatoires dans une annonce immobilière (prix, honoraires, DPE, etc.) ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes mentions légales obligatoires dans une annonce immobilière incluent le prix de vente ou de location, les honoraires de l'agence, et le Diagnostic de Performance Énergétique (DPE). Ces informations doivent être claires et précises pour respecter les obligations légales.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLes annonces immobilières doivent contenir certaines mentions obligatoires pour garantir la transparence et l'information des consommateurs. Le prix de vente ou de location doit être clairement indiqué, incluant les honoraires de l'agence si ceux-ci sont à la charge de l'acquéreur ou du locataire. Le Diagnostic de Performance Énergétique (DPE) est également obligatoire et doit être mentionné dans l'annonce, indiquant la classe énergétique du bien. Ces obligations visent à protéger les consommateurs et à assurer une concurrence loyale entre les professionnels de l'immobilier.\n\n### BASE JURIDIQUE\n\n- **Loi Alur 2014** : Obligation d'afficher le prix et les honoraires dans les annonces immobilières.\n- **Loi Climat** : Obligation d'afficher le Diagnostic de Performance Énergétique (DPE) dans les annonces.\n\n### POINTS D'ATTENTION\n\n- Les honoraires doivent être indiqués en TTC (toutes taxes comprises) et préciser qui en a la charge.\n- Le DPE doit être à jour et réalisé par un diagnostiqueur certifié.\n- Toute omission ou inexactitude dans les mentions obligatoires peut entraîner des sanctions pour le professionnel de l'immobilier.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 236,
+        "length": 1630
+      }
+    },
+    {
+      "test_id": "ANNONCE_02",
+      "question": "Quelles sanctions si le DPE est absent, erroné ou mal affiché ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nEn cas d'absence, d'erreur ou de mauvais affichage du Diagnostic de Performance Énergétique (DPE) dans une annonce immobilière, des sanctions peuvent être appliquées. Ces sanctions incluent des amendes administratives et des poursuites pour pratiques commerciales trompeuses.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe DPE est un document obligatoire qui doit être mentionné dans toute annonce immobilière, qu'il s'agisse de vente ou de location. Son absence, son inexactitude ou son mauvais affichage peut induire en erreur les potentiels acquéreurs ou locataires sur la performance énergétique du bien. La loi impose que les informations du DPE soient claires et visibles dans les annonces pour garantir la transparence et la protection des consommateurs. En cas de manquement, les sanctions peuvent inclure des amendes administratives, et dans certains cas, des poursuites pour pratiques commerciales trompeuses, ce qui peut entraîner des sanctions financières plus lourdes.\n\n### BASE JURIDIQUE\n\n- **Loi Climat** : Obligation d'affichage du DPE dans les annonces immobilières\n- **Code de la consommation** : Sanctions pour pratiques commerciales trompeuses\n\n### POINTS D'ATTENTION\n\n- Les sanctions peuvent varier en fonction de la gravité de l'infraction (absence totale vs. erreur mineure).\n- Les professionnels de l'immobilier doivent s'assurer de la mise à jour régulière des DPE pour éviter les erreurs.\n- En cas de litige, la charge de la preuve de la conformité du DPE incombe au professionnel de l'immobilier.\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 1,
+        "word_count": 247,
+        "length": 1690
+      }
+    },
+    {
+      "test_id": "ANNONCE_03",
+      "question": "Quelles règles sur l'affichage des honoraires (TTC, charge vendeur/acquéreur, barème) ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes règles d'affichage des honoraires en immobilier imposent que ceux-ci soient indiqués toutes taxes comprises (TTC) et précisent s'ils sont à la charge du vendeur ou de l'acquéreur. Le barème des honoraires doit être affiché de manière visible et lisible dans les locaux de l'agence et sur ses supports de communication.\n\n### EXPLICATIONS DÉTAILLÉES\n\nL'affichage des honoraires est encadré par la loi pour garantir la transparence des transactions immobilières. Les honoraires doivent être indiqués en TTC pour éviter toute confusion sur le montant réel à payer. Il est également obligatoire de préciser qui, du vendeur ou de l'acquéreur, supporte ces honoraires. Cette information doit être clairement visible dans les locaux de l'agence immobilière ainsi que sur tous les supports de communication utilisés par l'agence, y compris les annonces en ligne. Le barème des honoraires doit être détaillé et accessible pour consultation par les clients potentiels.\n\n### BASE JURIDIQUE\n\n- **Article 6-1 de la Loi Hoguet** : \"Publicité : mention du montant TTC des honoraires (support indifférent)\"\n- **Décret du 20 juillet 1972** : Précise les règles d'affichage des honoraires et les conditions de leur présentation\n\n### POINTS D'ATTENTION\n\n- Les honoraires doivent être affichés de manière visible et lisible dans tous les lieux où l'agence reçoit du public.\n- Toute modification du barème des honoraires doit être immédiatement mise à jour sur tous les supports.\n- En cas de non-respect des règles d'affichage, l'agence peut être sanctionnée pour manquement à ses obligations professionnelles.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 269,
+        "length": 1778
+      }
+    },
+    {
+      "test_id": "ANNONCE_04",
+      "question": "Comment annoncer une surface (Carrez, habitable, utile) sans se mettre en risque ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nPour annoncer une surface sans risque, il est essentiel de respecter les obligations légales concernant la mention de la surface Carrez pour les lots en copropriété, et de s'assurer que les informations fournies sont exactes et vérifiables. Toute inexactitude peut entraîner des sanctions pour annonce trompeuse.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa surface Carrez doit être mentionnée dans toute annonce de vente d'un lot en copropriété. Cette surface correspond à la superficie des planchers des locaux clos et couverts, après déduction des surfaces occupées par les murs, cloisons, marches, cages d'escalier, gaines, embrasures de portes et de fenêtres. La loi impose cette mention pour garantir la transparence et éviter les litiges liés à la superficie réelle du bien.\n\nEn cas d'erreur sur la surface annoncée, l'acquéreur peut demander une réduction du prix proportionnelle à la différence constatée si celle-ci dépasse 5 % de la surface annoncée. Pour éviter les risques, il est conseillé de faire appel à un professionnel pour mesurer la surface Carrez.\n\n### BASE JURIDIQUE\n\n- **Loi Carrez** : Obligation de mentionner la surface Carrez dans les annonces de vente de lots en copropriété.\n- **Code de la consommation** : Sanctions pour annonce trompeuse.\n\n### POINTS D'ATTENTION\n\n- La surface Carrez ne s'applique qu'aux lots en copropriété, pas aux maisons individuelles.\n- Toute inexactitude dans l'annonce peut être considérée comme trompeuse et entraîner des sanctions.\n- Il est recommandé de faire appel à un professionnel pour la mesure de la surface Carrez afin d'éviter les erreurs.\n- En cas de litige, l'acquéreur peut demander une réduction du prix si la surface réelle est inférieure de plus de 5 % à celle annoncée.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 1,
+        "word_count": 298,
+        "length": 1916
+      }
+    },
+    {
+      "test_id": "ANNONCE_05",
+      "question": "Quelle marge d'erreur tolérée sur une surface annoncée et quelles conséquences si elle est fausse ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLa marge d'erreur tolérée sur une surface annoncée est de 5% selon la Loi Carrez. Si l'erreur dépasse cette marge, l'acheteur peut demander une réduction du prix proportionnelle à la différence constatée.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa Loi Carrez impose que la surface privative d'un bien immobilier soit mentionnée dans tout acte de vente. Cette surface doit être mesurée avec précision, et une marge d'erreur de 5% est tolérée. Si la surface réelle est inférieure de plus de 5% à celle annoncée, l'acheteur peut demander une diminution du prix de vente proportionnelle à la différence. Cette demande doit être faite dans l'année suivant la signature de l'acte authentique de vente. La précision de la mesure est cruciale pour éviter des litiges postérieurs à la vente.\n\n### BASE JURIDIQUE\n\n- **Loi Carrez** : Obligation de mentionner la surface privative dans les actes de vente\n- **Code de la consommation** : Sanctions en cas d'annonce trompeuse\n\n### POINTS D'ATTENTION\n\n- La demande de réduction de prix doit être faite dans l'année suivant la vente\n- La Loi Carrez ne s'applique qu'aux lots de copropriété\n- Les surfaces non closes (balcons, terrasses) ne sont pas incluses dans le calcul de la surface Carrez\n- Une expertise peut être nécessaire pour prouver la différence de surface\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 4,
+        "word_count": 237,
+        "length": 1478
+      }
+    },
+    {
+      "test_id": "ANNONCE_06",
+      "question": "Quelles règles pour mentionner vue mer, calme, proche commodités, sans vis-à-vis (promesses et preuves) ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes annonces immobilières doivent être précises et véridiques, notamment pour des mentions telles que \"vue mer\", \"calme\", \"proche commodités\" ou \"sans vis-à-vis\". Ces affirmations doivent être justifiées par des éléments objectifs et vérifiables pour éviter toute accusation de publicité trompeuse.\n\n### EXPLICATIONS DÉTAILLÉES\n\nEn matière d'annonces immobilières, la Loi Alur impose des obligations de transparence et de véracité. Les mentions comme \"vue mer\" ou \"calme\" doivent être basées sur des critères objectifs. Par exemple, \"vue mer\" doit être justifiable par une vue directe et non obstruée sur la mer depuis le bien. De même, \"calme\" doit être soutenu par l'absence de nuisances sonores significatives. \"Proche commodités\" implique une proximité raisonnable avec des services essentiels, et \"sans vis-à-vis\" signifie qu'aucun bâtiment ne fait face directement aux fenêtres principales du bien. Toute exagération ou fausse déclaration peut être considérée comme une annonce trompeuse, passible de sanctions par la DGCCRF.\n\n### BASE JURIDIQUE\n\n- **Loi Alur 2014** : Réglementation des mentions obligatoires dans les annonces immobilières\n- **Code de la consommation** : Interdiction des pratiques commerciales trompeuses\n\n### POINTS D'ATTENTION\n\n- Les affirmations doivent être vérifiables par des preuves tangibles (photos, plans, etc.)\n- En cas de litige, l'annonceur doit prouver la véracité des mentions\n- La DGCCRF peut sanctionner les annonces trompeuses\n- Les mentions subjectives doivent être évitées ou clairement expliquées\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 246,
+        "length": 1728
+      }
+    },
+    {
+      "test_id": "ANNONCE_07",
+      "question": "Quelles précautions pour les photos (droit à l'image, voisinage, éléments personnels) ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes précautions pour les photos dans le cadre d'annonces immobilières incluent le respect du droit à l'image des personnes, la protection de la vie privée des voisins, et l'évitement de la capture d'éléments personnels identifiables. Il est essentiel de s'assurer que les photos ne violent pas ces droits pour éviter des litiges.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLors de la prise de photos pour des annonces immobilières, il est crucial de respecter le droit à l'image des personnes qui pourraient apparaître sur les clichés. Cela signifie obtenir leur consentement explicite avant de publier les photos. De plus, il est important de veiller à ce que les photos ne capturent pas des éléments du voisinage qui pourraient porter atteinte à la vie privée des voisins, comme des fenêtres ouvertes ou des jardins privés. Enfin, les photos ne doivent pas inclure d'éléments personnels identifiables, tels que des photos de famille ou des objets personnels, qui pourraient révéler des informations sur les occupants actuels du bien.\n\n### BASE JURIDIQUE\n\n- **Loi Alur 2014** : Encadre les mentions obligatoires dans les annonces immobilières, bien que le contexte spécifique des photos ne soit pas détaillé dans les sources fournies.\n\n### POINTS D'ATTENTION\n\n- Obtenir le consentement des personnes visibles sur les photos pour éviter des réclamations liées au droit à l'image.\n- Éviter de photographier des éléments du voisinage qui pourraient porter atteinte à la vie privée.\n- S'assurer que les photos ne contiennent pas d'éléments personnels identifiables des occupants actuels.\n- Vérifier que les photos respectent les règles de publicité et de mentions obligatoires selon la Loi Alur.\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 287,
+        "length": 1860
+      }
+    },
+    {
+      "test_id": "ANNONCE_08",
+      "question": "Que peut-on dire sur des travaux à prévoir sans engager la responsabilité (estimations, devis) ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nPour éviter d'engager sa responsabilité lors de la communication sur des travaux à prévoir, il est crucial de fournir des estimations ou devis de manière claire et précise, en précisant qu'il s'agit d'estimations non contractuelles. L'agent immobilier doit s'assurer que les informations fournies sont basées sur des données fiables et qu'elles ne sont pas présentées comme des garanties.\n\n### EXPLICATIONS DÉTAILLÉES\n\nDans le cadre de la loi Hoguet, les professionnels de l'immobilier doivent faire preuve de prudence lorsqu'ils communiquent sur des travaux à prévoir. Il est essentiel de distinguer entre une estimation indicative et un engagement ferme. Les estimations doivent être présentées comme telles, et il est conseillé de mentionner qu'elles sont sujettes à modification après une évaluation plus approfondie par des professionnels qualifiés. L'agent immobilier doit également s'assurer que les informations sont à jour et basées sur des sources fiables pour éviter toute accusation de négligence ou de fausse représentation.\n\n### BASE JURIDIQUE\n\n- **Loi Hoguet** : Encadre les responsabilités des professionnels de l'immobilier, notamment en matière de communication et d'information.\n- **Décret du 20 juillet 1972** : Précise les obligations documentaires et de communication des professionnels de l'immobilier.\n\n### POINTS D'ATTENTION\n\n- Toujours préciser que les estimations sont indicatives et non contractuelles.\n- S'assurer que les informations sont basées sur des données fiables et à jour.\n- Éviter de donner des garanties sur les coûts ou les délais des travaux sans une évaluation professionnelle.\n- Conserver une trace écrite des communications pour se protéger en cas de litige.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 276,
+        "length": 1889
+      }
+    },
+    {
+      "test_id": "ANNONCE_09",
+      "question": "Quelles règles pour les avis clients et témoignages (consentement, modération, publicité) ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "Je vous remercie pour votre question. Cependant, celle-ci concerne le **droit de la consommation** (avis clients et témoignages en ligne), qui sort du périmètre de ma spécialisation en droit immobilier français.\n\nPour obtenir une réponse fiable, je vous recommande de consulter :\n\n📍 **DGCCRF** (Direction Générale de la Concurrence, de la Consommation et de la Répression des Fraudes) : economie.gouv.fr/dgccrf\n\n📍 **Avocat spécialisé** en droit de la consommation\n\nNotre assistant est spécialisé en droit immobilier. N'hésitez pas à poser une question sur les annonces immobilières conformes à la Loi Alur !",
+      "metrics": {
+        "has_structure": false,
+        "has_disclaimer": false,
+        "citation_count": 1,
+        "word_count": 91,
+        "length": 607
+      }
+    },
+    {
+      "test_id": "ANNONCE_10",
+      "question": "Quelles obligations sur les risques (ERP/ERNMT) et comment l'expliquer au client simplement ?",
+      "categorie": "Annonce",
+      "domaine": "pro_immo",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes obligations concernant les risques (ERP/ERNMT) consistent à fournir un état des risques et pollutions lors de la vente ou de la location d'un bien immobilier. Ce document informe le client des risques naturels, miniers, technologiques, sismiques, et de pollution auxquels le bien est exposé.\n\n### EXPLICATIONS DÉTAILLÉES\n\nL'état des risques et pollutions (ERP), anciennement appelé ERNMT, est un document obligatoire pour toute transaction immobilière, qu'il s'agisse de vente ou de location. Il vise à informer le futur acquéreur ou locataire des risques auxquels le bien est exposé, tels que les risques naturels (inondations, mouvements de terrain), miniers, technologiques (proximité d'une usine classée Seveso), sismiques, et de pollution des sols. Ce document doit être annexé au contrat de vente ou de location et doit être mis à jour tous les six mois. L'objectif est de garantir une transparence totale sur les risques potentiels, permettant ainsi au client de prendre une décision éclairée.\n\n### BASE JURIDIQUE\n\n- **Loi n° 2018-1021 du 23 novembre 2018** : Obligation de fournir un état des risques et pollutions\n- **Décret n° 2018-434 du 4 juin 2018** : Modalités de l'ERP\n\n### POINTS D'ATTENTION\n\n- L'ERP doit être mis à jour tous les six mois pour rester valide.\n- En cas de non-fourniture de l'ERP, l'acquéreur ou le locataire peut demander une réduction du prix ou l'annulation du contrat.\n- Le document doit être rempli avec précision, en se basant sur les informations fournies par la préfecture.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 267,
+        "length": 1703
+      }
+    },
+    {
+      "test_id": "VENTE_01",
+      "question": "Faut-il choisir promesse unilatérale ou compromis, et pourquoi juridiquement ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLe choix entre une promesse unilatérale et un compromis de vente dépend des besoins spécifiques des parties. Le compromis engage les deux parties à conclure la vente, tandis que la promesse unilatérale n'engage que le promettant, laissant le bénéficiaire libre de lever l'option d'achat.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe compromis de vente, également appelé \"promesse synallagmatique de vente\", est un contrat par lequel le vendeur et l'acheteur s'engagent mutuellement à conclure la vente. Il a la même valeur qu'une vente définitive, sous réserve des conditions suspensives éventuelles. En cas de non-réalisation de la vente par l'une des parties, l'autre peut demander l'exécution forcée ou des dommages-intérêts.\n\nLa promesse unilatérale de vente, quant à elle, n'engage que le vendeur à vendre le bien au bénéficiaire de la promesse, si celui-ci décide de lever l'option d'achat dans le délai convenu. Le bénéficiaire n'est pas obligé d'acheter, mais le vendeur ne peut pas se rétracter pendant la durée de la promesse.\n\n### BASE JURIDIQUE\n\n- **Article 1589 du Code civil** : \"La promesse de vente vaut vente, lorsqu'il y a consentement réciproque des deux parties sur la chose et sur le prix.\"\n- **Article 1583 du Code civil** : \"La vente est parfaite entre les parties, et la propriété est acquise de droit à l'acheteur à l'égard du vendeur, dès qu'on est convenu de la chose et du prix, quoique la chose n'ait pas encore été livrée ni le prix payé.\"\n\n### POINTS D'ATTENTION\n\n- Le compromis de vente engage les deux parties et peut inclure des clauses pénales en cas de non-respect.\n- La promesse unilatérale nécessite souvent le versement d'une indemnité d'immobilisation par le bénéficiaire.\n- Les conditions suspensives doivent être clairement définies dans les deux types de contrats pour éviter des litiges.\n- La validité de la promesse unilatérale peut être limitée dans le temps, au-delà de laquelle elle devient caduque si l'option n'est pas levée.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 341,
+        "length": 2149
+      }
+    },
+    {
+      "test_id": "VENTE_02",
+      "question": "Quelles conditions suspensives sont indispensables pour protéger l'acheteur (prêt, urbanisme, servitudes, etc.) ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes conditions suspensives essentielles pour protéger un acheteur incluent principalement l'obtention d'un prêt immobilier, l'absence de servitudes non déclarées, et la conformité aux règles d'urbanisme. Ces conditions permettent de sécuriser l'acquisition en évitant des situations où l'acheteur serait contraint de finaliser l'achat sans avoir les garanties nécessaires.\n\n### EXPLICATIONS DÉTAILLÉES\n\nDans le cadre d'une transaction immobilière, les conditions suspensives sont des clauses insérées dans le compromis de vente qui doivent être réalisées pour que la vente soit effective. L'une des conditions les plus courantes est l'obtention d'un prêt immobilier par l'acheteur. Si l'acheteur ne parvient pas à obtenir le financement nécessaire, il peut se retirer de la vente sans pénalité. \n\nUne autre condition importante concerne les servitudes. L'acheteur doit s'assurer qu'il n'existe pas de servitudes non déclarées qui pourraient affecter l'usage du bien. Enfin, la conformité aux règles d'urbanisme est cruciale, car des non-conformités pourraient entraîner des obligations de mise en conformité coûteuses ou des restrictions d'usage.\n\n### BASE JURIDIQUE\n\n- **Article 1589-1 du Code civil** : \"Les conditions suspensives doivent être réalisées pour que la vente soit parfaite.\"\n- **Article 1641 du Code civil** : \"Le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue.\"\n- **Article 1626 du Code civil** : \"Le vendeur est obligé de droit à garantir l'acquéreur de l'éviction qu'il souffre dans la totalité ou partie de l'objet vendu.\"\n\n### POINTS D'ATTENTION\n\n- Les conditions suspensives doivent être clairement définies et acceptées par les deux parties dans le compromis de vente.\n- L'acheteur doit respecter les délais pour lever les conditions suspensives, notamment pour l'obtention du prêt.\n- En cas de non-réalisation d'une condition suspensive, l'acheteur peut se retirer de la vente sans pénalité, mais il doit prouver la non-réalisation de la condition.\n- Les conditions suspensives doivent être réalistes et réalisables dans le délai imparti pour éviter des litiges.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 337,
+        "length": 2303
+      }
+    },
+    {
+      "test_id": "VENTE_03",
+      "question": "Comment rédiger une condition suspensive de prêt correctement (montant, taux, durée, délai) ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nPour rédiger une condition suspensive de prêt correctement, il est essentiel de préciser le montant du prêt, le taux d'intérêt, la durée du prêt, et le délai d'obtention du prêt. Ces éléments doivent être clairement définis pour que la condition suspensive soit valide et exécutoire.\n\n### EXPLICATIONS DÉTAILLÉES\n\nUne condition suspensive de prêt est une clause insérée dans un contrat de vente immobilière qui stipule que la vente ne sera effective que si l'acheteur obtient un prêt aux conditions spécifiées. Cette clause protège l'acheteur en cas de non-obtention du financement nécessaire. Pour être correctement rédigée, la condition suspensive doit inclure :\n\n- **Montant du prêt** : Le montant exact que l'acheteur doit obtenir pour financer l'achat.\n- **Taux d'intérêt** : Le taux maximum acceptable pour l'acheteur, au-delà duquel il peut refuser le prêt.\n- **Durée du prêt** : La période sur laquelle le prêt doit être remboursé.\n- **Délai d'obtention** : Le temps imparti à l'acheteur pour obtenir le prêt, généralement d'un mois à partir de la signature de l'acte.\n\nCes éléments doivent être clairement définis pour éviter toute ambiguïté et permettre une exécution sans litige.\n\n### BASE JURIDIQUE\n\n- **Article L313-41 du Code de la consommation** : \"Cet acte est conclu sous la condition suspensive de l'obtention du ou des prêts qui en assument le financement.\"\n- **Code civil 1589-1** : Référence générale aux conditions suspensives dans les contrats.\n\n### POINTS D'ATTENTION\n\n- La condition suspensive doit être rédigée de manière précise pour éviter toute interprétation divergente.\n- En cas de non-réalisation de la condition, l'acquéreur doit être remboursé de toutes les sommes versées sans pénalité.\n- Le délai d'obtention du prêt doit être raisonnable pour permettre à l'acheteur de finaliser les démarches bancaires.\n- Toute modification des conditions initiales du prêt doit être notifiée et acceptée par les parties.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 1,
+        "word_count": 327,
+        "length": 2128
+      }
+    },
+    {
+      "test_id": "VENTE_04",
+      "question": "Quel est le délai de rétractation (SRU) et comment le calculer sans erreur ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLe délai de rétractation SRU est de 10 jours à compter du lendemain de la première présentation de la lettre recommandée notifiant l'acte. Ce délai permet à l'acquéreur de se rétracter sans pénalité ni justification.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe délai de rétractation de 10 jours, prévu par la loi SRU, s'applique lors de l'achat d'un bien immobilier à usage d'habitation. Ce délai commence à courir le lendemain de la première présentation de la lettre recommandée contenant l'acte de vente. Pendant ce délai, l'acquéreur peut se rétracter sans avoir à fournir de motif et sans encourir de pénalités financières. Il est crucial de bien calculer ce délai pour éviter toute erreur qui pourrait invalider la rétractation. Le calcul se fait en jours calendaires, incluant les week-ends et jours fériés, sauf si le dernier jour tombe un jour non ouvré, auquel cas il est prolongé jusqu'au jour ouvré suivant.\n\n### BASE JURIDIQUE\n\n- **Article L271-1 du Code de la Construction et de l'Habitation (CCH)** : \"L'acquéreur non professionnel d'un immeuble à usage d'habitation dispose d'un délai de rétractation de dix jours à compter du lendemain de la première présentation de la lettre recommandée lui notifiant l'acte.\"\n\n### POINTS D'ATTENTION\n\n- Le délai commence le lendemain de la première présentation de la lettre recommandée, même si l'acquéreur ne la récupère pas immédiatement.\n- Si le dernier jour du délai tombe un jour non ouvré, le délai est prolongé jusqu'au jour ouvré suivant.\n- La rétractation doit être notifiée par lettre recommandée avec accusé de réception pour être valable.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 1,
+        "word_count": 281,
+        "length": 1779
+      }
+    },
+    {
+      "test_id": "VENTE_05",
+      "question": "Que se passe-t-il si l'acheteur se rétracte hors délai (conséquences, indemnité) ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nSi l'acheteur se rétracte hors du délai légal de rétractation, il est généralement tenu de respecter les termes du contrat de vente, ce qui peut inclure le paiement du prix convenu. En cas de non-respect, le vendeur peut demander l'exécution forcée de la vente ou des dommages et intérêts.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe délai de rétractation pour l'achat d'un bien immobilier est de 10 jours à compter de la réception de la notification de l'acte (Article L271-1 du CCH). Passé ce délai, l'acheteur est engagé par le contrat de vente. Si l'acheteur souhaite se rétracter après ce délai, il ne peut le faire sans l'accord du vendeur. En cas de refus du vendeur, l'acheteur peut être contraint de finaliser l'achat ou de payer des dommages et intérêts pour rupture de contrat. Le vendeur peut également demander l'exécution forcée de la vente devant les tribunaux.\n\n### BASE JURIDIQUE\n\n- **Article L271-1 du Code de la Construction et de l'Habitation (CCH)** : \"L'acquéreur non professionnel d'un immeuble à usage d'habitation dispose d'un délai de rétractation de dix jours à compter de la notification de l'acte.\"\n- **Article 1654 du Code civil** : \"Si l'acheteur ne paye pas le prix, le vendeur peut demander la résolution de la vente.\"\n\n### POINTS D'ATTENTION\n\n- Le délai de rétractation de 10 jours est impératif et ne peut être prolongé sans accord des parties.\n- En cas de rétractation hors délai, l'acheteur peut être tenu de payer des dommages et intérêts.\n- Le vendeur peut choisir de poursuivre l'acheteur pour exécution forcée du contrat.\n- Les conditions spécifiques de rétractation peuvent être précisées dans le compromis de vente.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 298,
+        "length": 1833
+      }
+    },
+    {
+      "test_id": "VENTE_06",
+      "question": "Que faire si la condition suspensive de prêt n'aboutit pas (preuves à demander, contestations) ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nSi la condition suspensive de prêt n'aboutit pas, l'acquéreur peut demander le remboursement intégral des sommes versées sans retenue ni indemnité. Il est essentiel de fournir des preuves de la non-obtention du prêt pour éviter toute contestation.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa condition suspensive de prêt est une clause fréquemment insérée dans les compromis de vente immobilière, stipulant que la vente ne sera effective que si l'acquéreur obtient un prêt bancaire. Si cette condition n'est pas réalisée, l'acquéreur a le droit de récupérer toutes les sommes versées d'avance, telles que le dépôt de garantie, sans pénalité. Pour cela, l'acquéreur doit prouver la non-obtention du prêt, généralement par une attestation de refus de la banque. En cas de contestation par le vendeur, l'acquéreur doit être prêt à fournir ces preuves pour justifier la non-réalisation de la condition suspensive.\n\n### BASE JURIDIQUE\n\n- **Article L313-41 du Code de la consommation** : \"Lorsque la condition suspensive prévue [...] n'est pas réalisée, toute somme versée d'avance par l'acquéreur [...] est immédiatement et intégralement remboursable sans retenue ni indemnité à quelque titre que ce soit.\"\n\n### POINTS D'ATTENTION\n\n- L'acquéreur doit conserver toutes les preuves de la demande de prêt et des refus éventuels.\n- Le délai pour réaliser la condition suspensive est généralement d'un mois, mais peut varier selon le contrat.\n- En cas de litige, il est conseillé de consulter un avocat spécialisé en droit immobilier pour défendre ses droits.\n- La condition suspensive doit être clairement stipulée dans le compromis de vente pour être opposable.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 1,
+        "word_count": 278,
+        "length": 1828
+      }
+    },
+    {
+      "test_id": "VENTE_07",
+      "question": "L'acompte/séquestre est-il obligatoire, à quoi sert-il, et qui le détient légalement ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nL'acompte ou séquestre n'est pas obligatoire dans toutes les transactions immobilières, mais il est souvent utilisé pour sécuriser l'engagement des parties. Il est généralement détenu par un notaire ou un agent immobilier jusqu'à la finalisation de la vente.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe séquestre est une somme d'argent déposée par l'acheteur lors de la signature d'un compromis de vente. Il sert à garantir l'engagement de l'acheteur à conclure la transaction. En cas de non-réalisation de la vente par la faute de l'acheteur, le vendeur peut conserver cette somme à titre de dédommagement. Le séquestre est généralement détenu par un tiers de confiance, tel qu'un notaire ou un agent immobilier, pour assurer la sécurité des fonds jusqu'à la signature de l'acte définitif de vente. Ce mécanisme n'est pas obligatoire, mais il est couramment utilisé pour sécuriser les transactions immobilières.\n\n### BASE JURIDIQUE\n\n- **Code civil 1956** : Régit les dispositions relatives au séquestre dans le cadre des transactions immobilières.\n\n### POINTS D'ATTENTION\n\n- Le montant du séquestre est généralement négocié entre les parties et peut varier.\n- Le séquestre doit être clairement stipulé dans le compromis de vente.\n- En cas de litige, le séquestre peut être retenu jusqu'à résolution du différend.\n- Le séquestre ne doit pas être confondu avec les frais de notaire ou les droits de mutation.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 0,
+        "word_count": 244,
+        "length": 1582
+      }
+    },
+    {
+      "test_id": "VENTE_08",
+      "question": "Quelles pénalités en cas de refus de signer l'acte authentique (clause pénale, exécution forcée) ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nEn cas de refus de signer l'acte authentique, la clause pénale prévue dans le compromis de vente peut s'appliquer, entraînant le paiement d'une indemnité. L'exécution forcée de la vente peut également être demandée par la partie lésée, sous réserve des conditions légales.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLorsqu'un compromis de vente inclut une clause pénale, celle-ci prévoit une indemnité forfaitaire que la partie défaillante doit payer en cas de non-respect de ses engagements, comme le refus de signer l'acte authentique. Cette indemnité est destinée à compenser le préjudice subi par l'autre partie. Selon l'Article 1231-5 du Code civil, le juge peut ajuster cette pénalité si elle est manifestement excessive ou dérisoire. Par ailleurs, la partie lésée peut demander l'exécution forcée de la vente, c'est-à-dire contraindre l'autre partie à signer l'acte authentique, à condition que toutes les conditions suspensives soient levées et que la mise en demeure ait été effectuée.\n\n### BASE JURIDIQUE\n\n- **Article 1231-5 du Code civil** : \"Lorsque le contrat stipule que celui qui manquera de l'exécuter paiera une certaine somme à titre de dommages et intérêts, il ne peut être alloué à l'autre partie une somme plus forte ni moindre.\"\n- **Article 1656 du Code civil** : Stipule la possibilité de résolution de la vente en cas de non-paiement, mais permet le paiement après expiration du délai tant qu'une mise en demeure n'a pas été faite.\n\n### POINTS D'ATTENTION\n\n- La clause pénale doit être clairement stipulée dans le compromis de vente pour être applicable.\n- Le juge a le pouvoir de modérer la clause pénale si elle est jugée excessive.\n- L'exécution forcée nécessite que toutes les conditions suspensives soient levées et qu'une mise en demeure ait été effectuée.\n- La partie lésée doit prouver le préjudice subi pour justifier l'application de la clause pénale.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 323,
+        "length": 2058
+      }
+    },
+    {
+      "test_id": "VENTE_09",
+      "question": "Comment gérer un retard de signature chez le notaire (avenant, prorogation, risques) ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLe retard de signature chez le notaire peut être géré par la rédaction d'un avenant au compromis de vente pour proroger la date de signature. Cela permet de formaliser l'accord des parties sur le report et de limiter les risques de contentieux.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLorsqu'un retard de signature chez le notaire est anticipé, il est crucial de formaliser cet accord par un avenant au compromis de vente. Cet avenant doit préciser la nouvelle date de signature et être signé par toutes les parties concernées. Cela permet de sécuriser juridiquement la transaction et d'éviter que l'une des parties ne se désiste en invoquant le non-respect des délais initiaux.\n\nLes risques associés à un retard de signature incluent la possibilité pour l'une des parties de se retirer de la vente sans pénalité si le compromis ne prévoit pas de clause pénale pour retard. De plus, si le financement est conditionné à une date précise, un retard peut compromettre l'obtention du prêt.\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : Garantie des vices cachés (pertinent pour les conditions de vente)\n- **Article 1648 du Code civil** : Délai d'action pour les vices cachés (pertinent pour les délais de recours)\n- **Article 1644 du Code civil** : Choix entre action rédhibitoire et estimatoire (pertinent pour les recours en cas de non-conformité)\n\n### POINTS D'ATTENTION\n\n- Assurez-vous que l'avenant est signé par toutes les parties pour être valable.\n- Vérifiez les conditions de votre prêt immobilier, car un retard peut affecter l'offre de prêt.\n- En l'absence d'avenant, le vendeur pourrait exiger des pénalités de retard si une clause pénale est prévue dans le compromis initial.\n- Consultez un avocat spécialisé pour rédiger l'avenant afin de garantir sa conformité légale.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 314,
+        "length": 1965
+      }
+    },
+    {
+      "test_id": "VENTE_10",
+      "question": "Peut-on signer un compromis sans tous les diagnostics, et quels sont les risques (annulation, renégociation) ?",
+      "categorie": "Vente",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nIl est possible de signer un compromis de vente sans avoir tous les diagnostics immobiliers, mais cela comporte des risques. L'absence de certains diagnostics obligatoires peut entraîner des conséquences telles que l'annulation de la vente ou la renégociation du prix.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLors de la signature d'un compromis de vente, certains diagnostics immobiliers doivent être fournis par le vendeur, comme le DPE (Diagnostic de Performance Énergétique), le diagnostic amiante, ou le diagnostic plomb, selon le type de bien et sa localisation. Ces diagnostics sont essentiels pour informer l'acheteur sur l'état du bien et ses éventuels défauts. Si ces diagnostics ne sont pas fournis, l'acheteur pourrait demander l'annulation de la vente ou une renégociation du prix, surtout si des défauts importants sont découverts par la suite. En outre, l'absence de diagnostics peut engager la responsabilité du vendeur pour défaut d'information.\n\n### BASE JURIDIQUE\n\n- **Code civil, art. 1603** : Obligation de délivrance conforme et garanties\n- **Code civil, art. 1604** : Délivrance conforme\n- **CCH, art. L126-28** : Communication des diagnostics (vente/location)\n\n### POINTS D'ATTENTION\n\n- L'absence de diagnostics peut entraîner une action en justice pour vice caché si des défauts sont découverts après la vente.\n- Le compromis peut inclure une clause suspensive conditionnant la vente à la fourniture des diagnostics manquants.\n- Le vendeur doit s'assurer que tous les diagnostics obligatoires sont à jour pour éviter des litiges postérieurs.\n- En cas de non-fourniture des diagnostics, l'acheteur dispose d'un délai pour se rétracter ou renégocier.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 0,
+        "word_count": 273,
+        "length": 1848
+      }
+    },
+    {
+      "test_id": "VICE_01",
+      "question": "Qu'est-ce qu'un vice caché et comment un vendeur/acheteur peut s'en protéger ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nUn vice caché est un défaut non apparent lors de la vente qui rend le bien impropre à l'usage ou en diminue fortement l'usage. Pour se protéger, le vendeur peut stipuler une clause de non-garantie, tandis que l'acheteur doit effectuer des diagnostics et inspections approfondis avant l'achat.\n\n### EXPLICATIONS DÉTAILLÉES\n\nUn vice caché est défini par l'Article 1641 du Code civil comme un défaut qui n'était pas apparent lors de la vente et qui rend le bien impropre à l'usage auquel il est destiné ou en diminue tellement l'usage que l'acheteur ne l'aurait pas acquis ou aurait payé un prix moindre s'il l'avait connu. Les conditions pour qu'un défaut soit considéré comme un vice caché sont qu'il doit être caché, antérieur à la vente, et suffisamment grave. Les vices cachés courants incluent les infiltrations d'eau, la mérule, les termites, l'amiante, le plomb, les fissures structurelles, les malfaçons de construction, et les problèmes d'assainissement.\n\nPour se protéger, un vendeur peut inclure une clause de non-garantie dans le contrat de vente, bien que cette clause ne soit pas valable si le vendeur connaissait le vice. L'acheteur, de son côté, doit réaliser des diagnostics obligatoires et peut faire appel à un expert pour inspecter le bien avant l'achat. En cas de découverte d'un vice caché, l'acheteur dispose de deux ans à compter de la découverte pour intenter une action en justice, soit pour annuler la vente (action rédhibitoire) soit pour obtenir une réduction du prix (action estimatoire).\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : Définit la garantie des vices cachés\n- **Article 1642 du Code civil** : Exclut les vices apparents\n- **Article 1643 du Code civil** : Obligation de garantie même si le vendeur ignorait le vice\n- **Article 1648 du Code civil** : Délai de deux ans pour agir à compter de la découverte du vice\n\n### POINTS D'ATTENTION\n\n- La clause de non-garantie n'est pas valable si le vendeur connaissait le vice\n- L'acheteur doit prouver que le vice était caché, antérieur à la vente, et grave\n- Le délai pour agir est de deux ans à compter de la découverte du vice, non de la vente\n- Les diagnostics obligatoires (termites, amiante, plomb, etc.) doivent être réalisés avant la vente\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 5,
+        "word_count": 400,
+        "length": 2426
+      }
+    },
+    {
+      "test_id": "VICE_02",
+      "question": "Différence entre vice caché, défaut apparent et non-conformité : qui peut agir et quand ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nUn vice caché est un défaut non apparent lors de la vente, rendant le bien impropre à l'usage ou diminuant fortement cet usage, et l'acheteur peut agir dans un délai de deux ans à compter de sa découverte. Un défaut apparent est visible lors de la vente et ne peut être invoqué après l'achat. La non-conformité concerne le non-respect des caractéristiques contractuelles du bien, et l'acheteur peut agir dès la découverte de cette non-conformité.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLes vices cachés sont des défauts qui ne sont pas visibles lors de l'achat et qui rendent le bien impropre à l'usage auquel il est destiné ou diminuent fortement cet usage. Pour qu'un défaut soit considéré comme un vice caché, il doit être caché, antérieur à la vente et suffisamment grave. L'acheteur peut intenter une action en garantie des vices cachés dans un délai de deux ans à compter de la découverte du vice, selon l'Article 1648 du Code civil.\n\nLes défauts apparents, quant à eux, sont ceux que l'acheteur aurait pu voir lors de la visite du bien. Ces défauts ne peuvent pas être invoqués après l'achat, car l'acheteur est censé les avoir acceptés en connaissance de cause.\n\nLa non-conformité se réfère à un bien qui ne correspond pas aux caractéristiques convenues dans le contrat de vente. L'acheteur peut agir dès qu'il découvre que le bien ne respecte pas les spécifications contractuelles, sans délai spécifique lié à la découverte comme pour les vices cachés.\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : Définit la garantie des vices cachés.\n- **Article 1648 du Code civil** : Délai de deux ans pour agir en garantie des vices cachés.\n- **Article 1644 du Code civil** : Options de recours pour l'acheteur (action rédhibitoire ou estimatoire).\n\n### POINTS D'ATTENTION\n\n- Les vices apparents ne peuvent pas être invoqués après l'achat.\n- La non-conformité doit être prouvée par rapport aux termes du contrat.\n- Le délai de deux ans pour les vices cachés est d'ordre public et ne peut être prolongé par accord des parties.\n- En cas de vice caché connu du vendeur, des dommages et intérêts peuvent être réclamés.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 4,
+        "word_count": 382,
+        "length": 2299
+      }
+    },
+    {
+      "test_id": "VICE_03",
+      "question": "Que risque le vendeur s'il cache un problème (infiltration, fissures, termites, mérule, etc.) ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLe vendeur qui cache un problème tel qu'une infiltration, des fissures, des termites ou de la mérule risque d'être tenu responsable au titre de la garantie des vices cachés. Il peut être contraint à l'annulation de la vente ou à une réduction du prix, et potentiellement à des dommages et intérêts si le vice était connu et dissimulé.\n\n### EXPLICATIONS DÉTAILLÉES\n\nEn droit immobilier, le vendeur est tenu de garantir l'acheteur contre les vices cachés qui rendent le bien impropre à l'usage auquel il est destiné ou qui diminuent tellement cet usage que l'acheteur ne l'aurait pas acquis ou aurait payé un moindre prix s'il les avait connus (Article 1641 du Code civil). Les vices doivent être cachés, antérieurs à la vente et suffisamment graves. Si le vendeur a sciemment dissimulé un vice, l'acheteur peut demander l'annulation de la vente (action rédhibitoire) ou une réduction du prix (action estimatoire) selon l'Article 1644 du Code civil. De plus, si le vendeur connaissait le vice, il peut être condamné à verser des dommages et intérêts.\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : \"Le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue...\"\n- **Article 1644 du Code civil** : \"Dans le cas des articles 1641 et 1643, l'acheteur a le choix de rendre la chose et de se faire restituer le prix, ou de garder la chose et de se faire rendre une partie du prix...\"\n- **Article 1648 du Code civil** : \"L'action résultant des vices rédhibitoires doit être intentée par l'acquéreur dans un délai de deux ans à compter de la découverte du vice.\"\n\n### POINTS D'ATTENTION\n\n- Le délai pour agir est de 2 ans à compter de la découverte du vice.\n- Si le vice est apparent, l'acheteur ne peut pas invoquer la garantie des vices cachés.\n- La preuve du vice caché et de sa gravité doit être apportée par l'acheteur.\n- En cas de vice connu et dissimulé par le vendeur, des dommages et intérêts peuvent être accordés.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 5,
+        "word_count": 367,
+        "length": 2133
+      }
+    },
+    {
+      "test_id": "VICE_04",
+      "question": "Quelle responsabilité de l'agent si un défaut était décelable (devoir de vigilance) ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nL'agent immobilier a une responsabilité de vigilance et peut être tenu responsable si un défaut était décelable et qu'il ne l'a pas signalé. Sa responsabilité peut être engagée pour faute dans l'exercice de sa mission, notamment en cas de négligence ou d'omission.\n\n### EXPLICATIONS DÉTAILLÉES\n\nL'agent immobilier a un devoir de vigilance et doit s'assurer que toutes les informations pertinentes concernant le bien sont communiquées à l'acquéreur. Si un défaut était décelable et que l'agent ne l'a pas signalé, il peut être considéré comme ayant manqué à son obligation de conseil et d'information. Cela peut engager sa responsabilité pour faute, notamment si cette omission a causé un préjudice à l'acquéreur. La responsabilité de l'agent immobilier est souvent évaluée en fonction de sa capacité à détecter et signaler les défauts visibles ou décelables lors de la transaction.\n\n### BASE JURIDIQUE\n\n- **Article 1240 du Code civil** : \"Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer.\"\n- **Article 1241 du Code civil** : \"Chacun est responsable du dommage qu'il a causé non seulement par son fait, mais encore par sa négligence ou par son imprudence.\"\n\n### POINTS D'ATTENTION\n\n- L'agent immobilier doit prouver qu'il a rempli son obligation de conseil et d'information pour éviter sa responsabilité.\n- La responsabilité peut être partagée si l'acquéreur a également manqué de vigilance.\n- En cas de litige, il est essentiel de démontrer le lien de causalité entre la faute de l'agent et le préjudice subi.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 281,
+        "length": 1770
+      }
+    },
+    {
+      "test_id": "VICE_05",
+      "question": "Peut-on vendre en l'état et est-ce que cela protège vraiment le vendeur ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nOui, il est possible de vendre un bien \"en l'état\", mais cela ne protège pas totalement le vendeur contre les vices cachés. Le vendeur reste responsable des défauts cachés qui rendent le bien impropre à l'usage auquel il est destiné.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa vente \"en l'état\" signifie que l'acheteur accepte le bien dans son état actuel, sans que le vendeur ait à effectuer de réparations ou améliorations. Cependant, cette clause ne décharge pas le vendeur de la garantie légale contre les vices cachés. Selon l'Article 1641 du Code civil, le vendeur est tenu de garantir l'acheteur contre les défauts cachés qui rendent le bien impropre à l'usage auquel il est destiné, ou qui diminuent tellement cet usage que l'acheteur ne l'aurait pas acquis, ou n'en aurait donné qu'un moindre prix, s'il les avait connus. Même si le contrat stipule une vente \"en l'état\", le vendeur ne peut pas s'exonérer de cette garantie, sauf si l'acheteur a accepté le bien en connaissance de cause.\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : \"Le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l'usage auquel on la destine...\"\n- **Article 1642 du Code civil** : \"Le vendeur n'est pas tenu des vices apparents et dont l'acheteur a pu se convaincre lui-même.\"\n\n### POINTS D'ATTENTION\n\n- La clause \"en l'état\" ne couvre pas les vices cachés, seulement les vices apparents.\n- L'acheteur peut toujours intenter une action en garantie des vices cachés s'il découvre un défaut après la vente.\n- Le vendeur peut être exonéré de la garantie des vices cachés si l'acheteur a accepté le bien en connaissance de cause.\n- La preuve de la connaissance des vices par l'acheteur incombe au vendeur.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 321,
+        "length": 1926
+      }
+    },
+    {
+      "test_id": "VICE_06",
+      "question": "Quels documents exiger en cas de travaux (factures, décennale, déclarations, conformité) ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nEn cas de travaux, il est essentiel d'exiger les factures détaillées des travaux réalisés, l'attestation d'assurance décennale de l'entrepreneur, les déclarations de travaux effectuées auprès des autorités compétentes, et les certificats de conformité des installations.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLors de l'achat d'un bien immobilier ayant fait l'objet de travaux, plusieurs documents sont cruciaux pour garantir la qualité et la conformité des travaux réalisés. Les factures détaillées permettent de vérifier la nature et l'étendue des travaux effectués, ainsi que les matériaux utilisés. L'attestation d'assurance décennale est indispensable pour s'assurer que l'entrepreneur est couvert en cas de défauts affectant la solidité de l'ouvrage ou le rendant impropre à sa destination pendant dix ans après la réception des travaux. Les déclarations de travaux, telles que les permis de construire ou les déclarations préalables, doivent être vérifiées pour s'assurer que les travaux ont été réalisés légalement. Enfin, les certificats de conformité garantissent que les installations (électricité, gaz, etc.) respectent les normes en vigueur.\n\n### BASE JURIDIQUE\n\n- **Article 1792 du Code civil** : \"Tout constructeur d'un ouvrage est responsable de plein droit, envers le maître ou l'acquéreur de l'ouvrage, des dommages, même résultant d'un vice du sol, qui compromettent la solidité de l'ouvrage ou qui, l'affectant dans l'un de ses éléments constitutifs ou l'un de ses éléments d'équipement, le rendent impropre à sa destination.\"\n- **Article L271-4 du Code de la construction et de l'habitation** : Obligation de fournir un Dossier de Diagnostics Techniques (DDT) lors de la vente.\n\n### POINTS D'ATTENTION\n\n- Vérifiez que l'assurance décennale est toujours valide et couvre bien les travaux réalisés.\n- Assurez-vous que toutes les déclarations de travaux ont été dûment enregistrées et validées par les autorités compétentes.\n- En cas de non-conformité, l'acquéreur peut se retourner contre le vendeur pour vices cachés.\n- Les certificats de conformité doivent être récents et correspondre aux installations actuelles.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 334,
+        "length": 2312
+      }
+    },
+    {
+      "test_id": "VICE_07",
+      "question": "Que faire si l'acheteur découvre un sinistre après la vente (assurance, recours, délais) ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nSi l'acheteur découvre un sinistre après la vente, il peut engager une action en garantie des vices cachés dans un délai de deux ans à compter de la découverte du vice. Il peut choisir entre l'annulation de la vente ou une réduction du prix, et éventuellement demander des dommages et intérêts si le vendeur connaissait le vice.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLorsqu'un acheteur découvre un sinistre après la vente, il peut se prévaloir de la garantie des vices cachés prévue par le Code civil. Cette garantie s'applique si le vice était caché, antérieur à la vente, et suffisamment grave pour rendre le bien impropre à l'usage ou en diminuer fortement l'usage. L'acheteur dispose d'un délai de deux ans à compter de la découverte du vice pour agir en justice. Il peut choisir entre deux actions : l'action rédhibitoire, qui permet d'annuler la vente et de récupérer le prix payé, ou l'action estimatoire, qui permet de conserver le bien avec une réduction du prix. Si le vendeur connaissait le vice et l'a dissimulé, l'acheteur peut également demander des dommages et intérêts.\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : Garantie des vices cachés\n- **Article 1644 du Code civil** : Choix entre action rédhibitoire et estimatoire\n- **Article 1648 du Code civil** : Délai de deux ans à compter de la découverte du vice\n\n### POINTS D'ATTENTION\n\n- Le délai de deux ans est un délai d'ordre public et ne peut être prolongé par accord des parties.\n- L'acheteur doit prouver que le vice était caché, antérieur à la vente, et grave.\n- Une expertise technique est souvent nécessaire pour établir la nature et l'ampleur du vice.\n- En cas de vice connu du vendeur, des dommages et intérêts peuvent être réclamés.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 318,
+        "length": 1900
+      }
+    },
+    {
+      "test_id": "VICE_08",
+      "question": "Comment gérer une renégociation de prix après expertise ou découverte d'un défaut ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nPour renégocier le prix après la découverte d'un défaut, l'acheteur peut engager une action estimatoire, qui permet de conserver le bien tout en obtenant une réduction du prix. Cette action doit être intentée dans un délai de deux ans à compter de la découverte du vice caché.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLorsqu'un défaut est découvert après l'achat d'un bien immobilier, l'acheteur peut invoquer la garantie des vices cachés pour demander une réduction du prix de vente. Cette procédure est appelée action estimatoire. Elle est applicable si le défaut était caché, antérieur à la vente, et suffisamment grave pour diminuer l'usage du bien. L'acheteur doit prouver ces éléments, souvent par le biais d'une expertise technique. Si le vendeur connaissait le vice et l'a dissimulé, l'acheteur peut également demander des dommages et intérêts. L'action doit être intentée dans un délai de deux ans à compter de la découverte du vice, et non de la date de la vente.\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : Garantie des vices cachés\n- **Article 1644 du Code civil** : Action estimatoire (réduction du prix)\n- **Article 1648 du Code civil** : Délai de deux ans à compter de la découverte du vice\n\n### POINTS D'ATTENTION\n\n- Le délai de deux ans est d'ordre public et ne peut être prolongé par accord des parties.\n- Une expertise technique est souvent nécessaire pour prouver l'existence et la gravité du vice.\n- Si le vendeur a dissimulé le vice, des dommages et intérêts peuvent être réclamés en plus de la réduction du prix.\n- L'acheteur doit agir rapidement dès la découverte du vice pour préserver ses droits.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 297,
+        "length": 1809
+      }
+    },
+    {
+      "test_id": "VICE_09",
+      "question": "Dans quels cas une vente peut être annulée pour dol (mensonge, dissimulation intentionnelle) ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nUne vente peut être annulée pour dol si l'une des parties a été trompée par des manœuvres frauduleuses, des mensonges ou une dissimulation intentionnelle de la part de l'autre partie. Le dol doit avoir été déterminant dans le consentement de la partie trompée.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe dol est un vice du consentement qui peut entraîner l'annulation d'un contrat de vente. Il se caractérise par des manœuvres frauduleuses, des mensonges ou une dissimulation intentionnelle d'informations essentielles par l'une des parties, dans le but de tromper l'autre partie. Pour que le dol soit reconnu, il doit avoir été déterminant dans le consentement de la partie trompée, c'est-à-dire que sans ces manœuvres, la partie n'aurait pas contracté ou l'aurait fait à des conditions substantiellement différentes.\n\nDans le cadre d'une vente, le dol peut se manifester par la dissimulation de vices cachés ou par la présentation mensongère des caractéristiques d'un bien. La partie victime du dol peut demander l'annulation de la vente et, le cas échéant, des dommages et intérêts pour le préjudice subi.\n\n### BASE JURIDIQUE\n\n- **Article 1137 du Code civil** : \"Le dol est le fait pour un contractant d'obtenir le consentement de l'autre par des manœuvres ou des mensonges.\"\n- **Article 1139 du Code civil** : \"L'erreur qui résulte d'un dol est toujours excusable ; elle est une cause de nullité, quand bien même elle porterait sur la valeur de la prestation ou sur un simple motif du contrat.\"\n\n### POINTS D'ATTENTION\n\n- Le dol doit être prouvé par la partie qui l'invoque, ce qui peut nécessiter des preuves tangibles des manœuvres frauduleuses.\n- La demande d'annulation pour dol doit être introduite dans un délai raisonnable après la découverte du dol.\n- La partie trompée peut également demander des dommages et intérêts en plus de l'annulation du contrat.\n- Le dol peut être invoqué même si le contrat contient une clause de non-garantie, car il s'agit d'un vice du consentement.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 347,
+        "length": 2166
+      }
+    },
+    {
+      "test_id": "VICE_10",
+      "question": "Quelles précautions si le bien a subi un sinistre (dégât des eaux, incendie) récemment ?",
+      "categorie": "Vice caché",
+      "domaine": "transaction",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLorsqu'un bien a subi un sinistre récent, il est crucial de réaliser des diagnostics techniques pour évaluer l'étendue des dommages et s'assurer de la conformité du bien. Le vendeur doit également informer l'acquéreur potentiel de tout sinistre antérieur et de ses conséquences.\n\n### EXPLICATIONS DÉTAILLÉES\n\nEn cas de sinistre récent, comme un dégât des eaux ou un incendie, le vendeur doit prendre plusieurs précautions pour garantir une transaction transparente et sécurisée. Il est essentiel de réaliser un diagnostic complet pour évaluer les dommages et s'assurer que le bien est conforme aux normes de sécurité et d'habitabilité. Le vendeur doit également fournir à l'acquéreur un Dossier de Diagnostics Techniques (DDT) à jour, incluant tous les diagnostics obligatoires tels que l'état de l'installation électrique et de gaz, surtout si ces installations ont été affectées par le sinistre.\n\nLe vendeur a l'obligation légale d'informer l'acquéreur de tout sinistre antérieur et de ses conséquences sur le bien. Cela inclut la fourniture de documents attestant des réparations effectuées et des garanties éventuelles sur les travaux réalisés. En cas de non-divulgation, l'acquéreur pourrait invoquer la garantie des vices cachés si le sinistre a laissé des séquelles non apparentes mais graves.\n\n### BASE JURIDIQUE\n\n- **Article 1641 du Code civil** : Garantie des vices cachés\n- **Article L271-4 du Code de la construction et de l'habitation** : Obligation de fournir le Dossier de Diagnostics Techniques\n- **Articles L134-6 et L134-7 du Code de la construction et de l'habitation** : Diagnostics des installations de gaz et d'électricité\n\n### POINTS D'ATTENTION\n\n- Le vendeur doit conserver et fournir les preuves des réparations effectuées après le sinistre.\n- Les diagnostics doivent être réalisés par des professionnels certifiés pour être valides.\n- L'acquéreur a un délai de deux ans à compter de la découverte d'un vice caché pour agir en justice.\n- En cas de sinistre majeur, il peut être nécessaire de vérifier la couverture d'assurance et les éventuelles exclusions.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 345,
+        "length": 2268
+      }
+    },
+    {
+      "test_id": "COPRO_01",
+      "question": "Quels documents de copropriété sont juridiquement indispensables avant la vente (PV d'AG, règlement, charges, etc.) ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nAvant la vente d'un bien en copropriété, il est indispensable de fournir le règlement de copropriété, les procès-verbaux des dernières assemblées générales, et l'état des charges de copropriété. Ces documents permettent à l'acquéreur de comprendre les règles de gestion de l'immeuble et les obligations financières.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLors de la vente d'un lot en copropriété, le vendeur doit fournir à l'acquéreur plusieurs documents essentiels. Le règlement de copropriété est crucial car il définit les droits et obligations des copropriétaires, ainsi que la répartition des charges. Les procès-verbaux des dernières assemblées générales (AG) informent l'acquéreur des décisions récentes prises par la copropriété, notamment concernant les travaux à venir ou les modifications du règlement. L'état des charges de copropriété permet de connaître les montants dus par le lot vendu, incluant les charges générales et spéciales, et d'évaluer les coûts futurs. Ces documents garantissent une transparence sur la gestion de la copropriété et les engagements financiers.\n\n### BASE JURIDIQUE\n\n- **Article 10 de la Loi n°65-557 du 10 juillet 1965** : Répartition des charges de copropriété\n- **Article 17 de la Loi du 10 juillet 1965** : Compétence de l'assemblée générale des copropriétaires\n- **Article 18 de la Loi du 10 juillet 1965** : Missions du syndic, incluant la tenue des documents de copropriété\n\n### POINTS D'ATTENTION\n\n- Vérifier que le règlement de copropriété est à jour et conforme aux décisions récentes\n- S'assurer que les procès-verbaux des AG incluent toutes les décisions importantes, notamment celles concernant des travaux ou des modifications de charges\n- Demander un état des impayés de charges pour éviter des surprises financières après l'achat\n- Consulter le règlement de copropriété pour comprendre les règles spécifiques applicables à l'immeuble\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 6,
+        "word_count": 307,
+        "length": 2067
+      }
+    },
+    {
+      "test_id": "COPRO_02",
+      "question": "Qui paie les travaux votés en AG (avant/après vente) et comment l'écrire clairement ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes travaux votés en assemblée générale (AG) sont à la charge du copropriétaire en titre au moment où la décision est prise. Pour clarifier la répartition des coûts lors d'une vente, il est essentiel de stipuler dans l'acte de vente qui supportera les charges des travaux votés avant la vente.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLorsqu'une assemblée générale de copropriété vote des travaux, la charge financière en incombe au copropriétaire en titre à la date du vote. Cela signifie que si les travaux sont votés avant la vente d'un lot, le vendeur est responsable de ces charges, sauf accord contraire. Pour éviter toute ambiguïté, il est recommandé d'inclure une clause spécifique dans l'acte de vente précisant qui paiera les travaux votés avant la vente. Cette clause peut stipuler que l'acheteur prendra en charge les travaux, ou que le vendeur s'en acquittera avant la finalisation de la vente.\n\n### BASE JURIDIQUE\n\n- **Article 10 de la Loi n°65-557 du 10 juillet 1965** : \"Les charges de copropriété sont réparties selon les tantièmes de chaque copropriétaire.\"\n- **Articles 24 et 25 de la Loi du 10 juillet 1965** : Modalités de vote des travaux en assemblée générale.\n\n### POINTS D'ATTENTION\n\n- Les parties doivent s'assurer que l'acte de vente précise clairement la répartition des charges pour les travaux votés avant la vente.\n- En l'absence de clause spécifique, le vendeur reste responsable des charges des travaux votés avant la vente.\n- Il est conseillé de consulter le règlement de copropriété pour toute disposition particulière concernant la répartition des charges.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 4,
+        "word_count": 281,
+        "length": 1767
+      }
+    },
+    {
+      "test_id": "COPRO_03",
+      "question": "Comment expliquer et sécuriser les appels de fonds et régularisations de charges dans la vente ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLors de la vente d'un bien en copropriété, il est crucial de sécuriser les appels de fonds et la régularisation des charges en vérifiant l'état des comptes du vendeur et en s'assurant que toutes les charges dues sont réglées. Le notaire joue un rôle clé en demandant un état daté au syndic pour garantir la transparence des transactions financières.\n\n### EXPLICATIONS DÉTAILLÉES\n\nDans le cadre d'une vente en copropriété, le vendeur doit fournir un état daté, document établi par le syndic, qui détaille les charges de copropriété dues, les appels de fonds en cours, et les éventuels impayés. Cet état daté permet à l'acheteur de connaître précisément la situation financière du lot qu'il acquiert. Le notaire est responsable de vérifier ces informations pour s'assurer qu'il n'y a pas de dettes cachées qui pourraient être transférées à l'acheteur. La régularisation des charges implique que le vendeur doit régler toutes les charges dues jusqu'à la date de la vente, et toute provision versée pour des charges futures doit être ajustée entre le vendeur et l'acheteur.\n\n### BASE JURIDIQUE\n\n- **Article 10 de la Loi n°65-557 du 10 juillet 1965** : Répartition des charges générales selon les tantièmes.\n- **Article 10-1 de la Loi n°65-557 du 10 juillet 1965** : Répartition des charges spéciales selon l'utilité.\n- **Article 19-2 de la Loi n°65-557 du 10 juillet 1965** : Procédure en cas d'impayés de charges.\n\n### POINTS D'ATTENTION\n\n- Vérifier l'état daté fourni par le syndic pour éviter les mauvaises surprises.\n- S'assurer que le vendeur a réglé toutes les charges jusqu'à la date de la vente.\n- Le notaire doit garantir que les provisions pour charges futures sont correctement ajustées entre le vendeur et l'acheteur.\n- En cas de litige sur les charges, le syndicat des copropriétaires dispose d'un privilège sur le lot vendu.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 6,
+        "word_count": 327,
+        "length": 2020
+      }
+    },
+    {
+      "test_id": "COPRO_04",
+      "question": "Quelles informations doivent être données sur le fonds de travaux (ALUR) et son impact ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLe fonds de travaux, instauré par la Loi ALUR, est une réserve financière obligatoire pour les copropriétés afin de financer les travaux futurs. Il est alimenté par une cotisation annuelle des copropriétaires et vise à anticiper les dépenses liées à l'entretien et à l'amélioration des parties communes.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe fonds de travaux a été mis en place pour éviter que les copropriétés ne se retrouvent sans ressources pour financer des travaux nécessaires, notamment ceux d'entretien ou d'amélioration. Chaque copropriétaire doit contribuer à ce fonds par une cotisation annuelle, calculée en fonction de ses tantièmes de copropriété. Ce fonds est distinct du budget prévisionnel et ne peut être utilisé que pour financer des travaux votés en assemblée générale. Il est important de noter que les sommes versées au fonds de travaux ne sont pas remboursables aux copropriétaires lors de la vente de leur lot.\n\n### BASE JURIDIQUE\n\n- **Article 14-2 de la Loi ALUR** : \"Création d'un fonds de travaux obligatoire pour les copropriétés\"\n- **Article 25 de la Loi du 10 juillet 1965** : \"Majorité requise pour voter les travaux d'amélioration\"\n\n### POINTS D'ATTENTION\n\n- Le fonds de travaux est obligatoire pour les copropriétés de plus de 10 lots.\n- Les copropriétaires doivent être informés annuellement du montant du fonds et de son utilisation.\n- Les sommes versées au fonds ne sont pas récupérables lors de la vente d'un lot.\n- Le montant de la cotisation annuelle au fonds de travaux doit être voté en assemblée générale.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 5,
+        "word_count": 275,
+        "length": 1727
+      }
+    },
+    {
+      "test_id": "COPRO_05",
+      "question": "Comment traiter une copropriété en difficulté (impayés, procédures) dans la vente ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLors de la vente d'un lot en copropriété en difficulté, il est crucial de vérifier l'état des impayés et de s'assurer que le vendeur a régularisé sa situation. Le syndicat des copropriétaires dispose d'un privilège sur le lot pour recouvrer les charges impayées, ce qui peut compliquer la vente.\n\n### EXPLICATIONS DÉTAILLÉES\n\nDans une copropriété en difficulté, les impayés de charges peuvent entraîner des complications lors de la vente d'un lot. Le vendeur doit fournir un état daté des impayés, et il est conseillé à l'acheteur de vérifier cet état avant de conclure la transaction. Le syndicat des copropriétaires a un privilège sur le lot pour recouvrer les charges impayées, ce qui signifie que ces dettes peuvent être récupérées sur le prix de vente. En cas de procédure judiciaire en cours pour recouvrement des charges, cela doit être signalé à l'acheteur potentiel. Le règlement de copropriété et les décisions d'assemblée générale peuvent également contenir des informations cruciales sur la situation financière de la copropriété.\n\n### BASE JURIDIQUE\n\n- **Article 19-1 de la Loi n°65-557 du 10 juillet 1965** : Privilège du syndicat sur le lot pour les impayés de charges\n- **Article 10 de la Loi du 10 juillet 1965** : Répartition des charges générales\n- **Article 24 de la Loi du 10 juillet 1965** : Majorité simple pour les décisions courantes\n- **Article 25 de la Loi du 10 juillet 1965** : Majorité absolue pour les décisions importantes\n\n### POINTS D'ATTENTION\n\n- Vérifier l'état des impayés avant l'achat pour éviter des surprises financières\n- Le privilège du syndicat peut affecter le prix de vente si les impayés ne sont pas régularisés\n- Consulter le règlement de copropriété pour comprendre la répartition des charges et les décisions d'assemblée générale\n- Participer aux assemblées générales pour être informé des décisions concernant la gestion des impayés\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 8,
+        "word_count": 330,
+        "length": 2069
+      }
+    },
+    {
+      "test_id": "COPRO_06",
+      "question": "Quelles conséquences si un lot a une destination non conforme (airbnb interdit, profession libérale) ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nSi un lot a une destination non conforme, comme l'utilisation pour Airbnb ou une profession libérale interdite, cela peut entraîner des sanctions de la part de la copropriété, y compris des actions en justice pour faire cesser l'activité non conforme. Le règlement de copropriété doit être respecté, et toute dérogation nécessite une autorisation préalable.\n\n### EXPLICATIONS DÉTAILLÉES\n\nDans une copropriété, chaque lot a une destination définie par le règlement de copropriété. Cette destination peut être résidentielle, commerciale, ou autre, et doit être respectée par le propriétaire du lot. Si un propriétaire utilise son lot d'une manière non conforme à cette destination, comme pour des locations de courte durée via Airbnb ou pour exercer une profession libérale, cela constitue une violation du règlement de copropriété.\n\nLes autres copropriétaires ou le syndic peuvent engager des actions pour faire cesser cette utilisation non conforme. Cela peut inclure des mises en demeure, des amendes, ou même des actions en justice pour obtenir une injonction de cesser l'activité. Il est crucial pour les propriétaires de vérifier les restrictions du règlement de copropriété avant de changer l'utilisation de leur lot.\n\n### BASE JURIDIQUE\n\n- **Article 25 de la Loi du 10 juillet 1965** : Régit les modifications de destination des lots en copropriété et les autorisations nécessaires.\n- **Règlement de copropriété** : Document spécifique à chaque copropriété définissant la destination des lots et les usages autorisés.\n\n### POINTS D'ATTENTION\n\n- Toute modification de la destination d'un lot nécessite généralement l'accord de l'assemblée générale des copropriétaires.\n- Les sanctions pour non-conformité peuvent inclure des amendes et des actions en justice.\n- Le règlement de copropriété peut prévoir des exceptions ou des procédures spécifiques pour obtenir une autorisation de changement d'usage.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 2,
+        "word_count": 309,
+        "length": 2091
+      }
+    },
+    {
+      "test_id": "COPRO_07",
+      "question": "Quels risques liés aux servitudes, parties communes, jouissance exclusive (terrasse, jardin) ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLes risques liés aux servitudes, parties communes et jouissance exclusive concernent principalement les conflits d'usage, la répartition des charges et les modifications non autorisées. Il est essentiel de respecter le règlement de copropriété et les décisions d'assemblée générale pour éviter des litiges.\n\n### EXPLICATIONS DÉTAILLÉES\n\nEn copropriété, les servitudes peuvent imposer des contraintes d'usage sur certaines parties de l'immeuble, comme le passage ou l'accès à des équipements communs. Les parties communes sont destinées à l'usage collectif et leur gestion est régie par le règlement de copropriété, qui définit également la répartition des charges selon les tantièmes ou l'utilité. La jouissance exclusive, par exemple d'une terrasse ou d'un jardin, confère à un copropriétaire l'usage privatif d'une partie commune, mais n'en modifie pas la propriété. Cela implique que les modifications ou aménagements doivent être approuvés par l'assemblée générale, souvent à la majorité absolue (Article 25). Les conflits peuvent survenir si un copropriétaire outrepasse ses droits ou si les charges ne sont pas correctement réparties.\n\n### BASE JURIDIQUE\n\n- **Article 10 de la Loi du 10 juillet 1965** : Répartition des charges de copropriété\n- **Article 25 de la Loi du 10 juillet 1965** : Décisions relevant de la majorité absolue pour travaux et modifications\n- **Article 9 de la Loi du 10 juillet 1965** : Droits des copropriétaires sur parties privatives et communes\n\n### POINTS D'ATTENTION\n\n- Vérifier le règlement de copropriété pour les droits et obligations spécifiques liés aux parties communes et à la jouissance exclusive.\n- Toute modification d'une partie commune à jouissance exclusive nécessite une autorisation préalable de l'assemblée générale.\n- Les servitudes doivent être clairement définies pour éviter des conflits d'usage.\n- En cas de litige, les décisions d'assemblée générale peuvent être contestées dans un délai légal (Article 42).\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 8,
+        "word_count": 317,
+        "length": 2150
+      }
+    },
+    {
+      "test_id": "COPRO_08",
+      "question": "Comment vérifier la conformité d'un lot (cave/parking, annexes, tantièmes) pour éviter le litige ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nPour vérifier la conformité d'un lot en copropriété, il est essentiel de consulter le règlement de copropriété et les documents annexes, tels que le tableau des tantièmes. Cela permet de s'assurer que les informations sur le lot (cave, parking, annexes) sont correctes et conformes aux règles établies.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLa conformité d'un lot en copropriété repose sur plusieurs éléments clés. Le règlement de copropriété est le document principal qui définit la répartition des lots, leurs affectations (cave, parking, etc.), et les tantièmes associés à chaque lot. Les tantièmes déterminent la quote-part de chaque copropriétaire dans les charges générales et spéciales, comme stipulé par l'Article 10 de la Loi du 10 juillet 1965. Vérifier ces documents permet de s'assurer que le lot est correctement enregistré et que les charges sont réparties conformément aux règles établies. En cas de doute ou de divergence, il est conseillé de consulter les procès-verbaux des assemblées générales pour vérifier les décisions prises concernant les lots et leurs modifications éventuelles.\n\n### BASE JURIDIQUE\n\n- **Article 10 de la Loi n°65-557 du 10 juillet 1965** : \"Les charges de copropriété sont réparties selon les tantièmes de chaque lot.\"\n- **Article 10-1 de la Loi n°65-557 du 10 juillet 1965** : \"Charges spéciales réparties selon l'utilité du service pour chaque copropriétaire.\"\n\n### POINTS D'ATTENTION\n\n- Vérifiez le règlement de copropriété pour les détails sur les lots et leurs tantièmes.\n- Consultez les procès-verbaux des assemblées générales pour toute modification ou décision récente.\n- Assurez-vous que les documents sont à jour et correspondent à la situation actuelle de la copropriété.\n- En cas de litige potentiel, envisagez de consulter un avocat spécialisé en droit immobilier.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 6,
+        "word_count": 302,
+        "length": 1997
+      }
+    },
+    {
+      "test_id": "COPRO_09",
+      "question": "Que faire si le règlement de copropriété contredit l'usage actuel (clause, tolérance, contentieux) ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nSi le règlement de copropriété contredit l'usage actuel, il est nécessaire de se référer aux dispositions légales et réglementaires pour déterminer la validité de la clause en question. En cas de contentieux, une action en justice peut être envisagée pour faire valoir les droits des copropriétaires.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe règlement de copropriété a une valeur juridique contraignante et définit les droits et obligations des copropriétaires. Cependant, il peut arriver que certaines clauses deviennent obsolètes ou soient contredites par l'usage actuel. Dans ce cas, il est essentiel de vérifier si la clause en question est conforme aux dispositions d'ordre public de la loi de 1965. Si une clause est jugée contraire à ces dispositions, elle peut être réputée non écrite, selon l'article 43 de la loi de 1965. Les copropriétaires peuvent contester cette clause en assemblée générale ou, si nécessaire, devant le tribunal compétent. Le syndic a également un rôle à jouer pour s'assurer que le règlement est appliqué correctement et peut être impliqué en cas de contentieux.\n\n### BASE JURIDIQUE\n\n- **Article 9 de la Loi du 10 juillet 1965** : Droits et obligations des copropriétaires dans l’usage des parties privatives et communes.\n- **Article 43 de la Loi du 10 juillet 1965** : Clauses réputées non écrites si contraires aux dispositions d’ordre public.\n- **Article 18 de la Loi du 10 juillet 1965** : Missions, obligations et responsabilité du syndic.\n\n### POINTS D'ATTENTION\n\n- Vérifier si la clause contestée est conforme aux dispositions d'ordre public.\n- Consulter le règlement de copropriété pour comprendre les droits et obligations spécifiques.\n- En cas de litige, une action en justice peut être nécessaire pour résoudre le contentieux.\n- Le syndic doit être impliqué pour garantir l'application correcte du règlement.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 6,
+        "word_count": 314,
+        "length": 2029
+      }
+    },
+    {
+      "test_id": "COPRO_10",
+      "question": "Comment gérer la vente d'un lot avec procédure en cours (contre syndic, voisin, copro) ?",
+      "categorie": "Copropriété",
+      "domaine": "copropriete",
+      "status": "success",
+      "chunks_found": 5,
+      "answer": "### RÉPONSE DIRECTE\n\nLa vente d'un lot en copropriété avec une procédure en cours nécessite de bien informer l'acheteur potentiel des litiges existants. Le vendeur doit fournir toutes les informations pertinentes sur les contentieux en cours, notamment ceux impliquant le syndic, les voisins ou la copropriété.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLors de la vente d'un lot en copropriété, le vendeur a l'obligation de transparence envers l'acheteur potentiel, surtout en cas de procédures judiciaires en cours. Cela inclut les contentieux contre le syndic, les voisins ou la copropriété elle-même. Le vendeur doit fournir à l'acheteur un état daté des charges de copropriété, incluant les éventuels impayés et les procédures en cours. Cette obligation d'information est cruciale pour éviter toute contestation postérieure à la vente. En cas de contentieux, il est conseillé de consulter le règlement de copropriété et les décisions d'assemblée générale pour comprendre les implications financières et juridiques pour le futur propriétaire.\n\n### BASE JURIDIQUE\n\n- **Article 10 de la Loi n°65-557 du 10 juillet 1965** : Répartition des charges de copropriété\n- **Article 18-1** : Contentieux contre le syndic\n\n### POINTS D'ATTENTION\n\n- Le vendeur doit fournir un état daté des charges et des procédures en cours.\n- L'acheteur doit être informé des implications financières des contentieux en cours.\n- Vérifier le règlement de copropriété pour comprendre les responsabilités liées aux litiges.\n- Consulter les décisions d'assemblée générale pour toute information sur les procédures en cours.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+      "metrics": {
+        "has_structure": true,
+        "has_disclaimer": true,
+        "citation_count": 3,
+        "word_count": 259,
+        "length": 1748
+      }
+    }
+  ],
+  "duration_seconds": 452.56,
+  "statistics": {
+    "total": 50,
+    "success": 50,
+    "errors": 0,
+    "no_chunks": 0,
+    "structure_rate": 96.0,
+    "avg_citations": 3.28,
+    "avg_words": 292.84
+  }
+}
