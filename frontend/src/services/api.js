@@ -2,7 +2,8 @@
  * API Service pour communiquer avec le backend
  */
 
-const API_BASE_URL = '/api'
+// Use environment variable for API URL, fallback to /api for local dev
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
 
 /**
  * Poser une question juridique
@@ -57,7 +58,7 @@ export async function getDomains() {
  * @returns {Promise<object>} Status de l'API
  */
 export async function checkHealth() {
-  const response = await fetch('/health')
+  const response = await fetch(`${API_BASE_URL}/health`)
 
   if (!response.ok) {
     throw new Error('API non disponible')
