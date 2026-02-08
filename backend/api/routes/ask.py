@@ -11,10 +11,13 @@ from openai import OpenAI
 
 from api.services.retrieval import get_retrieval_service
 from api.services.prequestioning import get_prequestioning_service
-from api.prompts.system_prompts import (
-    SYSTEM_PROMPT,
-    create_user_prompt,
-    format_final_response
+# Import V1 (ancien prompt) pour compatibilité
+from api.prompts.system_prompts import format_final_response
+# Import V2 (nouveau prompt amélioré)
+from api.prompts.system_prompts_v2 import (
+    SYSTEM_PROMPT_V2,
+    create_user_prompt_v2,
+    get_generation_config
 )
 
 
@@ -136,8 +139,11 @@ async def ask_question(request: AskRequest):
             for q_id, answer in request.user_answers.items():
                 enriched_question += f"- Question {q_id}: {answer}\n"
 
-        # Creer le prompt utilisateur
-        user_prompt = create_user_prompt(enriched_question, context)
+        # Creer le prompt utilisateur V2 (avec format imposé + few-shot)
+        user_prompt = create_user_prompt_v2(enriched_question, context)
+
+        # Récupérer la configuration optimisée (température, max_tokens)
+        gen_config = get_generation_config()
 
         # Appeler OpenAI API
         api_key = os.getenv('OPENAI_API_KEY')
@@ -149,13 +155,16 @@ async def ask_question(request: AskRequest):
 
         client = OpenAI(api_key=api_key)
 
+        print(f"[ASK] Using temperature={gen_config['temperature']} for juridical coherence")
+
         response = client.chat.completions.create(
             model="gpt-4o",
-            max_tokens=2048,
+            temperature=gen_config['temperature'],  # 0.1 pour cohérence juridique
+            max_tokens=gen_config['max_tokens'],
             messages=[
                 {
                     "role": "system",
-                    "content": SYSTEM_PROMPT
+                    "content": SYSTEM_PROMPT_V2  # Nouveau prompt avec format imposé
                 },
                 {
                     "role": "user",

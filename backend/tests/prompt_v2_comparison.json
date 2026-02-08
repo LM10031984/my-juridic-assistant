@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-02-08T13:08:43.972860",
+  "tests": [
+    {
+      "test_id": "Q1",
+      "question": "Quelles sont les charges récupérables en location vide ?",
+      "v1": {
+        "answer": "Les charges récupérables en location vide sont définies de manière précise par le décret du 26 août 1987. Ces charges sont celles que le bailleur peut légalement refacturer au locataire. Elles se répartissent principalement en trois catégories :\n\n1. **Services rendus liés à l'usage des éléments de la chose louée** : Ce sont par exemple les frais d'électricité pour les ascenseurs et les monte-charges ou les frais de ménage des parties communes (Décret du 26 août 1987).\n\n2. **Dépenses d'entretien courant et menues réparations** : Cela inclut l'entretien des équipements communs tels que l'ascenseur, et la tenue d'un dossier par l'entreprise d'entretien (Décret du 26 août 1987 ; Article 3 - Dépenses récupérables sur les installations individuelles).\n\n3. **Impositions et taxes locatives** : Certaines impositions liées à l'usage direct des services, comme les taxes liées à l'enlèvement des ordures ménagères, peuvent être récupérées auprès du locataire (Loi du 6 juillet 1989, Article 23).\n\nCes charges sont récupérables sur présentation de justificatifs et doivent être régularisées annuellement par le bailleur. Il est crucial que le bailleur respecte cette liste limitative et fournisse les justificatifs nécessaires au locataire lorsque ces charges leur sont refacturées (Décret du 26 août 1987, Article 1 ; Loi du 6 juillet 1989, Article 23).\n\n### Sources :\n- Décret du 26 août 1987 – Charges récupérables\n- Loi du 6 juillet 1989, Article 23",
+        "metrics": {
+          "has_direct_answer": false,
+          "has_detailed_explanation": false,
+          "has_legal_basis": false,
+          "has_attention_points": false,
+          "has_disclaimer": false,
+          "citation_count": 12,
+          "length": 1453,
+          "word_count": 227,
+          "structure_score": 0
+        }
+      },
+      "v2": {
+        "answer": "### RÉPONSE DIRECTE\n\nLes charges récupérables en location vide sont définies par une liste limitative fixée par décret. Le propriétaire peut uniquement répercuter sur le locataire les charges expressément listées dans le Décret du 26 août 1987, et dans la limite des dépenses réellement engagées.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLes charges récupérables correspondent aux dépenses que le propriétaire peut refacturer au locataire. Elles sont strictement encadrées par la loi pour éviter les abus. Le principe est que seules les charges liées aux services dont bénéficie effectivement le locataire peuvent être récupérées.\n\nLes principales catégories incluent :\n- Les frais d'entretien courant et de menues réparations des parties communes\n- Les dépenses d'eau et d'énergie pour les parties communes\n- L'entretien des espaces verts\n- Les frais de fonctionnement des équipements collectifs (ascenseur, chauffage collectif)\n\nLe propriétaire doit fournir un décompte détaillé des charges au moins une fois par an, avec justificatifs à l'appui. Le locataire peut contester les charges qui ne figurent pas dans la liste légale.\n\n### BASE JURIDIQUE\n\n- **Article 23 de la Loi n°89-462 du 6 juillet 1989** : \"Les charges récupérables sont celles énumérées par décret en Conseil d'État\"\n- **Décret n°87-713 du 26 août 1987** : Fixe la liste limitative des charges récupérables (annexe)\n- **Article 23-1 de la Loi du 6 juillet 1989** : Obligation de fournir le décompte annuel des charges\n\n### POINTS D'ATTENTION\n\n- La liste du décret est LIMITATIVE : toute charge non listée ne peut pas être récupérée\n- Le propriétaire doit conserver les justificatifs pendant 3 ans\n- En cas de contestation, c'est au propriétaire de prouver que les charges sont récupérables\n- Les provisions sur charges doivent être régularisées annuellement avec un décompte détaillé\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+        "metrics": {
+          "has_direct_answer": true,
+          "has_detailed_explanation": true,
+          "has_legal_basis": true,
+          "has_attention_points": true,
+          "has_disclaimer": true,
+          "citation_count": 6,
+          "length": 2006,
+          "word_count": 308,
+          "structure_score": 100
+        }
+      },
+      "improvement": {
+        "structure_score": 100,
+        "citation_count": -6
+      }
+    },
+    {
+      "test_id": "Q2",
+      "question": "Qui paie les travaux de ravalement de façade en copropriété ?",
+      "v1": {
+        "answer": "Je n'ai pas trouvé d'information sur ce sujet dans ma base juridique.",
+        "metrics": {
+          "has_direct_answer": false,
+          "has_detailed_explanation": false,
+          "has_legal_basis": false,
+          "has_attention_points": false,
+          "has_disclaimer": false,
+          "citation_count": 0,
+          "length": 69,
+          "word_count": 12,
+          "structure_score": 0
+        }
+      },
+      "v2": {
+        "answer": "### RÉPONSE DIRECTE\n\nLes travaux de ravalement de façade en copropriété sont à la charge de tous les copropriétaires, répartis selon leurs tantièmes de copropriété. Chaque copropriétaire contribue en fonction de sa quote-part dans les parties communes.\n\n### EXPLICATIONS DÉTAILLÉES\n\nEn copropriété, la façade d'un immeuble est généralement considérée comme une partie commune. Les travaux de ravalement, qui visent à entretenir ou rénover cette partie commune, doivent donc être financés collectivement par l'ensemble des copropriétaires. La répartition des coûts se fait selon les tantièmes de copropriété, c'est-à-dire la quote-part de chaque lot dans l'ensemble de la copropriété. Ces tantièmes sont définis dans le règlement de copropriété et reflètent la proportion de chaque copropriétaire dans les parties communes. Les décisions concernant ces travaux sont prises en assemblée générale, où les modalités de vote dépendent de la nature des travaux (entretien courant ou amélioration).\n\n### BASE JURIDIQUE\n\n- **Article 10 de la Loi n°65-557 du 10 juillet 1965** : \"Les charges de copropriété sont réparties entre les copropriétaires en fonction de l'utilité que présentent pour chaque lot les services et éléments communs.\"\n- **Article 24 de la Loi du 10 juillet 1965** : \"Décisions prises à la majorité simple pour les résolutions courantes.\"\n- **Article 25 de la Loi du 10 juillet 1965** : \"Décisions relevant de la majorité absolue pour les travaux et actes importants.\"\n\n### POINTS D'ATTENTION\n\n- Le règlement de copropriété peut prévoir une répartition spécifique des charges pour certains travaux.\n- Si une partie de la façade est privative (comme un balcon), la répartition des coûts peut être différente.\n- Les copropriétaires peuvent bénéficier d'aides financières pour certains travaux de rénovation énergétique.\n- En cas de ravalement obligatoire imposé par la mairie, les copropriétaires ne peuvent pas refuser les travaux.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+        "metrics": {
+          "has_direct_answer": true,
+          "has_detailed_explanation": true,
+          "has_legal_basis": true,
+          "has_attention_points": true,
+          "has_disclaimer": true,
+          "citation_count": 6,
+          "length": 2106,
+          "word_count": 315,
+          "structure_score": 100
+        }
+      },
+      "improvement": {
+        "structure_score": 100,
+        "citation_count": 6
+      }
+    },
+    {
+      "test_id": "Q3",
+      "question": "Un mandat exclusif doit-il obligatoirement être écrit ?",
+      "v1": {
+        "answer": "Oui, un mandat exclusif doit obligatoirement être écrit. En effet, selon la **Loi Hoguet**, tout mandat doit être établi par écrit sous peine de nullité. Cette exigence est soulignée à l'**Article 6 de la Loi Hoguet**, qui stipule que « toute personne qui se livre ou prête son concours, même à titre accessoire, à l'une des opérations mentionnées à l'article 1er est tenue de justifier d'un mandat écrit délivré par le propriétaire ». Cela signifie qu'un mandat verbal ne serait pas conforme aux exigences légales et ne créerait pas d'obligations entre les parties. \n\nSources utilisées :\n- Loi Hoguet (Loi n°70-9 du 2 janvier 1970), Article 6",
+        "metrics": {
+          "has_direct_answer": false,
+          "has_detailed_explanation": false,
+          "has_legal_basis": false,
+          "has_attention_points": false,
+          "has_disclaimer": false,
+          "citation_count": 6,
+          "length": 643,
+          "word_count": 107,
+          "structure_score": 0
+        }
+      },
+      "v2": {
+        "answer": "### RÉPONSE DIRECTE\n\nOui, un mandat exclusif doit obligatoirement être écrit. Cette exigence est imposée par la loi pour garantir la validité du mandat et la protection des parties impliquées.\n\n### EXPLICATIONS DÉTAILLÉES\n\nLe mandat exclusif est un contrat par lequel un vendeur confie à un agent immobilier le droit exclusif de vendre un bien immobilier. Pour être valide, ce mandat doit être formalisé par écrit. Cette exigence vise à assurer la clarté des engagements pris par les parties et à éviter les litiges. Le mandat écrit doit préciser la durée de l'exclusivité, le montant de la commission due à l'agent, et inclure une clause rappelant que la commission est due même en cas de vente directe par le vendeur. L'absence d'un mandat écrit rendrait le mandat nul et priverait l'agent de son droit à commission.\n\n### BASE JURIDIQUE\n\n- **Article 6 de la Loi Hoguet (Loi n°70-9 du 2 janvier 1970)** : \"Toute personne qui se livre ou prête son concours, même à titre accessoire, à l'une des opérations mentionnées à l'article 1er est tenue de justifier d'un mandat écrit délivré par le propriétaire ou par un autre mandataire ayant lui-même reçu un mandat écrit.\"\n- **Article 7 de la Loi Hoguet** : \"Tout mandat doit comporter une limitation dans le temps. Est nulle toute clause prévoyant une durée excédant un an pour un mandat concernant la vente.\"\n\n### POINTS D'ATTENTION\n\n- Un mandat non écrit est nul et ne produit aucun effet juridique.\n- Le mandat doit inclure toutes les mentions obligatoires, notamment la durée et le caractère exclusif.\n- En cas de litige, l'agent doit prouver l'existence d'un mandat écrit pour réclamer sa commission.\n- La nullité du mandat pour absence d'écrit peut être invoquée par le vendeur pour contester le paiement de la commission.\n\n---\n\n**Disclaimer** : Cette réponse est basée sur les textes juridiques indexés. Pour une situation spécifique, consultez un avocat spécialisé en droit immobilier.",
+        "metrics": {
+          "has_direct_answer": true,
+          "has_detailed_explanation": true,
+          "has_legal_basis": true,
+          "has_attention_points": true,
+          "has_disclaimer": true,
+          "citation_count": 5,
+          "length": 1939,
+          "word_count": 321,
+          "structure_score": 100
+        }
+      },
+      "improvement": {
+        "structure_score": 100,
+        "citation_count": -1
+      }
+    }
+  ],
+  "statistics": {
+    "v1": {
+      "avg_structure_score": 0.0,
+      "avg_citations": 6.0
+    },
+    "v2": {
+      "avg_structure_score": 100.0,
+      "avg_citations": 5.666666666666667
+    },
+    "improvement": {
+      "structure_score": 100.0,
+      "citations": -0.33333333333333304
+    }
+  }
+}
