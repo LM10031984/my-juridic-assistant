@@ -166,11 +166,37 @@ async def ask_question(request: AskRequest):
         # Extraire la reponse
         answer_text = response.choices[0].message.content
 
-        # Extraire les sources des chunks
-        sources = [
-            f"{chunk['source_file']} (similarite: {chunk['similarity']:.2%})"
-            for chunk in chunks
-        ]
+        # Formater les sources de maniere professionnelle
+        sources = []
+        for chunk in chunks:
+            # Construire la reference juridique
+            source_parts = []
+
+            # Type de texte
+            if chunk.get('type') == 'loi':
+                source_parts.append("Loi")
+            elif chunk.get('type') == 'decret':
+                source_parts.append("Décret")
+            elif chunk.get('type') == 'code_civil':
+                source_parts.append("Code civil")
+            elif chunk.get('type') == 'fiche':
+                source_parts.append("Fiche technique")
+
+            # Articles si disponibles
+            if chunk.get('articles') and len(chunk['articles']) > 0:
+                articles_str = ", ".join([f"Article {art}" for art in chunk['articles']])
+                source_parts.append(f"({articles_str})")
+
+            # Si pas d'info structurée, utiliser le nom de fichier nettoyé
+            if not source_parts:
+                filename = chunk['source_file'].replace('_', ' ').replace('.md', '')
+                source_parts.append(filename)
+
+            source_ref = " ".join(source_parts)
+            sources.append(f"{source_ref} - Pertinence: {chunk['similarity']:.0%}")
+
+        # Dédupliquer les sources
+        sources = list(dict.fromkeys(sources))
 
         # Etape 4 : Formater la reponse finale
         print("[ASK] Formatting response...")
