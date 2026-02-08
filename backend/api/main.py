@@ -44,7 +44,7 @@ async def health():
     return {
         "status": "healthy",
         "supabase_configured": bool(os.getenv("SUPABASE_URL")),
-        "anthropic_configured": bool(os.getenv("ANTHROPIC_API_KEY"))
+        "openai_configured": bool(os.getenv("OPENAI_API_KEY"))
     }
 
 

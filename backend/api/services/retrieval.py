@@ -14,7 +14,7 @@ class RetrievalService:
     """Service de recherche vectorielle pour chunks juridiques"""
 
     def __init__(self):
-        """Initialise le service avec Supabase et le modele d'embeddings local"""
+        """Initialise le service avec Supabase (lazy loading pour le modele)"""
         # Supabase client
         supabase_url = os.getenv('SUPABASE_URL')
         supabase_key = os.getenv('SUPABASE_KEY')
@@ -26,13 +26,19 @@ class RetrievalService:
 
         self.supabase: Client = create_client(supabase_url, supabase_key)
 
-        # Modele d'embeddings local (meme que pour l'indexation)
-        print("[...] Loading local embedding model...")
-        self.model = SentenceTransformer(
-            'sentence-transformers/paraphrase-multilingual-mpnet-base-v2'
-        )
+        # Modele d'embeddings local (lazy loading - charge a la premiere utilisation)
+        self.model = None
         self.embedding_dimension = 768
-        print(f"[OK] Embedding model loaded (dimension: {self.embedding_dimension})")
+        print("[OK] RetrievalService initialized (model will load on first use)")
+
+    def _load_model_if_needed(self):
+        """Charge le modele d'embeddings si ce n'est pas deja fait (lazy loading)"""
+        if self.model is None:
+            print("[...] Loading local embedding model (first use)...")
+            self.model = SentenceTransformer(
+                'sentence-transformers/paraphrase-multilingual-mpnet-base-v2'
+            )
+            print(f"[OK] Embedding model loaded (dimension: {self.embedding_dimension})")
 
     def generate_query_embedding(self, query: str) -> List[float]:
         """
@@ -44,6 +50,7 @@ class RetrievalService:
         Returns:
             Embedding vector (768 dimensions)
         """
+        self._load_model_if_needed()
         embedding = self.model.encode([query], show_progress_bar=False)[0]
         return embedding.tolist()
 
