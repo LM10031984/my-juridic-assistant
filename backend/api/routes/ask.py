@@ -123,7 +123,7 @@ async def ask_question(request: AskRequest):
                     )
 
         # Etape 3 : Generation de la reponse
-        print("[ASK] Generating answer with Claude API...")
+        print("[ASK] Generating answer with OpenAI API...")
 
         # Formater le contexte
         context = retrieval_service.format_context_for_llm(chunks)
