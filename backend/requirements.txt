@@ -11,8 +11,6 @@ supabase>=2.0.0
 
 # AI & Embeddings
 openai>=1.0.0
-sentence-transformers>=3.0.0
 
 # Utilities
 python-dotenv>=1.0.0
-numpy>=1.24.0

@@ -6,53 +6,68 @@ Recherche de chunks juridiques similaires dans Supabase
 import os
 from typing import List, Dict, Optional
 from supabase import create_client, Client
-from sentence_transformers import SentenceTransformer
-import numpy as np
+from openai import OpenAI
 
 
 class RetrievalService:
     """Service de recherche vectorielle pour chunks juridiques"""
 
     def __init__(self):
-        """Initialise le service avec Supabase (lazy loading pour le modele)"""
+        """Initialise le service avec Supabase et OpenAI"""
         # Supabase client
         supabase_url = os.getenv('SUPABASE_URL')
         supabase_key = os.getenv('SUPABASE_KEY')
+        openai_key = os.getenv('OPENAI_API_KEY')
 
         if not supabase_url or not supabase_key:
             raise ValueError(
                 "SUPABASE_URL and SUPABASE_KEY must be set in environment"
             )
 
+        if not openai_key:
+            raise ValueError("OPENAI_API_KEY must be set in environment")
+
         self.supabase: Client = create_client(supabase_url, supabase_key)
-
-        # Modele d'embeddings local (lazy loading - charge a la premiere utilisation)
-        self.model = None
-        self.embedding_dimension = 768
-        print("[OK] RetrievalService initialized (model will load on first use)")
-
-    def _load_model_if_needed(self):
-        """Charge le modele d'embeddings si ce n'est pas deja fait (lazy loading)"""
-        if self.model is None:
-            print("[...] Loading local embedding model (first use)...")
-            self.model = SentenceTransformer(
-                'sentence-transformers/paraphrase-multilingual-mpnet-base-v2'
-            )
-            print(f"[OK] Embedding model loaded (dimension: {self.embedding_dimension})")
+        self.openai_client = OpenAI(api_key=openai_key)
+        self.embedding_dimension = 768  # Same as sentence-transformers for compatibility
+        print("[OK] RetrievalService initialized with OpenAI embeddings")
 
     def generate_query_embedding(self, query: str) -> List[float]:
         """
-        Generate embedding pour une query utilisateur
+        Generate embedding pour une query utilisateur avec OpenAI
 
         Args:
             query: Question de l'utilisateur
 
         Returns:
-            Embedding vector (768 dimensions)
+            Embedding vector (768 dimensions pour compatibilite avec DB)
         """
-        self._load_model_if_needed()
-        embedding = self.model.encode([query], show_progress_bar=False)[0]
-        return embedding.tolist()
+        response = self.openai_client.embeddings.create(
+            model="text-embedding-3-small",
+            input=query,
+            dimensions=768  # Match sentence-transformers dimension
+        )
+        return response.data[0].embedding
+
+    def _cosine_similarity(self, vec1: List[float], vec2: List[float]) -> float:
+        """
+        Calcule la similarite cosine entre deux vecteurs (sans numpy)
+
+        Args:
+            vec1: Premier vecteur
+            vec2: Deuxieme vecteur
+
+        Returns:
+            Similarite cosine (entre -1 et 1)
+        """
+        dot_product = sum(a * b for a, b in zip(vec1, vec2))
+        magnitude1 = sum(a * a for a in vec1) ** 0.5
+        magnitude2 = sum(b * b for b in vec2) ** 0.5
+
+        if magnitude1 == 0 or magnitude2 == 0:
+            return 0.0
+
+        return dot_product / (magnitude1 * magnitude2)
 
     def search_similar_chunks(
         self,
@@ -89,9 +104,6 @@ class RetrievalService:
         results = []
         for chunk in response.data:
             if chunk['embedding']:
-                # Calculer similarite cosine
-                emb1 = np.array(query_embedding, dtype=float)
-
                 # Parse embedding if it's a string
                 emb_data = chunk['embedding']
                 if isinstance(emb_data, str):
@@ -99,10 +111,8 @@ class RetrievalService:
                     emb_data = emb_data.strip('[]').split(',')
                     emb_data = [float(x) for x in emb_data]
 
-                emb2 = np.array(emb_data, dtype=float)
-                similarity = np.dot(emb1, emb2) / (
-                    np.linalg.norm(emb1) * np.linalg.norm(emb2)
-                )
+                # Calculer similarite cosine (sans numpy)
+                similarity = self._cosine_similarity(query_embedding, emb_data)
 
                 # Appliquer les filtres
                 if filter_domaine and chunk['domaine'] != filter_domaine:
