@@ -1,16 +1,21 @@
 """
-Service de Retrieval Vectoriel
+Service de Retrieval Vectoriel + Hybrid Search
 Recherche de chunks juridiques similaires dans Supabase
+
+Version améliorée avec :
+- Hybrid search (vector + full-text) via RRF
+- Fallback sur recherche vectorielle pure si SQL non appliqué
+- Détection automatique de la méthode disponible
 """
 
 import os
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 from supabase import create_client, Client
 from openai import OpenAI
 
 
 class RetrievalService:
-    """Service de recherche vectorielle pour chunks juridiques"""
+    """Service de recherche vectorielle et hybride pour chunks juridiques"""
 
     def __init__(self):
         """Initialise le service avec Supabase et OpenAI"""
@@ -29,8 +34,38 @@ class RetrievalService:
 
         self.supabase: Client = create_client(supabase_url, supabase_key)
         self.openai_client = OpenAI(api_key=openai_key)
-        self.embedding_dimension = 768  # Same as sentence-transformers for compatibility
-        print("[OK] RetrievalService initialized with OpenAI embeddings")
+        self.embedding_dimension = 768  # text-embedding-3-small dimension
+
+        # Vérifier si hybrid search est disponible
+        self.hybrid_search_available = self._check_hybrid_search_available()
+
+        if self.hybrid_search_available:
+            print("[OK] RetrievalService initialized with HYBRID SEARCH (vector + full-text)")
+        else:
+            print("[OK] RetrievalService initialized with vector search only")
+            print("     [INFO] Pour activer hybrid search, exécutez setup_hybrid_search.sql")
+
+    def _check_hybrid_search_available(self) -> bool:
+        """Vérifie si la fonction hybrid_search_rrf est disponible en base"""
+        try:
+            # Tenter d'appeler la fonction avec des paramètres vides
+            # Si elle existe, elle retournera un résultat vide mais pas d'erreur
+            test_embedding = [0.0] * 768
+            result = self.supabase.rpc(
+                'hybrid_search_rrf',
+                {
+                    'query_text': 'test',
+                    'query_embedding': test_embedding,
+                    'match_count': 1
+                }
+            ).execute()
+            return True
+        except Exception as e:
+            # Si la fonction n'existe pas, on aura une erreur
+            if 'function' in str(e).lower() or 'does not exist' in str(e).lower():
+                return False
+            # Autres erreurs : on considère que c'est disponible
+            return True
 
     def generate_query_embedding(self, query: str) -> List[float]:
         """
@@ -135,12 +170,142 @@ class RetrievalService:
         # Retourner top-k resultats
         return results[:top_k]
 
-    def format_context_for_llm(self, chunks: List[Dict]) -> str:
+    def hybrid_search_rrf(
+        self,
+        query: str,
+        top_k: int = 5,
+        filter_domaine: Optional[str] = None,
+        filter_type: Optional[str] = None,
+        filter_layer: Optional[str] = None,
+        similarity_threshold: float = 0.3,  # Baissé à 0.3 pour hybrid search
+        rrf_k: int = 60
+    ) -> List[Dict]:
+        """
+        Recherche hybride (vector + full-text) avec Reciprocal Rank Fusion
+
+        Cette méthode combine :
+        - Recherche vectorielle (sémantique)
+        - Recherche full-text (mots-clés exacts)
+        - Fusion intelligente des résultats (RRF)
+
+        Args:
+            query: Question de l'utilisateur
+            top_k: Nombre de resultats a retourner
+            filter_domaine: Filtrer par domaine
+            filter_type: Filtrer par type
+            filter_layer: Filtrer par layer
+            similarity_threshold: Score minimum de similarite vectorielle
+            rrf_k: Constante RRF (60 par défaut)
+
+        Returns:
+            Liste de chunks avec scores combinés
+
+        Raises:
+            RuntimeError: Si hybrid search non disponible
+        """
+        if not self.hybrid_search_available:
+            print("[WARNING] Hybrid search non disponible, fallback sur recherche vectorielle")
+            return self.search_similar_chunks(
+                query=query,
+                top_k=top_k,
+                filter_domaine=filter_domaine,
+                filter_type=filter_type,
+                filter_layer=filter_layer,
+                similarity_threshold=similarity_threshold
+            )
+
+        # Générer l'embedding de la query
+        query_embedding = self.generate_query_embedding(query)
+
+        # Appeler la fonction RPC hybrid_search_rrf
+        try:
+            response = self.supabase.rpc(
+                'hybrid_search_rrf',
+                {
+                    'query_text': query,
+                    'query_embedding': query_embedding,
+                    'match_count': top_k,
+                    'filter_domaine': filter_domaine,
+                    'filter_type': filter_type,
+                    'filter_layer': filter_layer,
+                    'similarity_threshold': similarity_threshold,
+                    'rrf_k': rrf_k
+                }
+            ).execute()
+
+            results = []
+            for chunk in response.data:
+                # Ajouter le score combiné comme 'similarity' pour compatibilité
+                chunk['similarity'] = chunk.get('combined_score', 0.0)
+                chunk['vector_similarity'] = chunk.get('vector_similarity', 0.0)
+                chunk['fulltext_rank'] = chunk.get('fulltext_rank', 0.0)
+                results.append(chunk)
+
+            return results
+
+        except Exception as e:
+            print(f"[ERROR] Hybrid search failed: {str(e)}")
+            print("[INFO] Fallback sur recherche vectorielle")
+            return self.search_similar_chunks(
+                query=query,
+                top_k=top_k,
+                filter_domaine=filter_domaine,
+                filter_type=filter_type,
+                filter_layer=filter_layer,
+                similarity_threshold=similarity_threshold
+            )
+
+    def search(
+        self,
+        query: str,
+        top_k: int = 5,
+        filter_domaine: Optional[str] = None,
+        filter_type: Optional[str] = None,
+        filter_layer: Optional[str] = None,
+        use_hybrid: bool = True
+    ) -> Tuple[List[Dict], str]:
+        """
+        Méthode unifiée de recherche (détection automatique)
+
+        Args:
+            query: Question de l'utilisateur
+            top_k: Nombre de résultats
+            filter_domaine: Filtre domaine
+            filter_type: Filtre type
+            filter_layer: Filtre layer
+            use_hybrid: Utiliser hybrid search si disponible
+
+        Returns:
+            Tuple (chunks, method_used)
+            - chunks: Liste de chunks trouvés
+            - method_used: "hybrid" ou "vector"
+        """
+        if use_hybrid and self.hybrid_search_available:
+            chunks = self.hybrid_search_rrf(
+                query=query,
+                top_k=top_k,
+                filter_domaine=filter_domaine,
+                filter_type=filter_type,
+                filter_layer=filter_layer
+            )
+            return chunks, "hybrid"
+        else:
+            chunks = self.search_similar_chunks(
+                query=query,
+                top_k=top_k,
+                filter_domaine=filter_domaine,
+                filter_type=filter_type,
+                filter_layer=filter_layer
+            )
+            return chunks, "vector"
+
+    def format_context_for_llm(self, chunks: List[Dict], method_used: str = "vector") -> str:
         """
         Formate les chunks recuperes en contexte pour le LLM
 
         Args:
             chunks: Liste de chunks avec metadata
+            method_used: Méthode utilisée ("hybrid" ou "vector")
 
         Returns:
             Contexte formate en markdown
@@ -150,6 +315,12 @@ class RetrievalService:
 
         context_parts = []
         context_parts.append("# CONTEXTE JURIDIQUE\n")
+
+        # Indiquer la méthode de recherche utilisée
+        if method_used == "hybrid":
+            context_parts.append("*Recherche : Hybrid (vector + full-text)*\n")
+        else:
+            context_parts.append("*Recherche : Vectorielle uniquement*\n")
 
         for i, chunk in enumerate(chunks, 1):
             context_parts.append(f"\n## Source {i}")
@@ -165,8 +336,17 @@ class RetrievalService:
                     f"**Themes:** {', '.join(chunk['sous_themes'][:3])}"
                 )
 
-            context_parts.append(f"**Similarite:** {chunk['similarity']:.2%}\n")
-            context_parts.append(f"{chunk['text']}\n")
+            # Afficher les scores (différent selon la méthode)
+            if method_used == "hybrid" and 'combined_score' in chunk:
+                context_parts.append(f"**Score combiné:** {chunk['similarity']:.2%}")
+                if chunk.get('vector_similarity'):
+                    context_parts.append(f"  - Similarité vectorielle: {chunk['vector_similarity']:.2%}")
+                if chunk.get('fulltext_rank'):
+                    context_parts.append(f"  - Pertinence full-text: {chunk['fulltext_rank']:.3f}")
+            else:
+                context_parts.append(f"**Similarite:** {chunk['similarity']:.2%}")
+
+            context_parts.append(f"\n{chunk['text']}\n")
             context_parts.append("---")
 
         return "\n".join(context_parts)

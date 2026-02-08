@@ -1,0 +1,268 @@
+{
+  "timestamp": "2026-02-08T12:12:13.336525",
+  "hybrid_available": false,
+  "tests": [
+    {
+      "test_id": "LOC_001",
+      "question": "Quelles sont les charges récupérables en location vide ?",
+      "domaine": "location",
+      "expected_keywords": [
+        "article 23",
+        "loi 1989",
+        "décret 1987",
+        "charges"
+      ],
+      "vector": {
+        "chunks_count": 5,
+        "keywords_found": [
+          "article 23",
+          "charges"
+        ],
+        "keyword_coverage": 50.0,
+        "avg_similarity": 0.596
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "LOC_002",
+      "question": "Mon propriétaire peut-il augmenter le loyer sans justification ?",
+      "domaine": "location",
+      "expected_keywords": [
+        "révision",
+        "loyer",
+        "IRL",
+        "zone tendue"
+      ],
+      "vector": {
+        "chunks_count": 5,
+        "keywords_found": [
+          "révision",
+          "loyer"
+        ],
+        "keyword_coverage": 50.0,
+        "avg_similarity": 0.539
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "LOC_003",
+      "question": "Quelles sont les conditions de décence d'un logement en 2025 ?",
+      "domaine": "location",
+      "expected_keywords": [
+        "décence",
+        "DPE",
+        "performance énergétique",
+        "décret 2002"
+      ],
+      "vector": {
+        "chunks_count": 5,
+        "keywords_found": [
+          "décence",
+          "DPE",
+          "performance énergétique"
+        ],
+        "keyword_coverage": 75.0,
+        "avg_similarity": 0.66
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "COPRO_001",
+      "question": "Qui paie les travaux de ravalement de façade en copropriété ?",
+      "domaine": "copropriete",
+      "expected_keywords": [
+        "charges",
+        "parties communes",
+        "loi 1965"
+      ],
+      "vector": {
+        "chunks_count": 2,
+        "keywords_found": [
+          "charges",
+          "parties communes"
+        ],
+        "keyword_coverage": 66.7,
+        "avg_similarity": 0.484
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "COPRO_002",
+      "question": "Comment convoquer une assemblée générale de copropriété ?",
+      "domaine": "copropriete",
+      "expected_keywords": [
+        "AG",
+        "convocation",
+        "syndic",
+        "délai"
+      ],
+      "vector": {
+        "chunks_count": 3,
+        "keywords_found": [
+          "AG",
+          "convocation",
+          "syndic",
+          "délai"
+        ],
+        "keyword_coverage": 100.0,
+        "avg_similarity": 0.598
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "TRANS_001",
+      "question": "Quels diagnostics sont obligatoires pour vendre un appartement ?",
+      "domaine": "transaction",
+      "expected_keywords": [
+        "diagnostics",
+        "DDT",
+        "amiante",
+        "plomb",
+        "DPE"
+      ],
+      "vector": {
+        "chunks_count": 5,
+        "keywords_found": [
+          "diagnostics",
+          "DDT",
+          "amiante",
+          "plomb",
+          "DPE"
+        ],
+        "keyword_coverage": 100.0,
+        "avg_similarity": 0.531
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "TRANS_002",
+      "question": "Qu'est-ce qu'un vice caché et quels sont mes recours ?",
+      "domaine": "transaction",
+      "expected_keywords": [
+        "vice caché",
+        "garantie",
+        "vendeur",
+        "code civil"
+      ],
+      "vector": {
+        "chunks_count": 5,
+        "keywords_found": [
+          "vice caché",
+          "garantie",
+          "vendeur",
+          "code civil"
+        ],
+        "keyword_coverage": 100.0,
+        "avg_similarity": 0.429
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "PRO_001",
+      "question": "Quelles sont les obligations d'un agent immobilier lors d'un mandat ?",
+      "domaine": "pro_immo",
+      "expected_keywords": [
+        "mandat",
+        "agent",
+        "loi Hoguet",
+        "carte professionnelle"
+      ],
+      "vector": {
+        "chunks_count": 4,
+        "keywords_found": [
+          "mandat",
+          "agent",
+          "loi Hoguet",
+          "carte professionnelle"
+        ],
+        "keyword_coverage": 100.0,
+        "avg_similarity": 0.583
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "PRO_002",
+      "question": "Un mandat exclusif doit-il obligatoirement être écrit ?",
+      "domaine": "pro_immo",
+      "expected_keywords": [
+        "mandat exclusif",
+        "écrit",
+        "loi Hoguet",
+        "clause"
+      ],
+      "vector": {
+        "chunks_count": 4,
+        "keywords_found": [
+          "mandat exclusif",
+          "écrit",
+          "loi Hoguet",
+          "clause"
+        ],
+        "keyword_coverage": 100.0,
+        "avg_similarity": 0.488
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    },
+    {
+      "test_id": "COMPLEX_001",
+      "question": "Peut-on expulser un locataire qui ne paie plus son loyer pendant la trêve hivernale ?",
+      "domaine": "location",
+      "expected_keywords": [
+        "expulsion",
+        "trêve hivernale",
+        "impayés",
+        "procédure"
+      ],
+      "vector": {
+        "chunks_count": 5,
+        "keywords_found": [
+          "expulsion",
+          "impayés",
+          "procédure"
+        ],
+        "keyword_coverage": 75.0,
+        "avg_similarity": 0.588
+      },
+      "hybrid": {
+        "error": "not_available",
+        "message": "SQL setup required"
+      }
+    }
+  ],
+  "statistics": {
+    "vector": {
+      "avg_coverage": 81.7,
+      "min_coverage": 50.0,
+      "max_coverage": 100.0
+    },
+    "hybrid": null,
+    "gain": null
+  }
+}

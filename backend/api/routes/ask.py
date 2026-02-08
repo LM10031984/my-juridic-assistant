@@ -62,20 +62,21 @@ async def ask_question(request: AskRequest):
         Reponse structuree avec sources
     """
     try:
-        # Etape 1 : Retrieval
+        # Etape 1 : Retrieval (avec hybrid search si disponible)
         print(f"\n[ASK] Question: {request.question}")
         print(f"[ASK] Domaine filtre: {request.domaine}")
 
         retrieval_service = get_retrieval_service()
 
-        chunks = retrieval_service.search_similar_chunks(
+        # Utiliser la méthode unifiée (détection automatique hybrid/vector)
+        chunks, method_used = retrieval_service.search(
             query=request.question,
             top_k=5,
             filter_domaine=request.domaine,
-            similarity_threshold=0.4  # Lowered to include more relevant chunks
+            use_hybrid=True
         )
 
-        print(f"[ASK] Retrieved {len(chunks)} chunks")
+        print(f"[ASK] Retrieved {len(chunks)} chunks using {method_used} search")
 
         # Si aucun chunk trouve
         if not chunks:
@@ -125,8 +126,8 @@ async def ask_question(request: AskRequest):
         # Etape 3 : Generation de la reponse
         print("[ASK] Generating answer with OpenAI API...")
 
-        # Formater le contexte
-        context = retrieval_service.format_context_for_llm(chunks)
+        # Formater le contexte (avec indication de la méthode utilisée)
+        context = retrieval_service.format_context_for_llm(chunks, method_used)
 
         # Enrichir la question avec les reponses de qualification si presentes
         enriched_question = request.question

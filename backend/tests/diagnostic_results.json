@@ -1,0 +1,661 @@
+{
+  "timestamp": "2026-02-08T12:03:36.430519",
+  "embedding_check": {
+    "status": "success",
+    "total_chunks": 178,
+    "chunks_with_embedding": 5,
+    "chunks_without_embedding": 0,
+    "embedding_dimensions": [
+      768,
+      768,
+      768,
+      768,
+      768
+    ],
+    "expected_dimension": 768,
+    "model_used": "text-embedding-3-small"
+  },
+  "retrieval_tests": [
+    {
+      "test_id": "LOC_001",
+      "question": "Quelles sont les charges récupérables en location vide ?",
+      "domaine": "location",
+      "difficulty": "simple",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.665,
+      "min_similarity": 0.551,
+      "avg_similarity": 0.596,
+      "expected_keywords": [
+        "article 23",
+        "loi 1989",
+        "décret 1987",
+        "charges"
+      ],
+      "keywords_found": [
+        "charges"
+      ],
+      "keyword_coverage": 25.0,
+      "top_chunks": [
+        {
+          "chunk_id": "0f1f8685ded5ba64",
+          "text": "FICHE IA-READY\n Décret du 26 août 1987 – Charges récupérables\nObjet du texte\n Le décret du 26 août 1987 fixe la liste limitative des charges récupérables auprès du locataire.\n Il précise les dépenses ...",
+          "domaine": "location",
+          "type": "fiche",
+          "source_file": "Fiche_IA_READY_Decret_1987_ChargesRecuperables_20260206.md",
+          "similarity": 0.6652560803315878
+        },
+        {
+          "chunk_id": "ca455fb74170d124",
+          "text": "Le Premier ministre,\nSur le rapport du ministre d'Etat, ministre de l'économie, des finances et de la privatisation, du garde des sceaux, ministre de la justice, et du ministre de l'équipement, du log...",
+          "domaine": "location",
+          "type": "decret",
+          "source_file": "decret_charges_1987.md",
+          "similarity": 0.6077776494639242
+        },
+        {
+          "chunk_id": "b518278627c470a3",
+          "text": "Lorsqu'un cautionnement pour les sommes dont le locataire serait débiteur dans le cadre d'un contrat de location conclu en application du présent titre est exigé par le bailleur, celui-ci ne peut refu...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5937128512370653
+        },
+        {
+          "chunk_id": "b4b61b97f4f64025",
+          "text": "RÈGLES DE LIAISON — LOCATION D’HABITATION\nPrincipe fondamental\n Toute question relative à la location d’un logement à usage de résidence principale doit être analysée en tenant compte simultanément :\n...",
+          "domaine": "location",
+          "type": "regle_liaison",
+          "source_file": "regles_liaison_location.md",
+          "similarity": 0.5603336482168226
+        },
+        {
+          "chunk_id": "980970f7f6feef01",
+          "text": "Versions \nLiens relatifs \nInformations pratiques \nArticle 2-1\nCréation LOI n°2022-217 du 21 février 2022 - art. 86\nLes annonces relatives à la mise en location d'un logement soumis à la présente loi m...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5511938282882787
+        }
+      ]
+    },
+    {
+      "test_id": "LOC_002",
+      "question": "Mon propriétaire peut-il augmenter le loyer sans justification ?",
+      "domaine": "location",
+      "difficulty": "moyen",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.565,
+      "min_similarity": 0.516,
+      "avg_similarity": 0.539,
+      "expected_keywords": [
+        "révision",
+        "loyer",
+        "IRL",
+        "zone tendue"
+      ],
+      "keywords_found": [
+        "loyer"
+      ],
+      "keyword_coverage": 25.0,
+      "top_chunks": [
+        {
+          "chunk_id": "2082e99a1e47ce0f",
+          "text": "Versions \nLiens relatifs \nArticle 25-5\nCréation LOI n°2014-366 du 24 mars 2014 - art. 8\nUn inventaire et un état détaillé du mobilier sont établis dans les mêmes formes et en autant d'exemplaires que ...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5645982806931037
+        },
+        {
+          "chunk_id": "507f7e1afdf66dec",
+          "text": "Dans le cas où le propriétaire décide de vendre à des conditions ou à un prix plus avantageux pour l'acquéreur, le notaire doit, lorsque le bailleur n'y a pas préalablement procédé, notifier au locata...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5447922403572921
+        },
+        {
+          "chunk_id": "0b5bf6c142c78699",
+          "text": "Article 1713Création Loi 1804-03-07 promulguée le 17 mars 1804\nOn peut louer toutes sortes de biens meubles ou immeubles.\n\nVersions \nReplierSection 1 : Des règles communes aux baux des maisons et des ...",
+          "domaine": "location",
+          "type": "code_civil",
+          "source_file": "code_civil_bail.md",
+          "similarity": 0.5383594370102072
+        },
+        {
+          "chunk_id": "c1700939327a16a3",
+          "text": "Les observatoires locaux des loyers mentionnés au premier alinéa sont agréés, pour tout ou partie de la zone géographique qui y est mentionnée, par le ministre chargé du logement, dans des conditions ...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5322155997005112
+        },
+        {
+          "chunk_id": "d475f4fde83c4dd7",
+          "text": "q) Qui prévoit que le locataire est automatiquement responsable des dégradations constatées dans le logement ;\n\nr) Qui interdit au locataire de demander une indemnité au bailleur lorsque ce dernier ré...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.515896006688006
+        }
+      ]
+    },
+    {
+      "test_id": "LOC_003",
+      "question": "Quelles sont les conditions de décence d'un logement en 2025 ?",
+      "domaine": "location",
+      "difficulty": "moyen",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.685,
+      "min_similarity": 0.641,
+      "avg_similarity": 0.66,
+      "expected_keywords": [
+        "décence",
+        "DPE",
+        "performance énergétique",
+        "décret 2002"
+      ],
+      "keywords_found": [
+        "décence"
+      ],
+      "keyword_coverage": 25.0,
+      "top_chunks": [
+        {
+          "chunk_id": "70f8a5089fca494d",
+          "text": "Le Premier ministre,\nSur le rapport du ministre de l'équipement, des transports et du logement,\nVu le code civil ;\nVu le code de la construction et de l'habitation, notamment ses articles R. 111-1 et ...",
+          "domaine": "location",
+          "type": "decret",
+          "source_file": "decret_decence_2002.md",
+          "similarity": 0.684776181061229
+        },
+        {
+          "chunk_id": "872f45484ea284d1",
+          "text": "Article 3 bis\nModifié par Décret n°2023-796 du 18 août 2023 - art. 2 (V)\nI.-En France métropolitaine, le niveau de performance minimal prévu au premier alinéa de l'article 6 de la loi n° 89-462 du 6 j...",
+          "domaine": "location",
+          "type": "texte_juridique",
+          "source_file": "decence_energetique_passoires.md",
+          "similarity": 0.6639522053759365
+        },
+        {
+          "chunk_id": "8fdea5057ee9ca7f",
+          "text": "FICHE IA-READY\n Décret du 30 janvier 2002 – Décence du logement\nObjet du texte\n Le décret du 30 janvier 2002 définit les caractéristiques minimales de décence d’un logement mis en location.\n Il fixe l...",
+          "domaine": "location",
+          "type": "fiche",
+          "source_file": "Fiche_IA_READY_Decret_2002_DecenceLogement_20260206.md",
+          "similarity": 0.657956605128736
+        },
+        {
+          "chunk_id": "bef76a49f083e10e",
+          "text": "2° Au 1 de l'article 3, la dernière phrase n'est pas applicable ;\n\n\n3° L'article 3 bis est remplacé par les dispositions suivantes :\n\n\n“ Art. 3 bis.-Le logement a une consommation d'énergie, estimée p...",
+          "domaine": "location",
+          "type": "decret",
+          "source_file": "decret_decence_2002.md",
+          "similarity": 0.6506044993209869
+        },
+        {
+          "chunk_id": "9de7bca17097e2de",
+          "text": "“ La surface habitable mentionnée au premier alinéa s'entend au sens du 1° de l'article 4. ” ;\n\n\n4° Le second alinéa de l'article 4 est remplacé par les dispositions suivantes :\n\n\n“ Pour l'application...",
+          "domaine": "location",
+          "type": "texte_juridique",
+          "source_file": "decence_energetique_passoires.md",
+          "similarity": 0.6413343830357107
+        }
+      ]
+    },
+    {
+      "test_id": "COPRO_001",
+      "question": "Qui paie les travaux de ravalement de façade en copropriété ?",
+      "domaine": "copropriete",
+      "difficulty": "simple",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.504,
+      "min_similarity": 0.004,
+      "avg_similarity": 0.276,
+      "expected_keywords": [
+        "charges",
+        "parties communes",
+        "loi 1965"
+      ],
+      "keywords_found": [
+        "loi 1965"
+      ],
+      "keyword_coverage": 33.3,
+      "top_chunks": [
+        {
+          "chunk_id": "b00950156e3c9724",
+          "text": "FICHE IA-READY\n Loi du 10 juillet 1965 – Copropriété\n ────────────────────────────\nObjet du texte\n La loi du 10 juillet 1965 fixe le statut juridique des immeubles bâtis en copropriété.\n Elle définit ...",
+          "domaine": "copropriete",
+          "type": "fiche",
+          "source_file": "Fiche_IA_readyloi_10_juillet_1965.md",
+          "similarity": 0.5035148949707209
+        },
+        {
+          "chunk_id": "aea0eea3388e5074",
+          "text": "FICHE IA-READY\nDécret du 17 mars 1967 – Application de la loi de 1965\n\nObjet du texte\nLe décret du 17 mars 1967 précise les modalités d’application de la loi du 10 juillet 1965.\nIl fixe les règles de ...",
+          "domaine": "copropriete",
+          "type": "fiche",
+          "source_file": "fiche_IA_ready_decret_1967.md",
+          "similarity": 0.46446798007022877
+        },
+        {
+          "chunk_id": "b4ea569f7faf5671",
+          "text": "RÈGLES DE LIAISON – LOI 1965 / DÉCRET 1967\n\nPrincipe fondamental\nToute question relative à la copropriété doit être analysée en distinguant :\n- les règles de fond (loi du 10 juillet 1965)\n- les règles...",
+          "domaine": "copropriete",
+          "type": "regle_liaison",
+          "source_file": "regles_liaison_copro.md",
+          "similarity": 0.39925757321966393
+        },
+        {
+          "chunk_id": "eddc677c0a951908",
+          "text": "Loi n° 65-557 du 10 juillet 1965 fixant le statut de la copropriété des immeublesbâtis\nRépublique Française. Liberté, Égalité, Fraternité.\nAccueil Légifrance.fr - le service public de la diff usion du...",
+          "domaine": "copropriete",
+          "type": "loi",
+          "source_file": "Loi_1965_Copropriete_Texte_Consolide_2026.md",
+          "similarity": 0.00896990058418082
+        },
+        {
+          "chunk_id": "073943d04a622ae8",
+          "text": "Décret n°67-223 du 17 mars 1967 pris pour l'application de la loi n° 65-557 du 10juillet 1965 fixant le statut de la copropriété des immeubles bâtis\nRépublique Française. Liberté, Égalité, Fraternité....",
+          "domaine": "copropriete",
+          "type": "decret",
+          "source_file": "Decret_1967_Copropriete_TexteConsolide_2026.md",
+          "similarity": 0.003666488805603199
+        }
+      ]
+    },
+    {
+      "test_id": "COPRO_002",
+      "question": "Comment convoquer une assemblée générale de copropriété ?",
+      "domaine": "copropriete",
+      "difficulty": "moyen",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.616,
+      "min_similarity": -0.023,
+      "avg_similarity": 0.35,
+      "expected_keywords": [
+        "AG",
+        "convocation",
+        "syndic",
+        "délai"
+      ],
+      "keywords_found": [],
+      "keyword_coverage": 0.0,
+      "top_chunks": [
+        {
+          "chunk_id": "aea0eea3388e5074",
+          "text": "FICHE IA-READY\nDécret du 17 mars 1967 – Application de la loi de 1965\n\nObjet du texte\nLe décret du 17 mars 1967 précise les modalités d’application de la loi du 10 juillet 1965.\nIl fixe les règles de ...",
+          "domaine": "copropriete",
+          "type": "fiche",
+          "source_file": "fiche_IA_ready_decret_1967.md",
+          "similarity": 0.6155404438061486
+        },
+        {
+          "chunk_id": "b00950156e3c9724",
+          "text": "FICHE IA-READY\n Loi du 10 juillet 1965 – Copropriété\n ────────────────────────────\nObjet du texte\n La loi du 10 juillet 1965 fixe le statut juridique des immeubles bâtis en copropriété.\n Elle définit ...",
+          "domaine": "copropriete",
+          "type": "fiche",
+          "source_file": "Fiche_IA_readyloi_10_juillet_1965.md",
+          "similarity": 0.6114212897351895
+        },
+        {
+          "chunk_id": "b4ea569f7faf5671",
+          "text": "RÈGLES DE LIAISON – LOI 1965 / DÉCRET 1967\n\nPrincipe fondamental\nToute question relative à la copropriété doit être analysée en distinguant :\n- les règles de fond (loi du 10 juillet 1965)\n- les règles...",
+          "domaine": "copropriete",
+          "type": "regle_liaison",
+          "source_file": "regles_liaison_copro.md",
+          "similarity": 0.5659822332166975
+        },
+        {
+          "chunk_id": "eddc677c0a951908",
+          "text": "Loi n° 65-557 du 10 juillet 1965 fixant le statut de la copropriété des immeublesbâtis\nRépublique Française. Liberté, Égalité, Fraternité.\nAccueil Légifrance.fr - le service public de la diff usion du...",
+          "domaine": "copropriete",
+          "type": "loi",
+          "source_file": "Loi_1965_Copropriete_Texte_Consolide_2026.md",
+          "similarity": -0.021844008974601477
+        },
+        {
+          "chunk_id": "073943d04a622ae8",
+          "text": "Décret n°67-223 du 17 mars 1967 pris pour l'application de la loi n° 65-557 du 10juillet 1965 fixant le statut de la copropriété des immeubles bâtis\nRépublique Française. Liberté, Égalité, Fraternité....",
+          "domaine": "copropriete",
+          "type": "decret",
+          "source_file": "Decret_1967_Copropriete_TexteConsolide_2026.md",
+          "similarity": -0.022756567564895244
+        }
+      ]
+    },
+    {
+      "test_id": "TRANS_001",
+      "question": "Quels diagnostics sont obligatoires pour vendre un appartement ?",
+      "domaine": "transaction",
+      "difficulty": "simple",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.633,
+      "min_similarity": 0.426,
+      "avg_similarity": 0.531,
+      "expected_keywords": [
+        "diagnostics",
+        "DDT",
+        "amiante",
+        "plomb",
+        "DPE"
+      ],
+      "keywords_found": [
+        "diagnostics"
+      ],
+      "keyword_coverage": 20.0,
+      "top_chunks": [
+        {
+          "chunk_id": "diag_vente_full",
+          "text": "# FICHE IA-READY — Diagnostics Obligatoires pour une Vente Immobilière\n\n## Objet\nCette fiche liste l'ensemble des diagnostics techniques obligatoires pour la vente d'un bien immobilier en France, conf...",
+          "domaine": "transaction",
+          "type": "fiche",
+          "source_file": "Fiche_IA_READY_Diagnostics_Obligatoires_Vente.md",
+          "similarity": 0.6333618651255138
+        },
+        {
+          "chunk_id": "c5a62dfee86f838d",
+          "text": "A l'occasion du renouvellement de ce diagnostic ou, au plus tard, dans un délai de cinq ans à compter de la promulgation de la loi n° 2023-175 du 10 mars 2023 relative à l'accélération de la productio...",
+          "domaine": "transaction",
+          "type": "code_construction_habitation",
+          "source_file": "cch_ventes_dpe_extraits.md",
+          "similarity": 0.5462993646890343
+        },
+        {
+          "chunk_id": "b9766b76a85c7453",
+          "text": "Version en vigueur au 07 février 2026\nNaviguer dans le sommaire du code\nCode de la construction et de l'habitation\nReplierPartie législative (Articles L111-1 à L863-5)\nReplierLivre Ier : Construction,...",
+          "domaine": "transaction",
+          "type": "code_construction_habitation",
+          "source_file": "cch_ventes_dpe_extraits.md",
+          "similarity": 0.5460355138486036
+        },
+        {
+          "chunk_id": "770950c414d3c19a",
+          "text": "FICHE IA-READY — Transaction immobilière (socle juridique)\n\nObjet du texte\nCadre des règles de base applicables à la vente immobilière : formation de la vente, obligations vendeur/acquéreur, garanties...",
+          "domaine": "transaction",
+          "type": "fiche",
+          "source_file": "fiche_IA_ready_transaction.md",
+          "similarity": 0.5015479909675116
+        },
+        {
+          "chunk_id": "c53b822fd230ef04",
+          "text": "FICHE IA-READY — Décret 20 juillet 1972 (application loi Hoguet)\n\nObjet du texte\nFixe les règles opérationnelles : mandat écrit (mentions obligatoires), registre des mandats, publicité des annonces, a...",
+          "domaine": "transaction",
+          "type": "fiche",
+          "source_file": "FICHE IA-READY — Décret 20 juillet 1972.md",
+          "similarity": 0.4260991608812001
+        }
+      ]
+    },
+    {
+      "test_id": "TRANS_002",
+      "question": "Qu'est-ce qu'un vice caché et quels sont mes recours ?",
+      "domaine": "transaction",
+      "difficulty": "moyen",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.457,
+      "min_similarity": 0.417,
+      "avg_similarity": 0.429,
+      "expected_keywords": [
+        "vice caché",
+        "garantie",
+        "vendeur",
+        "code civil"
+      ],
+      "keywords_found": [
+        "code civil",
+        "vendeur"
+      ],
+      "keyword_coverage": 50.0,
+      "top_chunks": [
+        {
+          "chunk_id": "3b271c9ade7da7e4",
+          "text": "# CODE CIVIL - RESPONSABILITÉ (Extraits consolidés 2026)\n## Applicable aux transactions immobilières\n## I. RESPONSABILITÉ DÉLICTUELLE (EXTRACONTRACTUELLE)\n\n### Article 1246\n**Version en vigueur depuis...",
+          "domaine": "transaction",
+          "type": "code_civil",
+          "source_file": "code_civil_responsabilite.md",
+          "similarity": 0.4573950868302832
+        },
+        {
+          "chunk_id": "1a3d614a862c5076",
+          "text": "# CODE CIVIL - RESPONSABILITÉ (Extraits consolidés 2026)\n## Applicable aux transactions immobilières\n## I. RESPONSABILITÉ DÉLICTUELLE (EXTRACONTRACTUELLE)\n\n### Article 1240\n**Version en vigueur depuis...",
+          "domaine": "transaction",
+          "type": "code_civil",
+          "source_file": "code_civil_responsabilite.md",
+          "similarity": 0.43279703727080104
+        },
+        {
+          "chunk_id": "86146f603efcebf1",
+          "text": "Versions \nArticle 1679Création Loi 1804-03-06 promulguée le 16 mars 1804\nS'il y a des avis différents, le procès-verbal en contiendra les motifs, sans qu'il soit permis de faire connaître de quel avis...",
+          "domaine": "transaction",
+          "type": "code_civil",
+          "source_file": "code_civil_vente.md",
+          "similarity": 0.4187123533013517
+        },
+        {
+          "chunk_id": "30d019a1a3cc19ba",
+          "text": "Versions \nInformations pratiques \nArticle 1624Création Loi 1804-03-06 promulguée le 16 mars 1804\nLa question de savoir sur lequel, du vendeur ou de l'acquéreur, doit tomber la perte ou la détérioratio...",
+          "domaine": "transaction",
+          "type": "code_civil",
+          "source_file": "code_civil_vente.md",
+          "similarity": 0.4177972995910445
+        },
+        {
+          "chunk_id": "613081fab19bfe4c",
+          "text": "Versions \nArticle 1657Création Loi 1804-03-06 promulguée le 16 mars 1804\nEn matière de vente de denrées et effets mobiliers, la résolution de la vente aura lieu de plein droit et sans sommation, au pr...",
+          "domaine": "transaction",
+          "type": "code_civil",
+          "source_file": "code_civil_vente.md",
+          "similarity": 0.41680970319672744
+        }
+      ]
+    },
+    {
+      "test_id": "PRO_001",
+      "question": "Quelles sont les obligations d'un agent immobilier lors d'un mandat ?",
+      "domaine": "pro_immo",
+      "difficulty": "simple",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.624,
+      "min_similarity": 0.044,
+      "avg_similarity": 0.475,
+      "expected_keywords": [
+        "mandat",
+        "agent",
+        "loi Hoguet",
+        "carte professionnelle"
+      ],
+      "keywords_found": [
+        "loi Hoguet",
+        "mandat",
+        "agent"
+      ],
+      "keyword_coverage": 75.0,
+      "top_chunks": [
+        {
+          "chunk_id": "b2cc5c325972ed01",
+          "text": "Objet du texte\nEncadre les activités des professionnels de l’immobilier (transaction, gestion, syndic) : conditions d’exercice, protections du client, encadrement des pratiques, responsabilités.\n\nQuan...",
+          "domaine": "pro_immo",
+          "type": "fiche",
+          "source_file": "FICHE IA-READY — Loi Hoguet.md",
+          "similarity": 0.6240278002672487
+        },
+        {
+          "chunk_id": "mandat_excl_full",
+          "text": "# FICHE IA-READY — Mandat Exclusif et Vente Directe par le Vendeur\n\n## Objet\nCette fiche traite des conséquences juridiques et financières pour l'agent immobilier lorsqu'un vendeur ayant signé un mand...",
+          "domaine": "pro_immo",
+          "type": "fiche",
+          "source_file": "Fiche_IA_READY_Mandat_Exclusif_Vente_Directe.md",
+          "similarity": 0.5974578784893276
+        },
+        {
+          "chunk_id": "a8a5754b3dc89ed3",
+          "text": "RÈGLES DE LIAISON — LOI HOGUET / DÉCRET 1972\n\nPrincipe fondamental\nToute question relative à l’exercice des professions immobilières doit être analysée en distinguant :\n- les règles de fond posées par...",
+          "domaine": "pro_immo",
+          "type": "regle_liaison",
+          "source_file": "Regles_Liaison_LoiHoguet_Decret1972.md",
+          "similarity": 0.587164600720427
+        },
+        {
+          "chunk_id": "645769e2daf39581",
+          "text": "FICHE IA-READY\nDécret n°72-678 du 20 juillet 1972 – Conditions d’application de la loi Hoguet (loi n°70-9 du 2 janvier 1970)\n\nObjet du texte\nLe décret du 20 juillet 1972 fixe les règles pratiques pour...",
+          "domaine": "pro_immo",
+          "type": "fiche",
+          "source_file": "FICHE IA_READY_DECRET_1972.md",
+          "similarity": 0.5215905147178399
+        },
+        {
+          "chunk_id": "75961f9719518418",
+          "text": "Loi n° 70-9 du 2 janvier 1970 réglementant les conditions d'exercice des activitésrelatives à certaines opérations portant sur les immeubles et les fonds decommerce\nRépublique Française. Liberté, Égal...",
+          "domaine": "pro_immo",
+          "type": "loi",
+          "source_file": "Loi_hoguet.md",
+          "similarity": 0.04422592254958795
+        }
+      ]
+    },
+    {
+      "test_id": "PRO_002",
+      "question": "Un mandat exclusif doit-il obligatoirement être écrit ?",
+      "domaine": "pro_immo",
+      "difficulty": "moyen",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.556,
+      "min_similarity": -0.012,
+      "avg_similarity": 0.388,
+      "expected_keywords": [
+        "mandat exclusif",
+        "écrit",
+        "loi Hoguet",
+        "clause"
+      ],
+      "keywords_found": [
+        "loi Hoguet",
+        "mandat exclusif"
+      ],
+      "keyword_coverage": 50.0,
+      "top_chunks": [
+        {
+          "chunk_id": "mandat_excl_full",
+          "text": "# FICHE IA-READY — Mandat Exclusif et Vente Directe par le Vendeur\n\n## Objet\nCette fiche traite des conséquences juridiques et financières pour l'agent immobilier lorsqu'un vendeur ayant signé un mand...",
+          "domaine": "pro_immo",
+          "type": "fiche",
+          "source_file": "Fiche_IA_READY_Mandat_Exclusif_Vente_Directe.md",
+          "similarity": 0.5562648814956318
+        },
+        {
+          "chunk_id": "a8a5754b3dc89ed3",
+          "text": "RÈGLES DE LIAISON — LOI HOGUET / DÉCRET 1972\n\nPrincipe fondamental\nToute question relative à l’exercice des professions immobilières doit être analysée en distinguant :\n- les règles de fond posées par...",
+          "domaine": "pro_immo",
+          "type": "regle_liaison",
+          "source_file": "Regles_Liaison_LoiHoguet_Decret1972.md",
+          "similarity": 0.5275678567985139
+        },
+        {
+          "chunk_id": "b2cc5c325972ed01",
+          "text": "Objet du texte\nEncadre les activités des professionnels de l’immobilier (transaction, gestion, syndic) : conditions d’exercice, protections du client, encadrement des pratiques, responsabilités.\n\nQuan...",
+          "domaine": "pro_immo",
+          "type": "fiche",
+          "source_file": "FICHE IA-READY — Loi Hoguet.md",
+          "similarity": 0.4620245567353418
+        },
+        {
+          "chunk_id": "645769e2daf39581",
+          "text": "FICHE IA-READY\nDécret n°72-678 du 20 juillet 1972 – Conditions d’application de la loi Hoguet (loi n°70-9 du 2 janvier 1970)\n\nObjet du texte\nLe décret du 20 juillet 1972 fixe les règles pratiques pour...",
+          "domaine": "pro_immo",
+          "type": "fiche",
+          "source_file": "FICHE IA_READY_DECRET_1972.md",
+          "similarity": 0.40664155228611965
+        },
+        {
+          "chunk_id": "75961f9719518418",
+          "text": "Loi n° 70-9 du 2 janvier 1970 réglementant les conditions d'exercice des activitésrelatives à certaines opérations portant sur les immeubles et les fonds decommerce\nRépublique Française. Liberté, Égal...",
+          "domaine": "pro_immo",
+          "type": "loi",
+          "source_file": "Loi_hoguet.md",
+          "similarity": -0.011940698483093348
+        }
+      ]
+    },
+    {
+      "test_id": "COMPLEX_001",
+      "question": "Peut-on expulser un locataire qui ne paie plus son loyer pendant la trêve hivernale ?",
+      "domaine": "location",
+      "difficulty": "complexe",
+      "chunks_retrieved": 5,
+      "max_similarity": 0.636,
+      "min_similarity": 0.566,
+      "avg_similarity": 0.589,
+      "expected_keywords": [
+        "expulsion",
+        "trêve hivernale",
+        "impayés",
+        "procédure"
+      ],
+      "keywords_found": [],
+      "keyword_coverage": 0.0,
+      "top_chunks": [
+        {
+          "chunk_id": "0699b5d3f197e41f",
+          "text": "Un décret en Conseil d'Etat, pris après avis de la Commission nationale de concertation, précise les conditions d'application du présent article, notamment la liste des travaux éligibles à réaliser et...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.6357983229760514
+        },
+        {
+          "chunk_id": "7749db609769d541",
+          "text": "V. - Le juge peut, à la demande du locataire, du bailleur ou d'office, à la condition que le locataire soit en situation de régler sa dette locative et qu'il ait repris le versement intégral du loyer ...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.596871583494557
+        },
+        {
+          "chunk_id": "d475f4fde83c4dd7",
+          "text": "q) Qui prévoit que le locataire est automatiquement responsable des dégradations constatées dans le logement ;\n\nr) Qui interdit au locataire de demander une indemnité au bailleur lorsque ce dernier ré...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5757818636209657
+        },
+        {
+          "chunk_id": "30debb469cd02ab0",
+          "text": "Versions \nLiens relatifs \nArticle 15\nModifié par LOI n°2023-668 du 27 juillet 2023 - art. 10\nI. - Lorsque le bailleur donne congé à son locataire, ce congé doit être justifié soit par sa décision de r...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5680603360543655
+        },
+        {
+          "chunk_id": "6bd6d8b6b20fb566",
+          "text": "Versions \nLiens relatifs \nInformations pratiques \nArticle 11-1\nModifié par LOI n°2014-366 du 24 mars 2014 - art. 5\nQuand un congé pour vente conforme aux dispositions de l'article 15 est délivré par u...",
+          "domaine": "location",
+          "type": "loi",
+          "source_file": "loi_1989.md",
+          "similarity": 0.5660051356529975
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_tests": 10,
+    "valid_tests": 10,
+    "failed_tests": 0,
+    "similarity_scores": {
+      "max_avg": 0.594,
+      "avg_avg": 0.483,
+      "min_max": 0.457,
+      "max_max": 0.685
+    },
+    "keyword_coverage": {
+      "average": 30.3,
+      "min": 0.0,
+      "max": 75.0
+    },
+    "by_difficulty": {
+      "simple": 38.3,
+      "moyen": 30.0,
+      "complexe": 0.0
+    }
+  }
+}
