@@ -72,7 +72,7 @@ async def ask_question(request: AskRequest):
             query=request.question,
             top_k=5,
             filter_domaine=request.domaine,
-            similarity_threshold=0.5
+            similarity_threshold=0.4  # Lowered to include more relevant chunks
         )
 
         print(f"[ASK] Retrieved {len(chunks)} chunks")

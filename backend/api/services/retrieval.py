@@ -76,7 +76,7 @@ class RetrievalService:
         filter_domaine: Optional[str] = None,
         filter_type: Optional[str] = None,
         filter_layer: Optional[str] = None,
-        similarity_threshold: float = 0.5
+        similarity_threshold: float = 0.4  # Lowered from 0.5 to include more relevant chunks
     ) -> List[Dict]:
         """
         Recherche les chunks les plus similaires a la query
