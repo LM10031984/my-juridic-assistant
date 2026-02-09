@@ -48,9 +48,18 @@ class PrimarySourceCleaner:
             re.compile(r'^(Versions|Liens relatifs|Informations pratiques)\s*$', re.IGNORECASE),
         ]
 
-        # Article detection patterns (enhanced)
+        # Article detection patterns (comprehensive)
+        # Matches:
+        #   - Article 3, Article 3-2, Art. 3
+        #   - Article L. 213-2, Article L213-2, L. 213-2
+        #   - Article R. 123-4, Article R123-4, R. 123-4
+        #   - Article D. 1-1, Article D1-1, D. 1-1
         self.article_pattern = re.compile(
-            r'^(Article|Art\.?)\s+([\d\-]+(?:[A-Z])?(?:-\d+)?)',
+            r'^(?:'
+            r'(Article|Art\.?)\s+([LRDC]\.?\s*[\d][\d\-]*)'  # L/R/D/C codes
+            r'|(Article|Art\.?)\s+([\d][\d\-]*[A-Z]?(?:-\d+)?)'  # Regular articles
+            r'|([LRDC]\.)\s+([\d][\d\-]*)'  # Standalone L./R./D./C. refs
+            r')',
             re.IGNORECASE
         )
 
@@ -70,8 +79,16 @@ class PrimarySourceCleaner:
             if not line_stripped:
                 continue
 
-            # First Article/Chapitre/Titre usually marks real content
-            if re.match(r'^(Article|Chapitre|Titre|Art\.)', line_stripped, re.IGNORECASE):
+            # Check if this is an article with new comprehensive pattern
+            if self.article_pattern.match(line_stripped):
+                return i
+
+            # First Chapitre/Titre/Section usually marks real content
+            if re.match(r'^(Chapitre|Titre|Section|TITRE|CHAPITRE)', line_stripped, re.IGNORECASE):
+                return i
+
+            # Check for legal document headers (LOI n°, DÉCRET n°, etc.)
+            if re.match(r'^(LOI|DÉCRET|DECRET|ORDONNANCE)\s+n°', line_stripped, re.IGNORECASE):
                 return i
 
             # Or a line longer than 50 chars that's NOT noise
@@ -161,10 +178,15 @@ class PrimarySourceCleaner:
         for line in lines:
             line_stripped = line.strip()
 
-            # Check if line starts with Article/Art.
+            # Skip if already a header
+            if line_stripped.startswith('#'):
+                formatted_lines.append(line)
+                continue
+
+            # Check if line starts with Article/Art./L./R./D./C.
             match = self.article_pattern.match(line_stripped)
 
-            if match and not line_stripped.startswith('#'):
+            if match:
                 # Format as markdown header
                 formatted_lines.append(f'### {line_stripped}')
                 format_count += 1

@@ -793,13 +793,13 @@ Conformément à l’article 9 du décret n° 2019-966 du 18 septembre 2019, les
 Le syndic ne peut agir en justice au nom du syndicat sans y avoir été autorisé par une décision de l'assemblée générale.
 Seuls les copropriétaires peuvent se prévaloir de l'absence d'autorisation du syndic à agir en justice.
 Une telle autorisation n'est pas nécessaire pour les actions en recouvrement de créance, la mise en oeuvre des voiesd'exécution forcée à l'exception de la saisie en vue de la vente d'un lot, les mesures conservatoires, l'opposition aux travauxpermettant la recharge normale des véhicules électriques prévue à l'
-article R. 113-8 du code de la construction et del'habitation
+### article R. 113-8 du code de la construction et del'habitation
 et les demandes qui relèvent des pouvoirs de juge des référés, ainsi que pour défendre aux actions intentéescontre le syndicat. Elle n'est pas non plus nécessaire lorsque le président du tribunal judiciaire est saisi en application despremiers alinéas des articles
 29-1A
 et
 29-1
 de la loi du 10 juillet 1965 ou du premier alinéa de l'
-article L. 615-6 du code de laconstruction et de l'habitation
+### article L. 615-6 du code de laconstruction et de l'habitation
 .
 Dans tous les cas, le syndic rend compte à la prochaine assemblée générale des actions introduites.
 ### Article 56
@@ -851,13 +851,13 @@ Modifié par Décret n°2019-966 du 18 septembre 2019 - art. 8
 II.-Lorsque le président du tribunal judiciaire nomme une personne morale en application du II de l'article 29-1 C ou du III del'article 29-1 de la loi du 10 juillet 1965, il désigne en son sein une personne physique ayant le pouvoir de la représenter dansl'accomplissement du mandat qui lui est confié.
 Les conditions de compétence mentionnées au I s'appliquent à cette personne désignée.
 III.-Pour être désigné administrateur provisoire en application du III de l'article 29-1 de la loi du 10 juillet 1965, l'expérience degestion de copropriété exigée au 1° du I doit avoir concerné une ou des copropriétés faisant l'objet de mesures de police autitre de la sécurité ou de la salubrité sur les parties communes ou inscrites dans les dispositifs prévus aux articles
-L. 303-1
+### L. 303-1
 ,
 L.615-1
 ,
-L. 741-1
+### L. 741-1
 ou
-L. 741-2
+### L. 741-2
 du code de la construction et de l'habitation ou faisant l'objet d'une procédure d'administrationprovisoire.
 NOTA :
 Conformément à l’article 9 du décret n° 2019-966 du 18 septembre 2019, les présentes dispositions entrent en vigueur le 1erjanvier 2020.

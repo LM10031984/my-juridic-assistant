@@ -4,16 +4,16 @@ Generated: corpus_chunk_primary.py
 
 ## Summary
 
-**Total Chunks:** 258
+**Total Chunks:** 259
 
 **Quality Metrics:**
-- ✅ **94.2%** chunks have article references (243/258)
-- 📅 **44.2%** chunks have consolidation dates (114/258)
-- 🔗 **43.0%** chunks have URL sources (111/258)
+- ✅ **99.6%** chunks have article references (258/259)
+- 📅 **44.4%** chunks have consolidation dates (115/259)
+- 🔗 **42.9%** chunks have URL sources (111/259)
 
 **Content Statistics:**
-- Total articles referenced: 2049
-- Average words per chunk: 987.8
+- Total articles referenced: 3202
+- Average words per chunk: 984.7
 - Min words: 31
 - Max words: 5851
 
@@ -23,14 +23,14 @@ Generated: corpus_chunk_primary.py
 
 
 ### Copropriete
-- Chunks: 55
-- Article coverage: 100.0% (55/55)
-- Date coverage: 100.0% (55/55)
-- URL coverage: 0.0% (0/55)
+- Chunks: 56
+- Article coverage: 100.0% (56/56)
+- Date coverage: 100.0% (56/56)
+- URL coverage: 0.0% (0/56)
 
 ### Location
 - Chunks: 154
-- Article coverage: 94.2% (145/154)
+- Article coverage: 99.4% (153/154)
 - Date coverage: 18.8% (29/154)
 - URL coverage: 72.1% (111/154)
 
@@ -42,7 +42,7 @@ Generated: corpus_chunk_primary.py
 
 ### Transaction
 - Chunks: 21
-- Article coverage: 71.4% (15/21)
+- Article coverage: 100.0% (21/21)
 - Date coverage: 9.5% (2/21)
 - URL coverage: 0.0% (0/21)
 

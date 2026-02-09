@@ -295,7 +295,7 @@ Modifié par Décret n°2016-1392 du 17 octobre 2016 - art. 9
 Création Décret n°2005-1315 du 21 octobre 2005 - art. 20 () JORF 23 octobre 2005 en vigueur le 1er janvier 2006
 Modifié par DÉCRET n°2015-702 du 19 juin 2015 - art. 16
 2° Dans les conditions prévues par la section V du présent chapitre, et en cas d'exercice, à titre accessoire, des activitésmentionnées à l'article
-L. 211-1
+### L. 211-1
 du code du tourisme, le remboursement des fonds reçus, la délivrance des prestations desubstitution et les frais de rapatriement ;
 3° Dans les Etats parties à l'accord sur l'Espace économique européen autres que la France, les remboursements et restitutionsdes sommes d'argent, biens, eff ets ou valeurs reçus à l'occasion des opérations énumérées à l'
 ### article 1er de la loi du 2 janvier1970
@@ -423,7 +423,7 @@ Conformément à l’article 9 du décret n° 2019-966 du 18 septembre 2019, les
 Le paiement est eff ectué par le consignataire ou par le garant à l'expiration d'un délai de trois mois à compter de laprésentation d'une demande écrite accompagnée des justificatifs. En cas de cessation de la garantie avant l'expiration de cedélai, son point de départ est reporté à la date de publication de l'avis prévu à l'article 45.
 Si plusieurs demandes sont reçues pendant ce délai, une répartition a lieu au marc le franc dans le cas où le montant total desdemandes excéderait le montant de la garantie.
 Toutefois, si la personne garantie fait l'objet d'une procédure collective pendant le délai fixé au premier alinéa, le règlementdes créances peut être diff éré jusqu'au dépôt de l'état des créances au greff e du tribunal dans les conditions des articles
-R. 624-8 à R. 624-11 du code de commerce
+### R. 624-8 à R. 624-11 du code de commerce
 .
 ### Article 43 (abrogé)
 L'établissement de crédit ou l'entreprise d'assurance dont la garantie a été mise en jeu est subrogé de plein droit dans tous lesdroits et actions du créancier désintéressé, ainsi qu'il est dit à l'article 2029 du code civil, en ce qui concerne la dette de lapersonne garantie et dans la limite du remboursement ou de la restitution faite par lui.
@@ -472,12 +472,12 @@ La garantie financière prévue au 4° du V de l'article L. 211-1 du code du tou
 deslocations saisonnières mentionnées à l'article 68 du présent décret. Elle permet d'assurer, notamment en cas d'insolvabilitécaractérisée notamment par un dépôt de bilan, le rapatriement des voyageurs.
 ### Article 48-2 (abrogé)
 Un arrêté conjoint du ministre chargé de l'économie et du ministre chargé du tourisme détermine le montant minimum de lagarantie financière selon la nature des activités mentionnées à l'
-article L. 211-1 du code du tourisme
+### article L. 211-1 du code du tourisme
 exercées par le titulaire dela carte professionnelle. Il définit, en outre, les modalités de calcul de la garantie en fonction des recettes réaliséesannuellement au titre de ces activités. A défaut d'exercice antérieur de référence, il est fait application du montant minimumde garantie.
 Le montant de la garantie financière est fixé annuellement par le garant. A cet eff et, un document comptable faisant état de latotalité des recettes réalisées au titre de chaque activité mentionnée à l'article L. 211-1 du code du tourisme exercée par letitulaire de la carte professionnelle lui est communiqué par ce dernier.
 ### Article 48-3
 Les opérations relevant de la loi du 2 janvier 1970 susvisée et celles relevant de l'
-article L. 211-1 du code du tourisme
+### article L. 211-1 du code du tourisme
 nepeuvent être placées que sous un seul mode de garantie dépendant d'un même garant.
 ### Article 48-4 (abrogé)
 Le garant délivre au titulaire de la carte professionnelle une attestation conforme à un modèle établi par arrêté conjoint duministre chargé de l'économie et du ministre chargé du tourisme.
@@ -495,7 +495,7 @@ Modifié par DÉCRET n°2015-764 du 29 juin 2015 - art. 1
 Modifié par DÉCRET n°2015-702 du 19 juin 2015 - art. 16
 Si plusieurs demandes sont reçues pendant ce délai, une répartition a lieu au marc le franc dans le cas où le montant total desdemandes excéderait le montant de la garantie.
 Toutefois, si la personne garantie fait l'objet d'une procédure collective pendant le délai fixé au premier alinéa, le règlementdes créances peut être diff éré jusqu'au dépôt de l'état des créances au greff e du tribunal dans les conditions des articles
-R. 624-8
+### R. 624-8
 à R. 624-11 du code de commerce.
 Le garant dont la garantie a été mise en jeu est subrogé de plein droit à tous les droits du créancier désintéressé, ainsi qu'il estdit à l'
 ### article 2309 du code civil

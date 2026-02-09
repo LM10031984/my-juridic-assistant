@@ -183,13 +183,13 @@ a) La quatrième ligne est remplacée par trois lignes ainsi rédigées :
 «
 
 
-L. 111-1-2 et L. 111-1-3	
+### L. 111-1-2 et L. 111-1-3
 Résultant de la loi n° 2019-791 du 26 juillet 2019 pour une école de la confiance
 
-L. 111-2	
+### L. 111-2
 Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets
 
-L. 111-3 à L. 111-4	
+### L. 111-3 à L. 111-4
 Résultant de la loi n° 2019-791 du 26 juillet 2019 précitée
 
 » ;
@@ -197,7 +197,7 @@ b) Après la dix-septième ligne, est insérée une ligne ainsi rédigée :
 «
 
 
-L. 121-8	
+### L. 121-8
 Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets
 
 » ;
@@ -207,7 +207,7 @@ Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dér
 «
 
 
-L. 312-19	
+### L. 312-19
 Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets
 
 » ;
@@ -216,7 +216,7 @@ Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dér
 «
 
 
-L. 721-2	
+### L. 721-2
 Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets
 
 » ;
@@ -224,7 +224,7 @@ Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dér
 «
 
 
-L. 721-2	
+### L. 721-2
 Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets
 
 ».
@@ -245,10 +245,10 @@ Le code de l'éducation est ainsi modifié :
 «
 
 
-L. 421-8	
+### L. 421-8
 Résultant de la loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets
 
-L. 421-9	
+### L. 421-9
 Résultant de l'ordonnance n° 2000-549 du 15 juin 2000 relative à la partie législative du code de l'éducation
 
 ».
@@ -1984,7 +1984,7 @@ ReplierSection 2 : Autres dispositions (Articles 107 à 129)
 ### Article 107
 
 I. - A titre expérimental et pour une durée de deux ans à compter du 1er janvier 2023, les établissements de crédit et les sociétés de financement mentionnés à l'article L. 511-1 du code monétaire et financier peuvent consentir, sous conditions de ressources, un prêt ne portant pas intérêt aux personnes physiques et morales domiciliées dans ou à proximité d'une commune ayant mis en place une zone à faibles émissions mobilité rendue obligatoire en application du deuxième alinéa du I de l'article
-L. 2213-4-1 du code général des collectivités territoriales et dont les normes de qualité de l'air mentionnées à l'article L. 221-1 du code de l'environnement ne sont pas respectées de manière régulière au 1er janvier 2023, afin de financer l'acquisition d'un véhicule dont le poids total autorisé en charge est inférieur ou égal à 2,6 tonnes émettant une quantité de dioxyde de carbone inférieure ou égale à 50 grammes par kilomètre.
+### L. 2213-4-1 du code général des collectivités territoriales et dont les normes de qualité de l'air mentionnées à l'article L. 221-1 du code de l'environnement ne sont pas respectées de manière régulière au 1er janvier 2023, afin de financer l'acquisition d'un véhicule dont le poids total autorisé en charge est inférieur ou égal à 2,6 tonnes émettant une quantité de dioxyde de carbone inférieure ou égale à 50 grammes par kilomètre.
 Les modalités de mise en œuvre de cette expérimentation sont définies par décret en Conseil d'Etat.
 II. - Les établissements de crédit et les sociétés de financement mentionnés à l'article L. 511-1 du code monétaire et financier passibles de l'impôt sur les sociétés, de l'impôt sur le revenu ou d'un impôt équivalent, ayant leur siège dans un Etat membre de l'Union européenne ou dans un autre Etat partie à l'accord sur l'Espace économique européen ayant conclu avec la France une convention d'assistance administrative en vue de lutter contre la fraude et l'évasion fiscales, peuvent bénéficier
 d'une réduction d'impôt au titre des prêts ne portant pas intérêt mentionnés au I du présent article.
@@ -3165,7 +3165,7 @@ b) Avant le dernier alinéa, il est inséré un alinéa ainsi rédigé :
 d'urbanisme et l'analyse prévue à l'article L. 153-27. » ;
 5° L'article L. 161-3 est complété par un alinéa ainsi rédigé :
 « Elle permet d'atteindre les objectifs de réduction d'artificialisation des sols mentionnés aux articles L. 141-3 et L. 141-8 ou, en l'absence de schéma de cohérence territoriale, elle prend en compte les objectifs mentionnés à la seconde phrase du deuxième alinéa de l'article L. 4251-1 du code général des collectivités territoriales, ou est compatible avec les objectifs mentionnés au quatrième alinéa du I de l'article L. 4424-9 du même code, à la seconde phrase du troisième alinéa de l'article
-L. 4433-7 dudit code ou au dernier alinéa de l'article L. 123-1 du présent code. Elle ne peut inclure, au sein de secteurs où les constructions sont autorisées, des secteurs jusqu'alors inclus au sein de secteurs où les constructions ne sont pas admises que s'il est justifié que la capacité d'aménager et de construire est déjà mobilisée dans les espaces déjà urbanisés. Pour ce faire, elle tient compte de la capacité à mobiliser effectivement les locaux vacants, les friches et les espaces déjà
+### L. 4433-7 dudit code ou au dernier alinéa de l'article L. 123-1 du présent code. Elle ne peut inclure, au sein de secteurs où les constructions sont autorisées, des secteurs jusqu'alors inclus au sein de secteurs où les constructions ne sont pas admises que s'il est justifié que la capacité d'aménager et de construire est déjà mobilisée dans les espaces déjà urbanisés. Pour ce faire, elle tient compte de la capacité à mobiliser effectivement les locaux vacants, les friches et les espaces déjà
 urbanisés existants. »
 III.-Pour l'application des I et II du présent article :
 1° La première tranche de dix années débute à la date de promulgation de la présente loi ;
@@ -3930,7 +3930,7 @@ obligatoires lorsque le recul du trait de côte est tel que la sécurité des pe
 « Art. L. 121-22-7.-Lorsque la carte communale inclut le territoire d'au moins une commune mentionnée à l'article L. 121-22-1, l'autorité compétente mentionnée à l'article L. 163-3 engage la révision de la carte communale afin d'y délimiter les zones mentionnées aux 1° et 2° de l'article L. 121-22-2.
 « Pour les communes mentionnées au premier alinéa de l'article L. 121-22-1, cette procédure de révision est engagée au plus tard un an après la publication de la liste mentionnée à l'article L. 321-15 du code de l'environnement.
 « Si la carte communale délimitant les zones mentionnées à l'article L. 121-22-2 du présent code n'entre pas en vigueur à l'expiration d'un délai de trois ans à compter de l'engagement de la procédure de révision, sauf lorsque le territoire est couvert par un plan de prévention des risques littoraux approuvé à cette échéance comportant des dispositions relatives au recul du trait de côte, l'organe délibérant de l'autorité compétente adopte une carte de préfiguration des zones définies au même
-article L. 121-22-2 avant cette échéance, cette carte étant applicable jusqu'à l'entrée en vigueur du document d'urbanisme délimitant ces zones.
+### article L. 121-22-2 avant cette échéance, cette carte étant applicable jusqu'à l'entrée en vigueur du document d'urbanisme délimitant ces zones.
 « L'autorité compétente peut décider de surseoir à statuer, dans les conditions et délais prévus à l'article L. 424-1, sur les demandes d'autorisation concernant des travaux, des constructions ou des installations qui sont situés dans les zones préfigurées en application du troisième alinéa du présent article et qui sont de nature à compromettre ou à rendre plus onéreuse l'exécution de la future carte, dès lors qu'a été publiée la délibération d'adoption de la carte de préfiguration.
 
 
@@ -4010,7 +4010,7 @@ Le titre Ier du livre II du code de l'urbanisme est ainsi modifié :
 « Ce droit de préemption s'applique dans l'intégralité de la zone exposée au recul du trait de côte, définie au 1° du même article L. 121-22-2.
 « La commune ou l'établissement public de coopération intercommunale compétent peut également instaurer ce droit de préemption, par délibération, sur tout ou partie de la zone définie au 2° dudit article L. 121-22-2.
 « A l'intérieur des zones de préemption définies en application du présent article, les droits de préemption définis aux articles L. 211-1, L. 212-2 et L. 214-1 ne s'appliquent pas. Dans ces mêmes zones, le droit de préemption institué en application du présent article peut s'exercer en coopération avec la société d'aménagement foncier et d'établissement rural sur les biens immobiliers non bâtis à usage ou à vocation agricole ainsi que les bâtiments d'exploitation agricole, au sens de l'article
-L. 143-1 du code rural et de la pêche maritime.
+### L. 143-1 du code rural et de la pêche maritime.
 « Le droit de préemption institué en application du présent article ne peut primer le droit de préemption défini au chapitre V du présent titre.
 
 

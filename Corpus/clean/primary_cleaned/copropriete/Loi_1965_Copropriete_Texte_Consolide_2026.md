@@ -95,7 +95,7 @@ Cette information est transmise sans délai à chaque copropriétaire par le syn
 Les règlements de copropriété établis à compter de l'entrée en vigueur de la
 loi n° 2024-1039 du 19 novembre 2024
 visant àrenforcer les outils de régulation des meublés de tourisme à l'échelle locale mentionnent de manière explicite l'autorisation oul'interdiction de location de meublés de tourisme, au sens du I de l'
-article L. 324-1-1 du code de tourisme
+### article L. 324-1-1 du code de tourisme
 .
 ### Article 8-2
 Le syndic établit une fiche synthétique de la copropriété regroupant les données financières et techniques essentielles relatives àla copropriété et à son bâti, dont le contenu est défini par décret. Le syndic met à jour la fiche synthétique de la copropriétéchaque année.
@@ -118,7 +118,7 @@ Modifié par LOI n°2021-1104 du 22 août 2021 - art. 171 (V)
 Modifié par Ordonnance n°2019-1101 du 30 octobre 2019 - art. 10
 Modifié par Ordonnance n°2019-964 du 18 septembre 2019 - art. 35 (VD)
 Lorsqu'un lot de copropriété fait l'objet de la déclaration prévue à l'
-article L. 324-1-1 du code du tourisme
+### article L. 324-1-1 du code du tourisme
 , le copropriétaire ou,par son intermédiaire, le locataire qui y a été autorisé en informe le syndic. Un point d'information par le syndic relatif à l'activitéde location de meublés touristiques au sein de la copropriété est inscrit à l'ordre du jour de la prochaine assemblée générale.
 ### Article 10
 Les copropriétaires sont tenus de participer aux charges entraînées par les services collectifs et les éléments d'équipementcommun en fonction de l'utilité objective que ces services et éléments présentent à l'égard de chaque lot, dès lors que cescharges ne sont pas individualisées.
@@ -171,21 +171,21 @@ Modifié par LOI n°2021-1104 du 22 août 2021 - art. 171 (V)
 ### Article 14-2
 I.-A l'expiration d'un délai de quinze ans à compter de la date de réception des travaux de construction de l'immeuble, un projetde plan pluriannuel de travaux est élaboré dans les immeubles à destination partielle ou totale d'habitation soumis à la présenteloi. Il est actualisé tous les dix ans.
 Ce projet de plan pluriannuel de travaux comprend, à partir d'une analyse du bâti et des équipements de l'immeuble ainsi que dudiagnostic de performance énergétique mentionné à l'
-article L. 126-31 du code de la construction et de l'habitation
+### article L. 126-31 du code de la construction et de l'habitation
 , sauf lorsquel'exemption prévue au deuxième alinéa du même article
-L. 126-31
+### L. 126-31
 s'applique, et, le cas échéant, à partir du diagnostic techniqueglobal prévu à l'article
-L. 731-1
+### L. 731-1
 du même code dès lors que ce dernier a été réalisé :
 1° La liste des travaux nécessaires à la sauvegarde de l'immeuble, à la préservation de la santé et de la sécurité des occupants, à laréalisation d'économies d'énergie et à la réduction des émissions de gaz à eff et de serre ;
 2° Une estimation du niveau de performance au sens de l'article
-L. 173-1-1
+### L. 173-1-1
 dudit code que les travaux mentionnés au 1° duprésent I permettent d'atteindre ;
 3° Une estimation sommaire du coût de ces travaux et leur hiérarchisation ;
 4° Une proposition d'échéancier pour les travaux dont la réalisation apparaît nécessaire dans les dix prochaines années.
 Si le diagnostic technique global mentionné au deuxième alinéa du présent I ne fait apparaître aucun besoin de travaux au coursdes dix années qui suivent son élaboration, le syndicat est dispensé de l'obligation d'élaborer un projet de plan pluriannuel detravaux.
 Le projet de plan pluriannuel de travaux est établi par une personne disposant des compétences et des garanties précisées pardécret, pouvant diff érer de celles du tiers mentionné à l'
-article L. 731-1 du code de la construction et de l'habitation
+### article L. 731-1 du code de la construction et de l'habitation
 .
 Le syndic inscrit à l'ordre du jour de l'assemblée générale des copropriétaires les modalités d'élaboration du projet de planpluriannuel de travaux, qui sont votées à la majorité des voix exprimées des copropriétaires présents, représentés ou ayant votépar correspondance.
 Les travaux prescrits dans le plan pluriannuel de travaux ainsi que leur échéancier et, le cas échéant, ceux prescrits par lediagnostic technique global sont intégrés dans le carnet d'entretien de l'immeuble prévu à l'article 18 de la présente loi.
@@ -236,7 +236,7 @@ Les sommes représentant le prix des parties communes cédées se divisent de pl
 La part du prix revenant à chaque copropriétaire lui est remise directement par le syndic, après déduction des sommes exigiblespar le syndicat des copropriétaires.
 ### Article 16-2
 L'expropriation pour cause d'utilité publique d'un immeuble bâti, d'un groupe d'immeubles bâtis ou d'un ensemble immobiliersoumis à la présente loi est poursuivie et prononcée dans les conditions prévues par l'article
-L. 221-2
+### L. 221-2
 du code de l'expropriationpour cause d'utilité publique.
 Chapitre II : Administration de la copropriété (Articles 17 à 29-16)
 Section 1 : Dispositions générales. (Articles 17 à 29)
@@ -281,15 +281,15 @@ I.-Indépendamment des pouvoirs qui lui sont conférés par d'autres disposition
 -d'assurer l'exécution des dispositions du règlement de copropriété et des délibérations de l'assemblée générale ;
 -d'administrer l'immeuble, de pourvoir à sa conservation, à sa garde et à son entretien et, en cas d'urgence, de faire procéderde sa propre initiative à l'exécution de tous travaux nécessaires à la sauvegarde de celui-ci ;
 -de soumettre au vote de l'assemblée générale, à la majorité de l'article 24, la décision de souscrire un contrat d'assurancecontre les risques de responsabilité civile dont le syndicat doit répondre. En cas de refus de l'assemblée générale, l'assurancepeut être contractée par le syndic pour le compte du syndicat des copropriétaires, en application de l'
-article L. 112-1 du codedes assurances
+### article L. 112-1 du codedes assurances
 ;
 -de représenter le syndicat dans tous les actes civils et en justice dans les cas mentionnés aux articles 15 et 16 de la présenteloi, ainsi que pour la publication de l'état descriptif de division et du règlement de copropriété ou des modifications apportéesà ces actes, sans que soit nécessaire l'intervention de chaque copropriétaire à l'acte ou à la réquisition de publication ;
 -d'assurer la conservation des archives relatives au syndicat des copropriétaires. La décision de confier les archives du syndicatdes copropriétaires à une entreprise spécialisée aux frais dudit syndicat est prise à la majorité des voix de tous lescopropriétaires. Une telle décision ne peut donner lieu à aucune rémunération complémentaire au profit du syndic ;
 -d'établir et de tenir à jour et à disposition des copropriétaires un carnet d'entretien de l'immeuble conformément à uncontenu défini par décret ;
 -de réaliser les démarches prévues aux articles
-L. 711-1
+### L. 711-1
 à
-L. 711-6
+### L. 711-6
 du code de la construction et de l'habitation relatifs àl'immatriculation du syndicat de copropriétaires, sous peine de l'astreinte prévue au même article L. 711-6 ;
 -d'assurer l'information des occupants de chaque immeuble de la copropriété des décisions prises par l'assemblée générale,selon des modalités définies par décret ;
 -de proposer, lorsque le syndic est un syndic professionnel, un accès en ligne sécurisé aux documents dématérialisés relatifs àla gestion de l'immeuble ou des lots gérés, sauf décision contraire de l'assemblée générale prise à la majorité de l'article 25 dela présente loi. Cet accès est diff érencié selon la nature des documents mis à la disposition des membres du syndicat decopropriétaires ou de ceux du conseil syndical. Un décret précise la liste minimale des documents devant être accessibles
@@ -304,7 +304,7 @@ autorisés. Les intérêts produits par ce compte sont définitivement acquis au
 A l'exception du syndic provisoire et de l'administrateur provisoire désigné en application des articles 29-1 et 29-11, le syndicde copropriété ne peut avancer de fonds au syndicat de copropriétaires.
 III.-Le syndic est également chargé :
 -de notifier sans délai au représentant de l'Etat dans le département et aux copropriétaires l'information selon laquelle lesdeux tiers des copropriétaires, représentant au moins deux tiers des quotes-parts de parties communes, ont exercé leur droitde délaissement dans les conditions prévues par l'
-article L. 515-16-3 du code de l'environnement
+### article L. 515-16-3 du code de l'environnement
 . La notification auxcopropriétaires mentionne expressément les dispositions du IV de cet article ;
 -lorsqu'un réseau de communications électroniques interne à l'immeuble distribue des services de télévision et si l'installationpermet l'accès aux services nationaux en clair de télévision par voie hertzienne terrestre en mode numérique, d'informer demanière claire et visible les copropriétaires de cette possibilité et de fournir les coordonnées du distributeur de services auquelle copropriétaire doit s'adresser pour bénéficier du " service antenne " numérique, tel que prévu au
 deuxième alinéa del'article 34-1 de la loi n° 86-1067 du 30 septembre 1986
@@ -357,10 +357,10 @@ Conformément à l’article 6 de l’ordonnance n°2020-866 du 15 juillet 2020,
 Le syndic signale au procureur de la République les faits qui sont susceptibles de constituer une des infractions prévues aux
 articles 225-14 du code pénal
 et
-L. 511-22 du code de la construction et de l'habitation
+### L. 511-22 du code de la construction et de l'habitation
 .
 Ce signalement est eff ectué sans préjudice, le cas échéant, de la déclaration prévue à l'
-article L. 561-15 du code monétaire etfinancier
+### article L. 561-15 du code monétaire etfinancier
 .
 Ces dispositions ne sont pas applicables aux syndics mentionnés à l'article 17-2 de la présente loi.
 NOTA :
@@ -379,9 +379,9 @@ Le syndic d'intérêt collectif est présumé compétent pour gérer les copropr
 L'agrément est délivré par le représentant de l'Etat dans le département pour une durée de cinq ans, au regard notamment dela capacité et des compétences du syndic à accomplir les missions prévues au deuxième alinéa du présent I.
 II. - Le représentant de l'Etat dans le département transmet la liste des syndics d'intérêt collectif au Conseil national desadministrateurs judiciaires et des mandataires judiciaires.
 III. - Les organismes d'habitations à loyer modéré mentionnés aux deuxième à quatrième alinéas de l'
-article L. 411-2 du codede la construction et de l'habitation
+### article L. 411-2 du codede la construction et de l'habitation
 et les sociétés d'économie mixte mentionnées à l'
-article L. 481-1 du même code
+### article L. 481-1 du même code
 peuvent, àleur demande expresse, se voir reconnaître de droit la qualité de syndic d'intérêt collectif, sans se soumettre à la procédured'agrément prévue au dernier alinéa du I du présent article.
 IV. - Un décret détermine les modalités d'application du présent article.
 ### Article 19
@@ -531,7 +531,7 @@ Par dérogation au h de l'article 25, la décision de réaliser les travaux et m
 L'assemblée générale peut également, dans les mêmes conditions, donner mandat au conseil syndical ou, à défaut, au syndicpour conduire, dans la limite d'un montant de dépenses, les modifications nécessaires à la continuité de la réception parl'antenne collective des services de télévision lors de l'arrêt de la télévision analogique ou lors des changements desfréquences d'émission des services de télévision par voie hertzienne terrestre en mode numérique.
 ### Article 24-4
 Le syndic inscrit à l'ordre du jour de l'assemblée générale des copropriétaires qui suit l'établissement d'un diagnostic deperformance énergétique prévu à l'
-article L. 126-31 du code de la construction et de l'habitation
+### article L. 126-31 du code de la construction et de l'habitation
 la question d'un plan detravaux d'économies d'énergie ou d'un contrat de performance énergétique.
 Avant de soumettre au vote de l'assemblée générale un projet de conclusion d'un tel contrat, le syndic procède à une mise enconcurrence de plusieurs prestataires et recueille l'avis du conseil syndical.
 L'obligation prévue au premier alinéa est satisfaite si le plan pluriannuel de travaux, inscrit à l'ordre du jour de l'assembléegénérale en application de l'article 14-2 de la présente loi, comporte des travaux d'économie d'énergie.
@@ -571,7 +571,7 @@ Sauf dans le cas où le syndicat des copropriétaires assure la maîtrise d'ouvr
 . Dans cecas, par dérogation à l'article 14, l'association foncière urbaine exerce les pouvoirs du syndicat des copropriétaires portant surles travaux de restauration immobilière relatifs aux parties communes de l'immeuble jusqu'à leur réception définitive.
 ### Article 24-8
 Lorsque, en application de l'
-article L. 511-15 du code de la construction et de l'habitation
+### article L. 511-15 du code de la construction et de l'habitation
 , une astreinte applicable à chaque lota été notifiée au syndicat des copropriétaires, pris en la personne du syndic, par une autorité publique, le syndic en informeimmédiatement les copropriétaires.
 Modifié par Ordonnance n°2020-866 du 15 juillet 2020 - art. 4
 Création LOI n°2021-1104 du 22 août 2021 - art. 63
@@ -579,7 +579,7 @@ Création Ordonnance n°2022-1611 du 22 décembre 2022 - art. 6
 Modifié par LOI n°2025-541 du 16 juin 2025 - art. 9
 Lorsque l'inexécution des travaux et mesures prescrits par l'arrêté de police administrative résulte de la défaillance de certainscopropriétaires, le syndic en informe l'autorité publique compétente, en lui indiquant les démarches entreprises et en luifournissant une attestation de défaillance. Sont réputés défaillants les copropriétaires qui, après avoir été mis en demeure parle syndic, n'ont pas répondu aux appels de fonds nécessaires à la réalisation des travaux dans le délai de quinze jours
 après lasommation de payer. Au vu de l'attestation de défaillance, l'autorité publique notifie le montant de l'astreinte auxcopropriétaires défaillants et procède à sa liquidation et à son recouvrement comme il est prévu à l'
-article L. 511-15 du code dela construction et de l'habitation
+### article L. 511-15 du code dela construction et de l'habitation
 .
 Lorsque l'assemblée générale des copropriétaires n'a pas été en mesure de voter les modalités de réalisation des travauxprescrits par un des arrêtés de police administrative mentionnés aux mêmes articles et que le syndicat des copropriétaires estlui-même défaillant, chacun des copropriétaires est redevable du montant de l'astreinte correspondant à son lot decopropriété notifié par l'autorité publique compétente.
 NOTA :
@@ -615,7 +615,7 @@ j) L'installation ou la modification des installations électriques intérieures
 k) L'installation de compteurs d'eau froide divisionnaires.
 l) L'installation de compteurs d'énergie thermique ou de répartiteurs de frais de chauff age ;
 m) L'autorisation de transmettre aux services chargés du maintien de l'ordre les images réalisées en vue de la protection desparties communes, dans les conditions prévues à l'
-article L. 272-2 du code de la sécurité intérieure
+### article L. 272-2 du code de la sécurité intérieure
 ;
 n) L'ensemble des travaux comportant transformation, addition ou amélioration ;
 o) La demande d'individualisation des contrats de fourniture d'eau et la réalisation des études et travaux nécessaires à cetteindividualisation.
@@ -648,7 +648,7 @@ d) La modification du règlement de copropriété qui concerne l'interdiction de
 tendant à améliorer lesrapports locatifs et portant modification de la
 loi n° 86-1290 du 23 décembre 1986
 , en meublés de tourisme au sens du I del'
-article L. 324-1-1 du code du tourisme
+### article L. 324-1-1 du code du tourisme
 .
 La modification prévue au d du présent article ne peut être décidée que dans les copropriétés dont le règlement interdit touteactivité commerciale dans les lots qui ne sont pas spécifiquement à destination commerciale.
 Lorsqu'en vertu d'une clause du règlement de copropriété la suppression du service de conciergerie porte atteinte à ladestination de l'immeuble ou aux modalités de jouissance des parties privatives, la suppression du poste de concierge ou degardien et l'aliénation du logement aff ecté au concierge ou au gardien lorsqu'il appartient au syndicat ne peuvent êtredécidées qu'à l'unanimité.
@@ -673,7 +673,7 @@ Lorsque l'assemblée générale a décidé d'installer un dispositif de fermetur
 Par dérogation aux dispositions du dernier alinéa de l'
 ### article 26
 , l'assemblée générale décide, à la double majorité qualifiéeprévue au premier alinéa dudit article, les aliénations de parties communes et les travaux à eff ectuer sur celles-ci, pourl'application du IV de l'article
-L. 1231-2
+### L. 1231-2
 du code général des collectivités territoriales.
 NOTA :
 Conformément à l'article 14 de de la loi n° 2019-753 du 22 juillet 2019 : A une date prévue par le décret en Conseil d'Etatmentionné à l'article 15 de la présente loi, et au plus tard le 1er janvier 2020, l'Etablissement public d'aménagement et derestructuration des espaces commerciaux et artisanaux est dissous. Ce décret précise les conditions dans lesquelles lescontrats des salariés ainsi que les biens, droits et obligations de l'Etablissement public d'aménagement et de restructurationdes
@@ -692,19 +692,19 @@ III. - L'assemblée générale peut voter, à la même majorité que celle néce
 A moins qu'il ne s'y oppose dans les conditions fixées au troisième alinéa du présent III, chaque copropriétaire est réputé avoiraccepté de participer à ce mode de financement des travaux.
 Tout copropriétaire peut refuser de participer à l'emprunt sous réserve de notifier au syndic son refus dans un délai de deuxmois à compter de la notification du procès-verbal de l'assemblée générale et de verser la totalité de la quote-part du prix destravaux lui revenant dans un délai de six mois à compter de la notification de ce procès-verbal. A défaut, le copropriétaire esttenu par l'emprunt.
 L'établissement prêteur peut consulter le fichier prévu à l'
-article L. 751-1 du code de la consommation
+### article L. 751-1 du code de la consommation
 , dans les conditionsprévues à l'arrêté mentionné à l'
-article L. 751-6 du même code
+### article L. 751-6 du même code
 . Sur sa demande, le syndic lui fournit les informations relativesau syndicat des copropriétaires nécessaires, suff isantes et proportionnées pour apprécier la capacité du syndicat à remplir sesobligations définies par le contrat de prêt, dans des conditions fixées par décret.
 ### Article 26-5
 Les prêts mentionnés à l'article 26-4 sont conformes aux prescriptions de l'article
-L. 313-4
+### L. 313-4
 , du 1° de l'article
-L. 313-5
+### L. 313-5
 et desarticles
-L. 314-1
+### L. 314-1
 à
-L. 314-5
+### L. 314-5
 du code de la consommation. Le contrat de prêt conclu en application du même article 26-4,conforme aux conditions générales et particulières du projet de contrat de prêt jointes à l'ordre du jour de l'assembléegénérale, ne peut être signé par le syndic avant l'expiration du délai de recours de deux mois prévu au deuxième alinéa del'article 42.
 ### Article 26-6
 Le montant de l'emprunt mentionné au II de l'article 26-4, qui ne peut excéder le montant total des quotes-parts de dépensesdes copropriétaires décidant d'y participer, est versé par l'établissement bancaire au syndicat des copropriétaires, représentépar le syndic.
@@ -715,7 +715,7 @@ L'assemblée générale peut autoriser le syndic, dans les conditions prévues a
 ### Article 26-7
 Le syndicat des copropriétaires est garanti en totalité, sans franchise et sans délai de carence, par un cautionnement solidaireaprès constat de la défaillance d'un copropriétaire bénéficiant de l'emprunt mentionné aux I et II de l'article 26-4 pour lessommes correspondant à son remboursement ainsi qu'au paiement des accessoires.
 Le cautionnement solidaire ne peut résulter que d'un engagement écrit fourni par une entreprise d'assurance spécialementagréée, par un établissement de crédit, une société de financement, le Trésor public, la Caisse des dépôts et consignations ouLa Poste, dans les conditions définies à l'
-article L. 518-25 du code monétaire et financier
+### article L. 518-25 du code monétaire et financier
 .
 Le cautionnement solidaire prévu aux deux premiers alinéas est facultatif lorsque le prêt souscrit par le syndicat a pour uniqueobjectif le préfinancement de subventions publiques accordées au syndicat pour la réalisation des travaux votés. Les décisionsattributives de subventions sont alors obligatoirement communiquées à l'organisme prêteur par le syndic.
 Au regard de l'hypothèque légale prévue au 3° de l'article 2402, les sommes correspondant au remboursement de l'empruntainsi qu'au paiement des accessoires sont assimilées au paiement des charges et travaux. Après mise en oeuvre de la caution,celle-ci est subrogée de plein droit dans l'exercice de l'hypothèque légale du syndicat des copropriétaires prévu au même 3°.
@@ -742,7 +742,7 @@ La charge de la contribution au remboursement de l'emprunt mentionné au III de 
 ### Article 26-12
 Le syndicat des copropriétaires est garanti en totalité, sans franchise et sans délai de carence, par un cautionnement solidaireaprès constat de la défaillance d'un copropriétaire bénéficiant de l'emprunt mentionné au III de l'article 26-4 pour les sommescorrespondant à son remboursement ainsi qu'au paiement des accessoires.
 Le cautionnement solidaire ne peut résulter que d'un engagement écrit fourni par une entreprise d'assurance spécialementagréée, par un établissement de crédit, par une société de financement, par le Trésor public, par la Caisse des dépôts etconsignations ou par La Poste, dans les conditions définies à l'
-article L. 518-25 du code monétaire et financier
+### article L. 518-25 du code monétaire et financier
 .
 Au regard de l'hypothèque légale prévue au 3° de l'
 ### article 2402 du code civil
@@ -815,21 +815,21 @@ Conformément à l'article 30 de l'ordonnance n° 2019-738 du 17 juillet 2019, c
 Conformément à l'article 36 de l'ordonnance n° 2019-964 du 18 septembre 2019, ces dispositions entrent en vigueur au 1erjanvier 2020.
 ### Article 29-1 C
 I.-Pour exercer les fonctions de mandataire ad hoc prévues à l'article 29-1 A, le juge peut désigner un administrateur judiciaireinscrit sur la liste des administrateurs judiciaires mentionnée à l'article
-L. 811-2
+### L. 811-2
 du code de commerce.
 II.-Toutefois, à titre exceptionnel, le juge peut également désigner, par décision spécialement motivée, une personne physiqueou morale justifiant d'une expérience ou d'une qualification particulière au regard de la nature de l'aff aire et remplissant desconditions définies par décret.
 III.-Les mandataires ad hoc désignés en application du II du présent article ne doivent pas, au cours des cinq annéesprécédentes :
 1° Avoir perçu à quelque titre que ce soit, directement ou indirectement, une rétribution ou un paiement de la part du syndic,du syndicat des copropriétaires ou des créanciers à l'origine de la procédure, ni d'une personne qui détient le contrôle dusyndic ou d'un de ses créanciers, au sens des II et III de l'article
-L. 233-16
+### L. 233-16
 du code de commerce ;
 2° S'être trouvés en situation de conseil du syndic, du syndicat des copropriétaires ou des créanciers concernés ou desubordination par rapport à eux ;
 3° Avoir un intérêt dans le mandat qui leur est donné ;
 4° Etre au nombre des anciens administrateurs ou mandataires judiciaires ayant fait l'objet d'une décision de radiation ou deretrait des listes, en application des articles
-L. 811-6
+### L. 811-6
 ,
-L. 811-12
+### L. 811-12
 et
-L. 812-4
+### L. 812-4
 du code de commerce.
 IV.-Les mandataires ad hoc ne peuvent être désignés syndic à l'issue de leur mission.
 Modifié par LOI n°2024-322 du 9 avril 2024 - art. 18
@@ -846,21 +846,21 @@ pardécret en Conseil d'Etat.
 II. ― Les modalités de rémunération de l'administrateur provisoire sont fixées par décret.
 Le président du tribunal judiciaire peut imputer tout ou partie des frais de l'administration provisoire au syndic si ce dernier n'apas saisi sur requête le juge d'une demande de désignation d'un mandataire ad hoc dans les conditions prévues à l'article 29-1A, après audition du syndic et du conseil syndical, sur le rapport de l'administrateur provisoire.
 III. ― Pour exercer les fonctions d'administrateur provisoire prévues au I, le président du tribunal judiciaire peut désigner unadministrateur judiciaire inscrit sur la liste des administrateurs judiciaires mentionnée à l'article
-L. 811-2
+### L. 811-2
 du code decommerce.
 Le président du tribunal judiciaire peut également désigner une personne physique ou morale justifiant d'une expérience oud'une qualification particulière au regard de la nature de l'aff aire et remplissant des conditions définies par décret.
 Si le syndicat a fait l'objet de la procédure prévue aux articles 29-1 A et 29-1 B de la présente loi, le mandataire ad hoc peut êtredésigné comme administrateur provisoire sur décision motivée du président du tribunal judiciaire et après audition du conseilsyndical. Dans les autres cas, les administrateurs provisoires désignés dans les conditions prévues au deuxième alinéa duprésent III ne doivent pas, au cours des cinq années précédentes :
 1° Avoir perçu à quelque titre que ce soit, directement ou indirectement, une rétribution ou un paiement de la part du syndic,du syndicat des copropriétaires ou des créanciers à l'origine de la procédure, ni d'une personne qui détient le contrôle dusyndic ou d'un des créanciers, au sens des II et III de l'article
-L. 233-16
+### L. 233-16
 du code de commerce ;
 2° S'être trouvés en situation de conseil du syndic, du syndicat des copropriétaires ou des créanciers concernés ou desubordination par rapport à eux ;
 3° Avoir un intérêt dans le mandat qui leur est donné ;
 4° Etre au nombre des anciens administrateurs ou mandataires judiciaires ayant fait l'objet d'une décision de radiation ou deretrait des listes, en application des articles
-L. 811-6
+### L. 811-6
 ,
-L. 811-12
+### L. 811-12
 et
-L. 812-4
+### L. 812-4
 du même code.
 Modifié par Ordonnance n°2019-964 du 18 septembre 2019 - art. 35 (VD)
 Modifié par LOI n°2024-322 du 9 avril 2024 - art. 17 (V)
@@ -941,7 +941,7 @@ Sur saisine motivée de l'administrateur provisoire et si leurs coûts d'entreti
 publique et modifier en conséquence le règlement de copropriété et l'état descriptif de division.
 ### Article 29-10
 L'administrateur provisoire peut proposer au représentant de l'Etat dans le département d'initier un plan de sauvegarde enapplication de l'article
-L. 615-1
+### L. 615-1
 du code de la construction et de l'habitation.
 Lorsque la démarche d'élaboration d'un plan de sauvegarde est engagée, l'administrateur provisoire est membre de plein droitde la commission mentionnée au I du même article.
 Si, lors de l'élaboration du plan de sauvegarde ou en cours d'exécution d'un tel plan, l'administrateur provisoire constate quedes mesures du plan de sauvegarde sont en contradiction avec la mission qui lui est confiée par le juge, il en informe lereprésentant de l'Etat dans le département, le maire et le président de l'établissement public de coopération intercommunalecompétent en matière d'habitat, qui peuvent soit modifier le plan de sauvegarde, soit demander au juge de modifier lecontenu de
@@ -952,15 +952,15 @@ I. ― Si la situation financière de la copropriété ne permet pas de réalise
 1° Sur saisine du maire de la commune du lieu de situation, du président de l'établissement public de coopérationintercommunale compétent en matière d'habitat ou du représentant de l'Etat dans le département ;
 2° Ou sur saisine de l'administrateur provisoire déjà désigné en vertu de l'article 29-1.
 II. ― Dans le cadre du placement sous administration provisoire renforcée, le juge autorise l'administrateur provisoire, désignéen vertu de l'article 29-1, à conclure une convention à durée déterminée, au nom du syndicat des copropriétaires, avec un ouplusieurs opérateurs compétents en matière de maîtrise d'ouvrage de travaux et de mise au point de financement d'opérationde travaux, qui peut être notamment l'un des organismes mentionnés aux articles
-L. 321-14
+### L. 321-14
 ,
-L. 321-29
+### L. 321-29
 et
-L. 326-1
+### L. 326-1
 du code del'urbanisme et aux articles
-L. 411-2
+### L. 411-2
 et
-L. 481-2
+### L. 481-2
 du code de la construction et de l'habitation.
 La décision du juge est notifiée aux parties intéressées ainsi qu'au maire de la commune du lieu de situation, au président del'établissement public de coopération intercommunale compétent en matière d'habitat et au représentant de l'Etat dans ledépartement.
 III. ― L'administrateur provisoire peut confier à l'opérateur, par cette convention, toutes les missions concourant auredressement de la copropriété, notamment la maîtrise d'ouvrage d'un programme de travaux et la mise au point dufinancement de l'opération. Un décret précise les modalités de rémunération de l'opérateur à la charge des copropriétaires.
@@ -986,7 +986,7 @@ Pour les propriétaires occupants, la rémunération de l'opérateur prévue à 
 ### Article 29-14
 Le juge peut :
 1° Suspendre le versement des cotisations au fonds de travaux sur demande de l'administrateur provisoire ou descopropriétaires représentant au moins 15 % des voix lorsque l'immeuble fait l'objet d'un plan de sauvegarde en application del'article
-L. 615-1
+### L. 615-1
 du code de la construction et de l'habitation ;
 2° Autoriser l'administrateur provisoire à utiliser les sommes déposées sur le fonds de travaux pour engager les actionsnécessaires au redressement de la copropriété ou permettre le maintien de la gestion courante.
 ### Article 29-15
@@ -1064,7 +1064,7 @@ Les décisions relatives à la création ou à la suppression des services non i
 Si l'équilibre financier d'un ou de plusieurs services mentionnés au présent article est gravement compromis ou si le déséquilibrefinancier d'un ou de plusieurs services compromet l'équilibre financier de la copropriété, et après que l'assemblée générale s'estprononcée, le président du tribunal judiciaire statuant selon la procédure accélérée au fond, saisi par des copropriétairesreprésentant 15 % au moins des voix du syndicat, peut décider soit la suspension, soit la suppression de ces
 services.
 Le statut de la copropriété des immeubles bâtis est incompatible avec l'octroi de services de soins ou d'aide etd'accompagnement exclusivement liés à la personne, qui ne peuvent être fournis que par des établissements et des servicesrelevant du I de l'article
-L. 312-1
+### L. 312-1
 du code de l'action sociale et des familles ou par des établissements, des services ou desprofessionnels de santé relevant des quatrième et sixième parties du code de la santé publique.
 NOTA :
 Conformément à l'article 30 de l'ordonnance n° 2019-738 du 17 juillet 2019, ces dispositions s'appliquent aux demandesintroduites à compter du 1er janvier 2020.

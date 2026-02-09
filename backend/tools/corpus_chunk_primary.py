@@ -35,9 +35,18 @@ class EnhancedLegalChunker(LegalChunker):
     def __init__(self, min_words=300, max_words=1200):
         super().__init__(min_words, max_words)
 
-        # Enhanced article pattern (supports L-codes, R-codes, D-codes)
+        # Comprehensive article pattern (supports all legal code formats)
+        # Matches:
+        #   - ### Article 3, ### Article 3-2, ### Art. 3
+        #   - ### Article L. 213-2, ### Article L213-2, ### L. 213-2
+        #   - ### Article R. 123-4, ### R. 123-4
+        #   - Article L313-1 (without ###)
         self.enhanced_article_pattern = re.compile(
-            r'###?\s*(?:Article|Art\.?)\s+([\dA-Z][\d\-A-Z.]*)',
+            r'###?\s*(?:'
+            r'(?:Article|Art\.?)\s+([LRDCP]\.?\s*[\d][\d\-]*)'  # L/R/D/C/P codes
+            r'|(?:Article|Art\.?)\s+([\d][\d\-]*[A-Z]?(?:-\d+)?)'  # Regular articles
+            r'|([LRDCP]\.)\s+([\d][\d\-]*)'  # Standalone L./R./D./C./P. refs
+            r')',
             re.IGNORECASE | re.MULTILINE
         )
 
@@ -104,15 +113,28 @@ class EnhancedLegalChunker(LegalChunker):
         return name.strip()
 
     def extract_article_ids(self, text: str) -> List[str]:
-        """Extracts all article IDs from text (enhanced for L/R/D codes)"""
+        """Extracts all article IDs from text (comprehensive for all legal codes)"""
         articles = []
 
-        # Find all article headers
-        matches = self.enhanced_article_pattern.findall(text)
-        articles.extend([match.strip() for match in matches])
+        # Find all article headers (using enhanced pattern)
+        for match in self.enhanced_article_pattern.finditer(text):
+            # The pattern returns multiple groups, find the non-empty one
+            article_id = None
+            for group in match.groups():
+                if group:
+                    article_id = group.strip()
+                    break
+            if article_id:
+                articles.append(article_id)
 
-        # Also check for inline article references (e.g., "l'article 23")
-        inline_pattern = re.compile(r"l'article\s+([\d\-]+(?:[A-Z][\d\-]*)?)", re.IGNORECASE)
+        # Also check for inline article references (e.g., "l'article 23", "l'article L. 213-2")
+        inline_pattern = re.compile(
+            r"l'article\s+("
+            r"[LRDCP]\.?\s*[\d][\d\-]*"  # L/R/D/C/P codes
+            r"|[\d][\d\-]*[A-Z]?(?:-\d+)?"  # Regular articles
+            r")",
+            re.IGNORECASE
+        )
         inline_matches = inline_pattern.findall(text)
         articles.extend([match.strip() for match in inline_matches])
 
@@ -120,9 +142,11 @@ class EnhancedLegalChunker(LegalChunker):
         seen = set()
         unique_articles = []
         for art in articles:
-            if art not in seen:
-                seen.add(art)
-                unique_articles.append(art)
+            # Normalize: remove extra spaces
+            art_normalized = re.sub(r'\s+', ' ', art)
+            if art_normalized not in seen:
+                seen.add(art_normalized)
+                unique_articles.append(art_normalized)
 
         return unique_articles
 

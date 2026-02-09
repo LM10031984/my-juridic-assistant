@@ -4,7 +4,7 @@ ReplierPartie législative (Articles L111-1 à L863-5)
 ReplierLivre Ier : Construction, entretien et rénovation des bâtiments (Articles L111-1 à L192-7)
 ReplierSection 5 : Informations et diagnostics obligatoires (Articles L126-23 à L126-35-1)
 Sous-section 2 : Diagnostic de performance énergétique (Articles L126-26 à L126-33)
-Article L126-26
+### Article L126-26
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 153
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 157
 Le diagnostic de performance énergétique d'un bâtiment ou d'une partie de bâtiment est un document qui comporte la quantité d'énergie effectivement consommée ou estimée, exprimée en énergie primaire et finale, ainsi que les émissions de gaz à effet de serre induites, pour une utilisation standardisée du bâtiment ou d'une partie de bâtiment et une classification en fonction de valeurs de référence permettant de comparer et évaluer sa performance énergétique et sa performance en matière
@@ -14,22 +14,22 @@ Il est établi par une personne répondant aux conditions prévues par l'article
 
 Sa durée de validité est fixée par voie réglementaire.
 
-Article L126-26-1
+### Article L126-26-1
 Création LOI n°2021-1104 du 22 août 2021 - art. 149
 Le diagnostic de performance énergétique mentionné à l'article L. 126-26 précise la quantité d'énergie issue de sources d'énergies renouvelables, définies au premier alinéa de l'article L. 211-2 du code de l'énergie, utilisée dans le bâtiment ou la partie de bâtiment à usage d'habitation, en distinguant celle produite par des équipements installés à demeure de celle véhiculée par des réseaux de distribution d'électricité, de gaz ou de chaleur.
 
-Article L126-27
+### Article L126-27
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 150
 Lors de la construction d'un bâtiment ou d'une extension de bâtiment, le maître d'ouvrage fait établir le diagnostic mentionné à l'article L. 126-26. Il le remet au propriétaire du bâtiment au plus tard à la réception de l'immeuble.
 
-Article L126-28
+### Article L126-28
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 158 (V)
 En cas de vente de tout ou partie d'un bâtiment, le diagnostic de performance énergétique est communiqué à l'acquéreur dans les conditions et selon les modalités prévues aux articles L. 271-4 à L. 271-6. Lorsque l'immeuble est offert à la vente ou à la location, le propriétaire tient le diagnostic de performance énergétique à la disposition de tout candidat acquéreur ou locataire.
 
 
 Conformément à l'article 8 de l'ordonnance 2020-71 du 29 janvier 2020, ces dispositions entrent en vigueur à une date fixée par décret en Conseil d'Etat, et au plus tard le 1er juillet 2021.
 
-Article L126-28-1
+### Article L126-28-1
 Création LOI n°2021-1104 du 22 août 2021 - art. 158 (V)
 Lorsque sont proposés à la vente des bâtiments ou parties de bâtiment à usage d'habitation qui comprennent un seul logement ou comportent plusieurs logements ne relevant pas de la loi n° 65-557 du 10 juillet 1965 fixant le statut de la copropriété des immeubles bâtis et qui appartiennent aux classes D, E, F ou G au sens de l'article L. 173-1-1 du présent code, un audit énergétique est réalisé par un professionnel répondant à des conditions de qualification définies par décret et est communiqué
 dans les conditions et selon les modalités prévues aux articles L. 271-4 et L. 271-5. Le professionnel chargé d'établir l'audit énergétique ne doit avoir aucun lien de nature à porter atteinte à son impartialité et à son indépendance vis-à-vis du propriétaire ou du mandataire qui fait appel à lui.
@@ -42,20 +42,20 @@ indique les aides publiques existantes destinées aux travaux d'amélioration de
 
 Le contenu de cet audit est défini par arrêté. Le niveau de compétence et de qualification de l'auditeur et l'étendue de sa mission et de sa responsabilité sont précisés par décret pris sur le rapport du ministre chargé de la construction.
 
-Article L126-29
+### Article L126-29
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 158 (V)
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 175 (V)
 En cas de location de tout ou partie d'un bâtiment, le diagnostic de performance énergétique prévu par l'article L. 126-26 est joint au contrat de location lors de sa conclusion, à l'exception des contrats de bail rural et des contrats de location saisonnière.
 
 Le locataire ne peut se prévaloir à l'encontre du bailleur des recommandations accompagnant le diagnostic de performance énergétique, qui n'ont qu'une valeur informative.
 
-Article L126-30
+### Article L126-30
 Dans certaines catégories de bâtiments, le propriétaire ou, s'il y a lieu, le gestionnaire affiche à l'intention du public le diagnostic mentionné à l'article L. 126-26 en cours de validité.
 
 
 Conformément à l'article 8 de l'ordonnance 2020-71 du 29 janvier 2020, ces dispositions entrent en vigueur à une date fixée par décret en Conseil d'Etat, et au plus tard le 1er juillet 2021.
 
-Article L126-31
+### Article L126-31
 Modifié par LOI n°2023-175 du 10 mars 2023 - art. 42
 Tout bâtiment d'habitation collective dont le permis de construire a été déposé avant le 1er janvier 2013 dispose d'un diagnostic de performance énergétique réalisé dans les conditions prévues à l'article L. 126-26.
 
@@ -68,7 +68,7 @@ foncière déjà artificialisée des bâtiments collectifs de logements à loyer
 
 Se reporter aux conditions d'application prévues à l'article 158 de la loi n° 2021-1104 du 22 août 2021.
 
-Article L126-32
+### Article L126-32
 Modifié par LOI n°2025-594 du 30 juin 2025 - art. 22
 Les personnes qui établissent les diagnostics de performance énergétique ou les audits énergétiques les transmettent à l'Agence de l'environnement et de la maîtrise de l'énergie. Ces informations sont transmises à des fins d'information, de contrôle, d'études statistiques, d'évaluation, d'amélioration méthodologique, de mise en œuvre et de suivi des politiques publiques touchant à la construction, aux bâtiments, aux logements, aux consommations énergétiques et aux performances environnementales.
 Ces données sont mises à disposition des collectivités territoriales et de leurs établissements publics, des organismes chargés de la liquidation et du paiement de l'aide personnelle au logement, de l'observatoire des logements indignes mentionné à l'article 3 de la loi n° 90-449 du 31 mai 1990 visant à la mise en œuvre du droit au logement, des associations de lutte contre la précarité énergétique, de l'Agence nationale de l'habitat, des organismes chargés des contrôles des compétences des
@@ -78,7 +78,7 @@ Ces informations ne peuvent pas être utilisées à des fins commerciales.
 
 Dans le cadre de la réalisation des diagnostics de performance énergétique, sont mis en place des moyens d'identification des personnes mentionnées à l'article L. 271-6 et de vérification du lieu de leurs interventions. Les modalités d'application du présent alinéa sont précisées par arrêté du ministre chargé de la construction.
 
-Article L126-33
+### Article L126-33
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 153
 Modifié par LOI n°2021-1104 du 22 août 2021 - art. 154
 I.- En cas de vente ou de location d'un bien immobilier, le classement du bien au regard de sa performance énergétique et de sa performance en matière d'émissions de gaz à effet de serre et, pour les biens immobiliers à usage d'habitation et à titre d'information, une indication sur le montant des dépenses théoriques de l'ensemble des usages énumérés dans le diagnostic de performance énergétique sont mentionnés dans les annonces relatives à la vente ou à la location, y compris celles diffusées

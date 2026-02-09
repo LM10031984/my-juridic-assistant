@@ -43,7 +43,7 @@ loi n° 92-645 du 13 juillet 1992
 fixant les conditions d'exercice desactivités relatives à l'organisation et à la vente de voyages ou de séjours, pour la conclusion de tout contrat de jouissanced'immeuble à temps partagé régi par les articles L. 121-60 et suivants du code de la consommation ;
 Aux organismes de placement collectif immobilier, organismes professionnels de placement collectif immobilier, sociétés civilesde placement immobilier et à leurs sociétés de gestion, sauf lorsqu'elles gèrent des actifs immobiliers faisant l'objet de mandatsde gestion spécifiques ;
 Aux associations oeuvrant à la promotion de la cohabitation intergénérationnelle solidaire définie à l'
-article L. 118-1 du code del'action sociale et des familles
+### article L. 118-1 du code del'action sociale et des familles
 et aux articles L. 631-17 à L. 631-19 du code de la construction et de l'habitation.
 ### Article 3
 Les activités visées à l'article 1er ne peuvent être exercées que par les personnes physiques ou morales titulaires d'une carteprofessionnelle, délivrée, pour une durée et selon des modalités fixées par décret en Conseil d'Etat, par le président de lachambre de commerce et d'industrie territoriale ou, dans les circonscriptions où il n'existe pas de chambre de commerce etd'industrie territoriale, par le président de la chambre de commerce et d'industrie de région, précisant celles des
@@ -86,7 +86,7 @@ Création LOI n°2017-86 du 27 janvier 2017 - art. 124
 Modifié par LOI n°2014-366 du 24 mars 2014 - art. 24 (V)
 Modifié par Ordonnance n°2016-131 du 10 février 2016 - art. 6
 En vue du logement des travailleurs saisonniers et par dérogation au deuxième alinéa de l'article 4 et à l'article 6, les organismesagréés, conformément à l'article
-L. 365-4
+### L. 365-4
 du code de la construction et de l'habitation, peuvent habiliter, pour certaines missionsrelevant de la présente loi, des personnels d'une collectivité territoriale. Un décret en Conseil d'Etat précise ces missions.
 ### Article 4-3
 Sous réserve des dispositions leur imposant la divulgation de certaines informations, les personnes mentionnées à l'article 1er dela présente loi et, lorsqu'il s'agit de personnes morales, leurs représentants légaux et statutaires respectent la confidentialité desdonnées dont elles ont connaissance dans l'exercice de leurs activités. Ce principe ne fait pas obstacle à la communication auxcopropriétaires de tout élément nécessaire au bon fonctionnement du syndicat. Il ne fait également pas
@@ -159,29 +159,29 @@ Les personnes exerçant les activités désignées aux 1°, 2°, 4°, 5° et 8°
 chapitre Ier du titreVI du livre V du code monétaire et financier
 .
 Les agents de la concurrence, de la consommation et de la répression des fraudes mentionnés au I de l'
-article L. 561-36-2 du codemonétaire et financier
+### article L. 561-36-2 du codemonétaire et financier
 assurent le contrôle du respect des obligations prévues à l'alinéa précédent, dans les conditions définies àl'
-article L. 511-7 du code de la consommation
+### article L. 511-7 du code de la consommation
 .
 ### Article 8-2-1
 Les personnes exerçant les activités désignées aux 1°, 6° et 9° de l'article 1er de la présente loi signalent au procureur de laRépublique les faits qui sont susceptibles de constituer une des infractions prévues aux articles
 225-14
 du code pénal et
-L. 511-22
+### L. 511-22
 du code de la construction et de l'habitation.
 Ce signalement est eff ectué sans préjudice, le cas échéant, de la déclaration prévue à l'article
-L. 561-15
+### L. 561-15
 du code monétaire etfinancier.
 NOTA :
 Conformément à l’article 19 de l’ordonnance n° 2020-1144 du 16 septembre 2020, ces dispositions entrent en vigueur le 1erjanvier 2021 et ne sont applicables qu'aux arrêtés notifiés à compter de cette date.
 ### Article 8-3
 I. - Le Conseil national de la transaction et de la gestion immobilières mentionné à l'article 13-1 de la présente loi transmet àl'autorité administrative chargée de la concurrence et de la consommation toute information relative à des infractions oumanquements mentionnés aux articles
-L. 511-5 à L. 511-7
+### L. 511-5 à L. 511-7
 du code de la consommation susceptibles d'être imputables à despersonnes mentionnées à l'article 1er de la présente loi.
 II. - Les personnes mentionnées au même article 1er sont soumises à des contrôles menés par les agents mentionnés aux articles
-L. 511-3
+### L. 511-3
 et
-L. 511-21
+### L. 511-21
 du code de la consommation, dans les conditions prévues à l'article L. 511-7 du même code.
 Titre II : De l'incapacité d'exercer des activités d'entremise et de gestion des immeubles etfonds de commerce. (Articles 9 à 13)
 ### Article 9
@@ -206,41 +206,41 @@ section 2 du chapitre Ier du titre II du livreIII du code pénal
 11° Banqueroute ;
 12° Pratique de prêt usuraire ;
 13° L'une des infractions prévues aux articles L. 324-1 à L. 324-4,
-L. 324-10
+### L. 324-10
 et L. 324-12 à L. 324-14 du code de la sécurité intérieure;
 14° Infraction à la législation et à la réglementation des relations financières avec l'étranger ;
 15° Fraude fiscale ;
 16° L'une des infractions prévues aux articles
-L. 241-1
+### L. 241-1
 ,
-L. 241-2
+### L. 241-2
 ,
-L. 263-1
+### L. 263-1
 et
-L. 311-6
+### L. 311-6
 du code de la construction et de l'habitation età l'
-article L. 243-3 du code des assurances
+### article L. 243-3 du code des assurances
 ;
 17° L'une des infractions prévues aux articles
-L. 115-16
+### L. 115-16
 et
-L. 115-18
+### L. 115-18
 ,
-L. 115-24
+### L. 115-24
 ,
-L. 115-30
+### L. 115-30
 , L. 121-6,
-L. 121-28
+### L. 121-28
 , L. 122-8 à L. 122-10, L.213-1 à L. 213-5, L. 217-1 à L. 217-3, L. 217-6 et L. 217-10 du code de la consommation ;
 18° L'infraction prévue à l'
-article L. 353-2 du code monétaire et financier
+### article L. 353-2 du code monétaire et financier
 ;
 19° L'une des infractions prévues aux articles
-L. 324-9
+### L. 324-9
 ,
-L. 324-10
+### L. 324-10
 et
-L. 362-3
+### L. 362-3
 du code du travail ;
 20° Les atteintes aux systèmes de traitement automatisé prévues par le
 chapitre III du titre II du livre III du code pénal
@@ -258,9 +258,9 @@ Modifié par Ordonnance n°2004-634 du 1 juillet 2004 - art. 2 () JORF 2 juillet
 Modifié par Ordonnance n°2004-634 du 1 juillet 2004 - art. 9 () JORF 2 juillet 2004
 Modifié par LOI n°2018-1021 du 23 novembre 2018 - art. 151
 b) Aux administrateurs judiciaires et mandataires judiciaires au redressement et à la liquidation des entreprises ayant fait l'objetd'une décision de radiation de la liste prévue aux articles
-L. 811-12
+### L. 811-12
 et
-L. 812-9
+### L. 812-9
 du code de commerce ;
 c) Aux membres et anciens membres des professions libérales soumises à un statut législatif ou réglementaire ou dont le titre estprotégé ayant fait l'objet d'une décision définitive prononçant une interdiction d'exercer d'une durée au moins égale à six mois ;
 d) A toute personne morale dont les associés ou actionnaires détenant au moins 25 % des parts ou des droits de vote ont faitl'objet d'une condamnation irrévocable depuis moins de dix ans pour les infractions visées à l'article 9.
@@ -352,7 +352,7 @@ Le président du Conseil national de la transaction et de la gestion immobilièr
 1° Le procureur de la République ;
 2° Le préfet ou, à Paris, le préfet de police ;
 3° Les associations de défense des consommateurs, agréées en application de l'
-article L. 811-1 du code de la consommation
+### article L. 811-1 du code de la consommation
 ou ayant au moins cinq ans d'existence ;
 4° L'observatoire local des loyers, conformément au
 dernier alinéa du II de l'article 5 de la loi n° 89-462 du 6 juillet 1989
