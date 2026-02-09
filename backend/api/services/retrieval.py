@@ -259,6 +259,98 @@ class RetrievalService:
                 similarity_threshold=similarity_threshold
             )
 
+    def _detect_bail_type(self, query: str) -> Optional[str]:
+        """
+        Détecte le type de bail (meublé/vide) dans la question
+
+        Args:
+            query: Question de l'utilisateur
+
+        Returns:
+            "meuble" si bail meublé détecté
+            "vide" si bail vide/non meublé détecté
+            None si indéterminé
+        """
+        query_lower = query.lower()
+
+        # Signaux bail meublé
+        meuble_signals = [
+            'meublé', 'meublee', 'bail meublé', 'location meublée',
+            'logement meublé', '1 an', 'lmnp'
+        ]
+
+        # Signaux bail vide
+        vide_signals = [
+            'vide', 'non meublé', 'non meublee', 'bail vide',
+            'location vide', '3 ans'
+        ]
+
+        has_meuble = any(signal in query_lower for signal in meuble_signals)
+        has_vide = any(signal in query_lower for signal in vide_signals)
+
+        if has_meuble and not has_vide:
+            return "meuble"
+        elif has_vide and not has_meuble:
+            return "vide"
+
+        return None
+
+    def _rerank_by_articles(
+        self,
+        chunks: List[Dict],
+        prioritize_articles: List[str],
+        deprioritize_articles: List[str]
+    ) -> List[Dict]:
+        """
+        Réordonne les chunks en fonction des articles prioritaires/dépriorisés
+
+        Args:
+            chunks: Liste de chunks à réordonner
+            prioritize_articles: Articles à prioriser (ex: ["25-8", "25-3"])
+            deprioritize_articles: Articles à déprioriser (ex: ["15"])
+
+        Returns:
+            Chunks réordonnés
+        """
+        def get_boost_score(chunk: Dict) -> float:
+            """Calcule un score de boost basé sur les articles du chunk"""
+            articles = chunk.get('articles', [])
+            if not articles:
+                return 0.0
+
+            score = 0.0
+
+            for article in articles:
+                article_str = str(article).lower()
+
+                # Boost pour articles prioritaires
+                for priority in prioritize_articles:
+                    if priority.lower() in article_str:
+                        score += 0.2  # +20% boost
+                        break
+
+                # Pénalité pour articles dépriorisés
+                for depriority in deprioritize_articles:
+                    if article_str == depriority.lower():
+                        score -= 0.15  # -15% pénalité
+                        break
+
+            return score
+
+        # Ajouter le boost score à chaque chunk
+        for chunk in chunks:
+            boost = get_boost_score(chunk)
+            chunk['article_boost'] = boost
+
+            # Ajuster le score de similarité/RRF avec le boost
+            if 'similarity' in chunk:
+                chunk['similarity'] = max(0.0, min(1.0, chunk['similarity'] + boost))
+
+        # Réordonner par similarité ajustée
+        chunks.sort(key=lambda x: x.get('similarity', 0.0), reverse=True)
+
+        return chunks
+
     def search(
         self,
         query: str,
@@ -271,6 +363,8 @@ class RetrievalService:
         """
         Méthode unifiée de recherche (détection automatique)
 
+        NOUVEAU: Routing automatique bail meublé/vide
+
         Args:
             query: Question de l'utilisateur
             top_k: Nombre de résultats
@@ -282,26 +376,60 @@ class RetrievalService:
         Returns:
             Tuple (chunks, method_used)
             - chunks: Liste de chunks trouvés
-            - method_used: "hybrid" ou "vector"
+            - method_used: "hybrid" ou "vector" + "_meuble"/"_vide" si détecté
         """
+        # TÂCHE 1: Détecter le type de bail
+        bail_type = self._detect_bail_type(query)
+
+        # Récupérer les chunks (top_k * 2 pour avoir de la marge pour le reranking)
+        retrieve_k = top_k * 2 if bail_type else top_k
+
         if use_hybrid and self.hybrid_search_available:
             chunks = self.hybrid_search_rrf(
                 query=query,
-                top_k=top_k,
+                top_k=retrieve_k,
                 filter_domaine=filter_domaine,
                 filter_type=filter_type,
                 filter_layer=filter_layer
             )
-            return chunks, "hybrid"
+            method = "hybrid"
         else:
             chunks = self.search_similar_chunks(
                 query=query,
-                top_k=top_k,
+                top_k=retrieve_k,
                 filter_domaine=filter_domaine,
                 filter_type=filter_type,
                 filter_layer=filter_layer
             )
-            return chunks, "vector"
+            method = "vector"
+
+        # TÂCHE 1: Appliquer le routing si bail détecté
+        if bail_type == "meuble":
+            print(f"[ROUTING] Bail meublé détecté - Priorisation articles 25-x, dépriorisation article 15")
+            chunks = self._rerank_by_articles(
+                chunks,
+                prioritize_articles=["25-8", "25-3", "25-4", "25-5", "25-6", "25-7", "25-9", "25-10", "25-11"],
+                deprioritize_articles=["15"]
+            )
+            method += "_meuble"
+
+            # Log des articles top retournés
+            top_articles = []
+            for chunk in chunks[:top_k]:
+                top_articles.extend(chunk.get('articles', []))
+            print(f"[ROUTING] Top articles après reranking: {', '.join(str(a) for a in top_articles[:5])}")
+
+        elif bail_type == "vide":
+            print(f"[ROUTING] Bail vide détecté - Priorisation article 15")
+            chunks = self._rerank_by_articles(
+                chunks,
+                prioritize_articles=["15"],
+                deprioritize_articles=["25-8"]
+            )
+            method += "_vide"
+
+        # Retourner uniquement top_k résultats
+        return chunks[:top_k], method
 
     def format_context_for_llm(self, chunks: List[Dict], method_used: str = "vector") -> str:
         """

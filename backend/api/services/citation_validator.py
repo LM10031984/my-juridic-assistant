@@ -99,6 +99,84 @@ class CitationValidator:
 
         return chunk_articles
 
+    def extract_sensitive_claims(self, response_text: str) -> List[str]:
+        """
+        TÂCHE 2: Extrait les claims sensibles de la réponse
+
+        Args:
+            response_text: Texte de réponse LLM
+
+        Returns:
+            Liste des claims sensibles détectés
+        """
+        sensitive_claims = []
+
+        text_lower = response_text.lower()
+
+        # Patterns de préemption
+        preemption_patterns = [
+            'droit de préemption',
+            'droit de preemption',
+            'préemption',
+            'preemption',
+            'congé vaut offre',
+            'conge vaut offre',
+            'priorité pour acheter',
+            'priorite pour acheter',
+            'offre de vente',
+            'proposition de vente'
+        ]
+
+        for pattern in preemption_patterns:
+            if pattern in text_lower:
+                sensitive_claims.append(pattern)
+
+        return sensitive_claims
+
+    def verify_claim_proof_in_chunks(
+        self,
+        claims: List[str],
+        chunks: List[Dict]
+    ) -> Tuple[bool, List[str]]:
+        """
+        TÂCHE 2: Vérifie que les claims sensibles sont prouvés dans les chunks
+
+        Args:
+            claims: Liste des claims sensibles
+            chunks: Chunks récupérés
+
+        Returns:
+            Tuple (has_proof, unproven_claims)
+        """
+        if not claims:
+            return True, []
+
+        # Patterns de preuve textuelle pour préemption
+        proof_patterns = [
+            'offre de vente',
+            'priorité pour acheter',
+            'droit de préemption',
+            'congé vaut offre',
+            'proposition de vente'
+        ]
+
+        # Chercher la preuve dans le texte des chunks
+        has_proof = False
+        for chunk in chunks:
+            chunk_text = chunk.get('text', '').lower()
+            for pattern in proof_patterns:
+                if pattern in chunk_text:
+                    has_proof = True
+                    break
+            if has_proof:
+                break
+
+        # Si aucune preuve trouvée, tous les claims sont non prouvés
+        if not has_proof:
+            return False, claims
+
+        return True, []
+
     def validate_citations(
         self,
         response_text: str,
@@ -107,6 +185,8 @@ class CitationValidator:
     ) -> Tuple[bool, str, List[str], List[str]]:
         """
         Validates that cited articles exist in retrieved chunks
+
+        NOUVEAU (TÂCHE 2): Vérifie aussi les claims sensibles (préemption)
 
         Args:
             response_text: LLM response text
@@ -119,18 +199,23 @@ class CitationValidator:
         # Extract citations from response
         cited_articles = self.extract_cited_articles_from_response(response_text)
 
-        # If no citations, nothing to validate
-        if not cited_articles:
-            return True, response_text, [], []
-
         # Extract articles from chunks
         chunk_articles = self.extract_articles_from_chunks(chunks)
 
         # Find missing articles (cited but not in chunks)
         missing_articles = [art for art in cited_articles if art not in chunk_articles]
 
-        # If all citations are valid, return original response
-        if not missing_articles:
+        # TÂCHE 2: Vérifier les claims sensibles
+        sensitive_claims = self.extract_sensitive_claims(response_text)
+        has_proof, unproven_claims = self.verify_claim_proof_in_chunks(sensitive_claims, chunks)
+
+        # Validation échoue si:
+        # 1. Articles manquants OU
+        # 2. Claims de préemption sans preuve
+        validation_failed = bool(missing_articles) or not has_proof
+
+        if not validation_failed:
+            # Tout est OK
             return True, response_text, cited_articles, []
 
         # Log mismatch
@@ -139,13 +224,50 @@ class CitationValidator:
             cited_articles=cited_articles,
             chunk_articles=list(chunk_articles),
             missing_articles=missing_articles,
-            source_files=[chunk.get('source_file', 'unknown') for chunk in chunks]
+            source_files=[chunk.get('source_file', 'unknown') for chunk in chunks],
+            sensitive_claims=sensitive_claims,
+            unproven_claims=unproven_claims
         )
 
-        # Replace BASE JURIDIQUE section
-        validated_response = self._replace_base_juridique(response_text)
+        # TÂCHE 2: Supprimer les paragraphes contenant des claims non prouvés
+        validated_response = response_text
+
+        if not has_proof and unproven_claims:
+            print(f"[CITATION_VALIDATOR] PRÉEMPTION CLAIM sans preuve détectée - Suppression")
+            validated_response = self._remove_preemption_claims(validated_response)
+
+        # Remplacer BASE JURIDIQUE si articles manquants
+        if missing_articles:
+            validated_response = self._replace_base_juridique(validated_response)
 
         return False, validated_response, cited_articles, missing_articles
+
+    def _remove_preemption_claims(self, response_text: str) -> str:
+        """
+        TÂCHE 2: Supprime les paragraphes contenant des claims de préemption non prouvés
+
+        Args:
+            response_text: Texte de réponse
+
+        Returns:
+            Texte nettoyé
+        """
+        # Patterns à supprimer
+        preemption_patterns = [
+            r'[^\n]*droit de pr[ée]emption[^\n]*',
+            r'[^\n]*cong[ée] vaut offre[^\n]*',
+            r'[^\n]*priorit[ée] pour acheter[^\n]*',
+            r'[^\n]*offre de vente[^\n]*'
+        ]
+
+        cleaned = response_text
+        for pattern in preemption_patterns:
+            cleaned = re.sub(pattern, '', cleaned, flags=re.IGNORECASE)
+
+        # Nettoyer les lignes vides multiples
+        cleaned = re.sub(r'\n\n\n+', '\n\n', cleaned)
+
+        return cleaned
 
     def _replace_base_juridique(self, response_text: str) -> str:
         """Replaces BASE JURIDIQUE section with warning message"""
@@ -188,10 +310,15 @@ Base juridique non disponible dans les textes indexés pour cette question.
         cited_articles: List[str],
         chunk_articles: List[str],
         missing_articles: List[str],
-        source_files: List[str]
+        source_files: List[str],
+        sensitive_claims: List[str] = None,
+        unproven_claims: List[str] = None
     ):
-        """Logs citation mismatch to file"""
+        """
+        Logs citation mismatch to file
 
+        NOUVEAU (TÂCHE 2): Log aussi les claims sensibles non prouvés
+        """
         log_entry = {
             'timestamp': datetime.now().isoformat(),
             'question': question[:200],  # Truncate long questions
@@ -201,12 +328,22 @@ Base juridique non disponible dans les textes indexés pour cette question.
             'source_files': list(set(source_files)),  # Deduplicate
         }
 
+        # TÂCHE 2: Ajouter les claims sensibles
+        if sensitive_claims:
+            log_entry['sensitive_claims'] = sensitive_claims
+        if unproven_claims:
+            log_entry['unproven_claims'] = unproven_claims
+
         # Append to log file
         with open(self.log_file, 'a', encoding='utf-8') as f:
             f.write(json.dumps(log_entry, ensure_ascii=False) + '\n')
 
-        print(f"[CITATION_VALIDATOR] MISMATCH logged: {len(missing_articles)} articles not found in corpus")
-        print(f"  Missing: {', '.join(missing_articles)}")
+        if missing_articles:
+            print(f"[CITATION_VALIDATOR] MISMATCH logged: {len(missing_articles)} articles not found in corpus")
+            print(f"  Missing: {', '.join(missing_articles)}")
+
+        if unproven_claims:
+            print(f"[CITATION_VALIDATOR] PRÉEMPTION CLAIM sans preuve: {', '.join(unproven_claims)}")
 
 
 # Global instance
