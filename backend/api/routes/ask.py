@@ -81,6 +81,22 @@ async def ask_question(request: AskRequest):
 
         print(f"[ASK] Retrieved {len(chunks)} chunks using {method_used} search")
 
+        # Logs de diagnostic détaillés (top 3 chunks)
+        if chunks:
+            print("\n[DIAGNOSTIC] Top 3 chunks retrieved:")
+            for i, chunk in enumerate(chunks[:3], 1):
+                print(f"  [{i}] {chunk.get('source_file', 'unknown')}")
+                print(f"      Domaine: {chunk.get('domaine', 'N/A')} | Type: {chunk.get('type', 'N/A')}")
+                print(f"      Method: {method_used}")
+                if method_used == "hybrid":
+                    print(f"      Vector similarity: {chunk.get('vector_similarity', 0.0):.2%}")
+                    print(f"      RRF score: {chunk.get('rrf_score', 0.0):.4f}")
+                    print(f"      Vector rank: {chunk.get('vector_rank', 'N/A')}")
+                    print(f"      Fulltext rank: {chunk.get('fulltext_rank', 'N/A')}")
+                else:
+                    print(f"      Similarity: {chunk.get('similarity', 0.0):.2%}")
+                print()
+
         # Si aucun chunk trouve
         if not chunks:
             return AskResponse(
@@ -192,9 +208,16 @@ async def ask_question(request: AskRequest):
             elif chunk.get('type') == 'fiche':
                 source_parts.append("Fiche technique")
 
-            # Articles si disponibles
+            # Articles si disponibles (éviter "Article Article X")
             if chunk.get('articles') and len(chunk['articles']) > 0:
-                articles_str = ", ".join([f"Article {art}" for art in chunk['articles']])
+                formatted_articles = []
+                for art in chunk['articles']:
+                    # Si l'article commence déjà par "Article", ne pas le répéter
+                    if str(art).strip().startswith("Article"):
+                        formatted_articles.append(str(art))
+                    else:
+                        formatted_articles.append(f"Article {art}")
+                articles_str = ", ".join(formatted_articles)
                 source_parts.append(f"({articles_str})")
 
             # Si pas d'info structurée, utiliser le nom de fichier nettoyé
@@ -203,7 +226,20 @@ async def ask_question(request: AskRequest):
                 source_parts.append(filename)
 
             source_ref = " ".join(source_parts)
-            sources.append(f"{source_ref} - Pertinence: {chunk['similarity']:.0%}")
+
+            # Afficher le score selon la méthode utilisée
+            if method_used == "hybrid":
+                # En hybrid : afficher vector_similarity (lisible) et optionnellement rrf_score (technique)
+                vector_sim = chunk.get('vector_similarity', chunk.get('similarity', 0.0))
+                pertinence_str = f"Pertinence: {vector_sim:.0%} (vector)"
+                # Optionnel : afficher le score RRF si présent (pour debug)
+                if chunk.get('rrf_score'):
+                    pertinence_str += f" | RRF: {chunk['rrf_score']:.4f}"
+            else:
+                # En vector pur : afficher similarity normalement
+                pertinence_str = f"Pertinence: {chunk['similarity']:.0%}"
+
+            sources.append(f"{source_ref} - {pertinence_str}")
 
         # Dédupliquer les sources
         sources = list(dict.fromkeys(sources))
@@ -231,6 +267,87 @@ async def ask_question(request: AskRequest):
         raise HTTPException(
             status_code=500,
             detail=f"Internal server error: {str(e)}"
+        )
+
+
+@router.post("/ask/debug")
+async def ask_debug(request: AskRequest):
+    """
+    Endpoint de diagnostic pour analyser le retrieval sans générer de réponse
+
+    Retourne les détails complets des chunks trouvés :
+    - Méthode utilisée (hybrid/vector)
+    - Scores détaillés (vector_similarity, rrf_score, ranks)
+    - Métadonnées complètes (domaine, type, source_file)
+    - Preview du texte (200 premiers caractères)
+
+    Utile pour :
+    - Diagnostiquer les problèmes de pertinence
+    - Comparer hybrid vs vector search
+    - Vérifier les scores et rankings
+    """
+    try:
+        print(f"\n[DEBUG] Question: {request.question}")
+        print(f"[DEBUG] Domaine filtre: {request.domaine}")
+
+        retrieval_service = get_retrieval_service()
+
+        # Récupérer les chunks avec la méthode unifiée
+        chunks, method_used = retrieval_service.search(
+            query=request.question,
+            top_k=5,
+            filter_domaine=request.domaine,
+            use_hybrid=True
+        )
+
+        # Construire la réponse de diagnostic
+        chunks_details = []
+        for i, chunk in enumerate(chunks, 1):
+            chunk_detail = {
+                "rank": i,
+                "source_file": chunk.get('source_file', 'unknown'),
+                "domaine": chunk.get('domaine', 'N/A'),
+                "type": chunk.get('type', 'N/A'),
+                "layer": chunk.get('layer', 'N/A'),
+                "sous_themes": chunk.get('sous_themes', []),
+                "articles": chunk.get('articles', []),
+                "text_preview": chunk.get('text', '')[:200] + "...",
+                "method_used": method_used
+            }
+
+            # Ajouter les scores selon la méthode
+            if method_used == "hybrid":
+                chunk_detail["scores"] = {
+                    "vector_similarity": chunk.get('vector_similarity', 0.0),
+                    "rrf_score": chunk.get('rrf_score', 0.0),
+                    "vector_rank": chunk.get('vector_rank', None),
+                    "fulltext_rank": chunk.get('fulltext_rank', None)
+                }
+            else:
+                chunk_detail["scores"] = {
+                    "similarity": chunk.get('similarity', 0.0)
+                }
+
+            chunks_details.append(chunk_detail)
+
+        return {
+            "query": request.question,
+            "domaine_filter": request.domaine,
+            "method_used": method_used,
+            "hybrid_available": retrieval_service.hybrid_search_available,
+            "embedding_dimension": retrieval_service.embedding_dimension,
+            "chunks_found": len(chunks),
+            "chunks": chunks_details
+        }
+
+    except Exception as e:
+        print(f"[ERROR] Debug endpoint failed: {e}")
+        import traceback
+        traceback.print_exc()
+
+        raise HTTPException(
+            status_code=500,
+            detail=f"Debug failed: {str(e)}"
         )
 
 

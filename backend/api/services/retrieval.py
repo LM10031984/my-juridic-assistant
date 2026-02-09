@@ -235,10 +235,14 @@ class RetrievalService:
 
             results = []
             for chunk in response.data:
-                # Ajouter le score combiné comme 'similarity' pour compatibilité
-                chunk['similarity'] = chunk.get('combined_score', 0.0)
+                # Stocker le score RRF séparément (ne pas écraser similarity)
+                chunk['rrf_score'] = chunk.get('combined_score', 0.0)
                 chunk['vector_similarity'] = chunk.get('vector_similarity', 0.0)
                 chunk['fulltext_rank'] = chunk.get('fulltext_rank', 0.0)
+                chunk['vector_rank'] = chunk.get('vector_rank', None)
+
+                # Garder vector_similarity comme score principal en hybrid
+                chunk['similarity'] = chunk.get('vector_similarity', 0.0)
                 results.append(chunk)
 
             return results
