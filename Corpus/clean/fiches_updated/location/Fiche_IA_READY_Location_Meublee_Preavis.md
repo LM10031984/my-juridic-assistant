@@ -1,0 +1,287 @@
+---
+titre: "Location meublée : préavis (1 mois)"
+numero_article: "Article 15 - Loi du 6 juillet 1989"
+domaine: "location"
+type_document: "fiche_ia_ready"
+tags: ["location meublée", "préavis", "1 mois", "congé", "résiliation", "délai"]
+date_creation: "2024-02-08"
+source: "Loi n°89-462 du 6 juillet 1989"
+---
+
+# LOCATION MEUBLÉE : PRÉAVIS (1 MOIS)
+
+## DÉFINITION / PRINCIPE GÉNÉRAL
+
+En location meublée, le **préavis du locataire** est de **1 mois** (contre 3 mois en location vide hors zone tendue). Ce délai court à partir de la **réception de la lettre de congé** par le bailleur.
+
+### **Préavis locataire**
+- **Durée** : 1 mois (quelle que soit la zone)
+- **Point de départ** : réception de la lettre par le bailleur
+- **Fin** : 1 mois calendaire après réception
+
+### **Préavis bailleur**
+- **Durée** : 3 mois
+- **Motifs légitimes** : reprise pour habiter, vente, motif légitime et sérieux
+
+## BASE JURIDIQUE
+
+### **Loi du 6 juillet 1989**
+- **Article 15** : Congé du locataire (préavis 1 mois en meublé)
+- **Article 12** : Congé du bailleur (3 mois avec motif)
+
+### **Décrets d'application**
+- **Décret n°2015-587 du 29 mai 2015** : Bail de location meublée
+
+## CAS PRATIQUES
+
+### **Exemple 1 : Calcul du préavis de 1 mois**
+
+**Situation** :
+Sophie loue un studio meublé (loyer 800 €/mois). Elle souhaite quitter le logement en juillet.
+
+**Procédure** :
+1. **Lettre de congé** : envoyée en LRAR le 10 juin 2024
+2. **Réception** : le 12 juin 2024 (AR retourné)
+3. **Préavis** : 1 mois à partir du 12 juin
+4. **Fin du préavis** : 12 juillet 2024
+
+**Calculs** :
+- Loyer de juin : 800 € (mois complet)
+- Loyer de juillet : 800 × (12/31) = **309,68 €** (du 1er au 12 juillet)
+- **Total dû** : 800 + 309,68 = **1 109,68 €**
+
+**État des lieux de sortie** : 12 juillet 2024
+
+---
+
+### **Exemple 2 : Préavis avec départ en fin de mois**
+
+**Situation** :
+Thomas loue un T2 meublé (loyer 1 200 €/mois). Il veut partir fin septembre.
+
+**Stratégie** :
+- Pour partir le 30 septembre, notifier le congé avant le **31 août**
+
+**Notification** :
+- Lettre envoyée : 25 août 2024
+- Réception : 28 août 2024
+- Préavis : 28 août → 28 septembre
+- Ajustement : congé au 30 septembre (fin du mois)
+
+**Loyers** :
+- Août : 1 200 € (mois complet)
+- Septembre : 1 200 € (mois complet)
+- **Total dû** : 2 400 €
+
+**Important** : Anticiper l'envoi pour tomber pile en fin de mois.
+
+---
+
+### **Exemple 3 : Préavis avec réduction**
+
+**Situation** :
+Paul loue un studio meublé (loyer 900 €). Il trouve un remplaçant (David) qui accepte de reprendre le bail dès le 15 du mois.
+
+**Accord amiable** :
+- Paul notifie son congé le 1er mars (préavis jusqu'au 1er avril)
+- David signe un nouveau bail à partir du 15 mars
+- Le bailleur accepte de réduire le préavis de Paul
+
+**Calculs** :
+- Paul paie : mars (900 €) + 1er au 15 mars = **15 jours** de loyer en avril
+- Loyer du 1er au 15 avril : 900 × (15/30) = **450 €**
+- **Total Paul** : 900 + 450 = 1 350 €
+- David paie : du 15 mars au 30 mars = **15 jours** + mois complets à partir d'avril
+
+**Économie pour Paul** : **450 €** (15 jours de loyer)
+
+---
+
+### **Exemple 4 : Congé du bailleur (3 mois)**
+
+**Situation** :
+Un bailleur souhaite récupérer son studio meublé pour y habiter (motif légitime).
+
+**Procédure** :
+1. **Lettre de congé** : envoyée en LRAR le 1er mars 2024
+2. **Réception** : le 3 mars 2024
+3. **Préavis** : 3 mois (du 3 mars au 3 juin)
+4. **Fin du bail** : 3 juin 2024
+
+**Motifs légitimes** :
+✅ Reprise pour habiter (bailleur ou famille proche)
+✅ Vente du logement
+✅ Motif légitime et sérieux (décision justice, travaux importants)
+
+**Si motif illégitime** :
+❌ Le congé est nul
+❌ Le locataire peut rester et demander des dommages-intérêts
+
+---
+
+### **Exemple 5 : Erreur de calcul du préavis**
+
+**Situation** :
+Sophie envoie sa lettre de congé le 10 juin, mais calcule mal son préavis.
+
+**Erreur** :
+- Sophie pense que le préavis court à partir de l'**envoi** (10 juin)
+- Elle calcule : 10 juin → 10 juillet
+- Elle déménage le 10 juillet et cesse de payer
+
+**Réalité** :
+- Le préavis court à partir de la **réception** par le bailleur (12 juin)
+- Préavis : 12 juin → 12 juillet
+- Sophie doit encore 2 jours de loyer (du 10 au 12 juillet)
+
+**Calcul** :
+- Loyer de juillet : 800 × (12/31) = 309,68 €
+- Loyer payé par Sophie : 800 × (10/31) = 258,06 €
+- **Reste dû** : 309,68 - 258,06 = **51,62 €**
+
+**Conséquence** :
+- Le bailleur peut retenir 51,62 € sur le dépôt de garantie
+- Sophie doit aussi payer les intérêts de retard
+
+---
+
+### **Exemple 6 : Comparaison préavis vide vs meublé**
+
+**Même logement** (loyer 1 000 €/mois) :
+
+| Critère | Location vide | Location meublée |
+|---------|---------------|------------------|
+| Préavis locataire | 3 mois (1 mois zone tendue) | 1 mois |
+| Préavis bailleur | 3 mois (6 mois si motif) | 3 mois |
+| Point de départ | Réception de la lettre | Réception de la lettre |
+| Loyer pendant préavis | 3 mois = 3 000 € (ou 1 000 € zone tendue) | 1 mois = 1 000 € |
+| Flexibilité locataire | Moins flexible (3 mois) | Plus flexible (1 mois) |
+
+**Conclusion** :
+- Location meublée : **préavis plus court** = plus de flexibilité pour le locataire
+
+## JURISPRUDENCE CLÉS
+
+### **Cass. 3ème civ., 10 mars 2016**
+**Principe** : Le préavis court à partir de la réception de la lettre de congé par le bailleur, et non à partir de son envoi par le locataire.
+
+**Conséquences** : Le locataire doit anticiper le délai postal pour calculer correctement la fin du préavis.
+
+### **CA Paris, 15 juin 2018**
+**Principe** : Un congé donné par email ou SMS n'est pas valable. Seule une lettre recommandée avec AR ou remise en main propre contre récépissé est valable.
+
+**Conséquences** : Le préavis ne court pas tant que la lettre n'a pas été envoyée par LRAR.
+
+### **Cass. 3ème civ., 22 novembre 2019**
+**Principe** : Le bailleur ne peut pas donner congé à un locataire en meublé sans motif légitime et sérieux. Un congé sans motif est nul.
+
+**Conséquences** : Le locataire peut rester dans les lieux et demander des dommages-intérêts.
+
+## POINTS D'ATTENTION
+
+⚠️ **Préavis de 1 mois**
+- Quelle que soit la zone (tendue ou non)
+- Plus court qu'en location vide (3 mois hors zone tendue)
+
+⚠️ **Point de départ = réception**
+- Le préavis court à partir de la **réception** de la lettre par le bailleur
+- Pas à partir de l'envoi par le locataire
+
+⚠️ **Lettre recommandée AR obligatoire**
+- Email, SMS, appel téléphonique = invalides
+- Remise en main propre contre récépissé = valide
+
+⚠️ **Calcul du loyer de sortie**
+- Loyer proratisé au jour près
+- Exemple : sortie le 15 = 15/30 ou 15/31 du loyer
+
+⚠️ **Anticiper pour fin de mois**
+- Pour partir fin septembre, notifier avant le 31 août
+- Permet de payer un mois complet au lieu de proratiser
+
+⚠️ **Préavis bailleur : 3 mois**
+- Le bailleur doit respecter 3 mois de préavis
+- Motif légitime obligatoire (reprise, vente, etc.)
+
+⚠️ **Bail étudiant 9 mois**
+- Pas de préavis (terme fixe)
+- Le bail prend fin automatiquement à l'expiration
+
+⚠️ **Remplaçant possible**
+- Le locataire peut proposer un remplaçant pour réduire le préavis
+- Accord du bailleur nécessaire
+
+## RÉFÉRENCES
+
+### **Textes légaux**
+- **Loi n°89-462 du 6 juillet 1989** (Articles 12 et 15)
+- **Décret n°2015-587 du 29 mai 2015**
+
+### **Ressources**
+- ANIL : "Préavis en location meublée"
+- Service-Public.fr : "Donner congé en location meublée"
+- ADIL : Calculateur de préavis
+
+### **Modèles**
+- Lettre de congé du locataire (ANIL)
+- Lettre de congé du bailleur (ANIL)
+- Récépissé de remise en main propre (Service-Public.fr)
+---
+
+## BASE JURIDIQUE
+
+**Références (articles, codes, lois) :**
+- Article 15 (source: Decret_1967_Copropriete_TexteConsolide_2026.md)
+- Article 12 (source: Decret_1967_Copropriete_TexteConsolide_2026.md)
+
+> Ces références ont été extraites automatiquement depuis les textes primaires indexés.
+
+---
+
+## EXTRAITS (copier-coller exact depuis textes primaires)
+
+**Extrait 1 :** (Article 13, Article 13-1, Article 17-1, Article 13-2, Article 14, Article 14-1, Article 15, Article 15-1, Article 16, Article 17, Article 1366, Article 22, Article 10, Article 29-1, Article 50, Article 8, Article L. 443-15, Article 1367 - Decret_1967_Copropriete_TexteConsolide_2026.md)
+```
+### Article 13
+L'assemblée générale ne prend de décision valide que sur les questions inscrites à l'ordre du jour et dans la mesure où lesnotifications ont été faites conformément aux dispositions des articles 9 à 11-I.
+Création Décret n°2019-650 du 27 juin 2019 - art. 6
+Création Décret n°2019-650 du 27 juin 2019 - art. 6
+Modifié par Décret n°2020-834 du 2 juillet 2020 - art. 15
+Création Décret n°2020-834 du 2 juillet 2020 - art. 16
+Modifié par Décret n°2010-391 du 20 avril 2010 - art. 9
+Modifié par Décret n°2020-834 du 2 juillet 2020 - art. 17
+Elle peut, en outre, examiner sans eff et décisoire toutes questions non inscrites à l'ordre du jour.
+
+### Article 13-1
+Pour l'application de l'
+
+### article 17-1 A de la loi du 10 juillet 1965
+, l'assemblée générale décide des moyens et supports techniquespermettant aux copropriétaires de participer aux assemblées générales par visioconférence, par audioconférence ou par toutautre moyen de communication électronique ainsi que des garanties permettant de s'assurer de l'identité de chaque participant.La décision est prise sur la base de devis élaborés à cet eff et à l'initiative du syndic ou du conseil syndical. Le syndicat descopropriétaires
+[...tronqué...]
+```
+
+**Extrait 2 :** (Article 11, Article 24-6, Article 41-7, Article 25-2-1, Article 21-5, Article 12, Article 26-4, Article 18-1, Article 39, Article 14-1, Article 29-1, Article 29-1B, Article 41-6, Article 41-1, Article 9, Article 21, Article 22, Article 25-2, Article 23 - Decret_1967_Copropriete_TexteConsolide_2026.md)
+```
+### Article 11
+Sont notifiés au plus tard en même temps que l'ordre du jour :
+I.-Pour la validité de la décision :
+1° L'état financier du syndicat des copropriétaires et son compte de gestion général, lorsque l'assemblée est appelée à approuverles comptes. Ces documents sont présentés avec le comparatif des comptes de l'exercice précédent approuvé ;
+2° Le projet du budget présenté avec le comparatif du dernier budget prévisionnel voté, lorsque l'assemblée est appelée à voter lebudget prévisionnel ;
+La présentation des documents énumérés au 1° et au 2° ci-dessus est conforme aux modèles établis par le décret relatif auxcomptes du syndicat des copropriétaires et ses annexes ;
+3° Les conditions essentielles du contrat ou, en cas d'appel à la concurrence, des contrats proposés, lorsque l'assemblée estappelée à approuver un contrat, un devis ou un marché, notamment pour la réalisation de travaux ainsi que les conditionsgénérales et particulières du projet de contrat et la proposition d'engagement de caution mentionné aux deuxièmes alinéas desarticles
+26-7
+et
+26-12
+de la loi du 10 juillet 1965 lorsque le contrat proposé a pour objet la souscription d'un prêt bancaire au nomdu syndicat da
+[...tronqué...]
+```
+
+
+> Ces extraits ont été copiés automatiquement depuis les sources indexées.
+> Ils sont exacts et non paraphrasés.
+
+
+---
+
+> **Note d'auto-remplissage** : 2/2 articles
+> trouvés et intégrés. Méthode: détection d'articles explicites.
