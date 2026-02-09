@@ -1,8 +1,10 @@
 """
-Citation Validator - Garde-fou anti-citation hors corpus
+Citation Validator - Garde-fou anti-citation hors corpus (STRICT)
 
-Valide que les articles cités dans la réponse LLM existent dans les chunks récupérés.
-Si un article est cité sans être dans le corpus, remplace la section BASE JURIDIQUE.
+Valide que TOUS les articles cités dans la réponse LLM existent dans les chunks récupérés.
+Si UN SEUL article est cité sans être dans le corpus, remplace toute la section BASE JURIDIQUE.
+
+TÂCHE 1 : Zéro faux positifs - Normalisation canonique des articles via article_id.py
 """
 
 import re
@@ -10,6 +12,13 @@ import json
 from pathlib import Path
 from typing import List, Dict, Tuple, Set
 from datetime import datetime
+
+# Import shared article normalization utilities
+from api.utils.article_id import (
+    normalize_article_id,
+    extract_article_ids_from_base_juridique,
+    extract_article_ids
+)
 
 
 class CitationValidator:
@@ -28,28 +37,12 @@ class CitationValidator:
         if not self.log_file.exists():
             self.log_file.write_text("", encoding='utf-8')
 
-        # Article pattern (comprehensive, same as corpus tools)
-        self.article_pattern = re.compile(
-            r'(?:Article|Art\.?)\s+('
-            r'[LRDCP]\.?\s*[\d][\d\-]*'  # L/R/D/C/P codes
-            r'|[\d][\d\-]*[A-Z]?(?:-\d+)?'  # Regular articles
-            r')',
-            re.IGNORECASE
-        )
-
-    def normalize_article_id(self, article_id: str) -> str:
-        """Normalizes article ID for consistent matching"""
-        # Remove extra spaces
-        normalized = re.sub(r'\s+', ' ', article_id.strip())
-        # Normalize letter codes (add space after letter+dot if missing)
-        normalized = re.sub(r'([LRDCP])\.(\d)', r'\1. \2', normalized)
-        # Remove space before dot
-        normalized = re.sub(r'([LRDCP])\s+\.', r'\1.', normalized)
-        return normalized.lower()
-
     def extract_cited_articles_from_response(self, response_text: str) -> List[str]:
         """
-        Extracts article references from BASE JURIDIQUE section of response
+        Extracts article references from BASE JURIDIQUE section of response.
+
+        Uses shared article_id.extract_article_ids_from_base_juridique() for
+        canonical normalization (TÂCHE 1).
 
         Args:
             response_text: Full LLM response text
@@ -57,31 +50,14 @@ class CitationValidator:
         Returns:
             List of normalized article IDs cited in response
         """
-        # Find BASE JURIDIQUE section
-        base_match = re.search(
-            r'##?\s*BASE JURIDIQUE.*?(?=##|$)',
-            response_text,
-            re.DOTALL | re.IGNORECASE
-        )
-
-        if not base_match:
-            return []
-
-        base_section = base_match.group(0)
-
-        # Extract all article references from BASE JURIDIQUE
-        cited_articles = []
-        for match in self.article_pattern.finditer(base_section):
-            article_id = match.group(1).strip()
-            normalized = self.normalize_article_id(article_id)
-            if normalized not in cited_articles:
-                cited_articles.append(normalized)
-
-        return cited_articles
+        # Use shared utility for canonical extraction
+        return extract_article_ids_from_base_juridique(response_text)
 
     def extract_articles_from_chunks(self, chunks: List[Dict]) -> Set[str]:
         """
-        Extracts all article IDs from retrieved chunks
+        Extracts all article IDs from retrieved chunks using canonical normalization.
+
+        Uses shared article_id.normalize_article_id() for consistency (TÂCHE 1).
 
         Args:
             chunks: List of chunk dictionaries with 'articles' metadata
@@ -92,10 +68,12 @@ class CitationValidator:
         chunk_articles = set()
 
         for chunk in chunks:
-            articles = chunk.get('articles', [])
-            for article_id in articles:
-                normalized = self.normalize_article_id(str(article_id))
-                chunk_articles.add(normalized)
+            # Extract articles from metadata
+            articles_metadata = chunk.get('articles', [])
+            for article_id in articles_metadata:
+                normalized = normalize_article_id(str(article_id))
+                if normalized:  # Only add non-empty normalized IDs
+                    chunk_articles.add(normalized)
 
         return chunk_articles
 
@@ -236,9 +214,18 @@ class CitationValidator:
             print(f"[CITATION_VALIDATOR] PRÉEMPTION CLAIM sans preuve détectée - Suppression")
             validated_response = self._remove_preemption_claims(validated_response)
 
-        # Remplacer BASE JURIDIQUE si articles manquants
+        # TÂCHE 1 (STRICT): Remplacer BASE JURIDIQUE si articles manquants + avertissement
         if missing_articles:
             validated_response = self._replace_base_juridique(validated_response)
+
+            # Ajouter un avertissement visible en fin de réponse
+            warning = (
+                "\n\n---\n\n"
+                "⚠️ **Avertissement de validation** : Certaines références citées dans la réponse "
+                "générée ne figurent pas dans les textes indexés renvoyés par la recherche. "
+                "La section BASE JURIDIQUE a été remplacée par mesure de sécurité.\n"
+            )
+            validated_response += warning
 
         return False, validated_response, cited_articles, missing_articles
 
@@ -315,17 +302,24 @@ Base juridique non disponible dans les textes indexés pour cette question.
         unproven_claims: List[str] = None
     ):
         """
-        Logs citation mismatch to file
+        Logs citation mismatch to file (JSONL format).
 
-        NOUVEAU (TÂCHE 2): Log aussi les claims sensibles non prouvés
+        TÂCHE 1 (STRICT): Log exhaustif avec tous les détails pour traçabilité
+        TÂCHE 2: Log aussi les claims sensibles non prouvés
         """
+        # Extract chunk IDs for detailed tracking
+        chunk_ids = [
+            f"{sf}:{idx}" for idx, sf in enumerate(source_files)
+        ]
+
         log_entry = {
             'timestamp': datetime.now().isoformat(),
             'question': question[:200],  # Truncate long questions
             'cited_articles': cited_articles,
-            'chunk_articles': chunk_articles,
+            'allowed_articles': chunk_articles,
             'missing_articles': missing_articles,
-            'source_files': list(set(source_files)),  # Deduplicate
+            'retrieved_chunk_ids': chunk_ids,
+            'top_sources': list(set(source_files))[:5],  # Top 5 unique sources
         }
 
         # TÂCHE 2: Ajouter les claims sensibles
@@ -340,7 +334,9 @@ Base juridique non disponible dans les textes indexés pour cette question.
 
         if missing_articles:
             print(f"[CITATION_VALIDATOR] MISMATCH logged: {len(missing_articles)} articles not found in corpus")
+            print(f"  Cited articles: {', '.join(cited_articles)}")
             print(f"  Missing: {', '.join(missing_articles)}")
+            print(f"  Allowed articles in chunks: {', '.join(chunk_articles)}")
 
         if unproven_claims:
             print(f"[CITATION_VALIDATOR] PRÉEMPTION CLAIM sans preuve: {', '.join(unproven_claims)}")

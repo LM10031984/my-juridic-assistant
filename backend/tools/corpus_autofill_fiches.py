@@ -2,6 +2,9 @@
 Stage 4b: Auto-fill Fiches with BASE JURIDIQUE + EXTRAITS
 Pre-fills proof sections from primary sources (no invention, no paraphrasing).
 
+TÂCHE 1 (NEW): Block autofill on ambiguous articles to prevent false positives.
+Uses shared article_id utilities for canonical normalization.
+
 Outputs:
 - Corpus/clean/fiches_autofilled/**/*.md (auto-filled fiches)
 - backend/reports/fiches_autofill_report.md (transformation report)
@@ -10,9 +13,21 @@ Outputs:
 
 import re
 import json
+import sys
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 from collections import defaultdict
+
+# Add backend to path to import shared utilities
+backend_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(backend_dir))
+
+# Import shared article normalization utilities (TÂCHE 1)
+from api.utils.article_id import (
+    normalize_article_id,
+    is_ambiguous_numeric,
+    extract_article_ids
+)
 
 
 class FicheAutofiller:
@@ -24,106 +39,64 @@ class FicheAutofiller:
         self.primary_dir = base_dir / 'Corpus' / 'clean' / 'primary_cleaned'
         self.output_dir = base_dir / 'Corpus' / 'clean' / 'fiches_autofilled'
 
-        # Comprehensive article pattern (identical to corpus_chunk_primary.py)
-        self.article_pattern = re.compile(
-            r'###?\s*(?:'
-            r'(?:Article|Art\.?)\s+([LRDCP]\.?\s*[\d][\d\-]*)'  # L/R/D/C/P codes
-            r'|(?:Article|Art\.?)\s+([\d][\d\-]*[A-Z]?(?:-\d+)?)'  # Regular articles
-            r'|([LRDCP]\.)\s+([\d][\d\-]*)'  # Standalone L./R./D./C./P. refs
-            r')',
-            re.IGNORECASE | re.MULTILINE
-        )
-
-        # Inline article references
-        self.inline_article_pattern = re.compile(
-            r"(?:l'article|article|art\.?)\s+("
-            r"[LRDCP]\.?\s*[\d][\d\-]*"  # L/R/D/C/P codes
-            r"|[\d][\d\-]*[A-Z]?(?:-\d+)?"  # Regular articles
-            r")",
-            re.IGNORECASE
-        )
-
         # Index: normalized_article_id -> (source_file, article_text)
         self.article_index: Dict[str, Tuple[str, str]] = {}
 
-    def normalize_article_id(self, article_id: str) -> str:
-        """Normalizes article ID for consistent matching"""
-        # Remove extra spaces
-        normalized = re.sub(r'\s+', ' ', article_id.strip())
-        # Normalize letter codes (add space after letter+dot if missing)
-        normalized = re.sub(r'([LRDCP])\.(\d)', r'\1. \2', normalized)
-        # Remove space before dot
-        normalized = re.sub(r'([LRDCP])\s+\.', r'\1.', normalized)
-        return normalized
+        # TÂCHE 1: Track ambiguous articles that should not be autofilled
+        self.ambiguous_articles: set = set()
 
     def extract_article_ids_from_text(self, text: str) -> List[str]:
-        """Extracts all article IDs from text (same logic as corpus_chunk_primary.py)"""
-        articles = []
-
-        # Find header-level articles (### Article X)
-        for match in self.article_pattern.finditer(text):
-            article_id = None
-            for group in match.groups():
-                if group:
-                    article_id = group.strip()
-                    break
-            if article_id:
-                articles.append(article_id)
-
-        # Find inline article references
-        inline_matches = self.inline_article_pattern.findall(text)
-        articles.extend([match.strip() for match in inline_matches])
-
-        # Normalize and deduplicate
-        seen = set()
-        unique_articles = []
-        for art in articles:
-            normalized = self.normalize_article_id(art)
-            if normalized not in seen:
-                seen.add(normalized)
-                unique_articles.append(normalized)
-
-        return unique_articles
+        """
+        Extracts all article IDs from text using shared utilities (TÂCHE 1).
+        Returns normalized, deduplicated article IDs.
+        """
+        # Use shared utility for canonical extraction
+        return extract_article_ids(text)
 
     def build_article_index(self):
-        """Builds index of all articles from primary cleaned sources"""
+        """
+        Builds index of all articles from primary cleaned sources.
+
+        TÂCHE 1 (NEW): Uses shared normalize_article_id() for canonical form.
+        """
         print("Building article index from primary sources...")
 
         primary_files = sorted(self.primary_dir.glob('**/*.md'))
         article_count = 0
+
+        # Pattern to split by article headers
+        article_header_pattern = re.compile(
+            r'(###\s+(?:Article|Art\.?)\s+[^\n]+)',
+            re.IGNORECASE
+        )
 
         for file_path in primary_files:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
 
             # Split by article headers
-            articles = re.split(r'(###\s+(?:Article|Art\.?)\s+[^\n]+)', content)
+            articles = article_header_pattern.split(content)
 
             for i in range(1, len(articles), 2):
                 if i + 1 < len(articles):
                     header = articles[i]
                     body = articles[i + 1]
 
-                    # Extract article ID from header
-                    match = self.article_pattern.match(header)
-                    if match:
-                        article_id = None
-                        for group in match.groups():
-                            if group:
-                                article_id = group.strip()
-                                break
+                    # Extract article IDs from header using shared utility
+                    article_ids = extract_article_ids(header)
 
-                        if article_id:
-                            normalized_id = self.normalize_article_id(article_id)
-                            article_text = (header + body).strip()
+                    if article_ids:
+                        # Use first extracted article ID as primary
+                        normalized_id = article_ids[0]
+                        article_text = (header + body).strip()
 
-                            # Store in index (keep first occurrence if duplicates)
-                            if normalized_id not in self.article_index:
-                                self.article_index[normalized_id] = (
-                                    file_path.name,
-                                    article_text
-                                )
-                                article_count += 1
+                        # Store in index (keep first occurrence if duplicates)
+                        if normalized_id not in self.article_index:
+                            self.article_index[normalized_id] = (
+                                file_path.name,
+                                article_text
+                            )
+                            article_count += 1
 
         print(f"  Indexed {article_count} unique articles from {len(primary_files)} files")
 
@@ -169,9 +142,9 @@ class FicheAutofiller:
 
         references = []
         for article_id in article_ids:
-            normalized = self.normalize_article_id(article_id)
-            if normalized in found_articles:
-                source_file, _ = found_articles[normalized]
+            # article_id is already normalized
+            if article_id in found_articles:
+                source_file, _ = found_articles[article_id]
                 references.append(f"- Article {article_id} (source: {source_file})")
             else:
                 references.append(f"- Article {article_id} [NON TROUVÉ - vérifier manuellement]")
@@ -228,7 +201,11 @@ class FicheAutofiller:
         return section
 
     def autofill_fiche(self, file_path: Path) -> Dict:
-        """Auto-fills a single fiche with BASE JURIDIQUE and EXTRAITS"""
+        """
+        Auto-fills a single fiche with BASE JURIDIQUE and EXTRAITS.
+
+        TÂCHE 1 (NEW): Skip autofill if ANY article is ambiguous.
+        """
         print(f"Processing: {file_path.name}")
 
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -252,12 +229,31 @@ class FicheAutofiller:
                 'autofilled': False,
             }
 
-        # Look up articles in index
+        # TÂCHE 1 (NEW): Check for ambiguous articles
+        ambiguous_articles = [art for art in article_ids if is_ambiguous_numeric(art)]
+
+        if ambiguous_articles:
+            print(f"  [MANUAL] {len(ambiguous_articles)} ambiguous articles detected: {', '.join(ambiguous_articles)}")
+            # Track globally
+            self.ambiguous_articles.update(ambiguous_articles)
+
+            return {
+                'file': file_path.name,
+                'domain': file_path.parent.name,
+                'status': 'manual_required',
+                'reason': 'ambiguous_articles',
+                'articles_detected': len(article_ids),
+                'articles_found': 0,
+                'autofilled': False,
+                'ambiguous_articles': ambiguous_articles,
+            }
+
+        # Look up articles in index (using already normalized IDs)
         found_articles = {}
         for article_id in article_ids:
-            normalized = self.normalize_article_id(article_id)
-            if normalized in self.article_index:
-                found_articles[normalized] = self.article_index[normalized]
+            # article_id is already normalized from extract_article_ids_from_text()
+            if article_id in self.article_index:
+                found_articles[article_id] = self.article_index[article_id]
 
         if not found_articles:
             print(f"  [MANUAL] {len(article_ids)} articles detected but 0 found in index")
@@ -321,13 +317,20 @@ class FicheAutofiller:
         return results
 
     def generate_markdown_report(self, results: List[Dict]) -> str:
-        """Generates markdown report"""
+        """
+        Generates markdown report.
+
+        TÂCHE 1 (NEW): Include ambiguous articles statistics.
+        """
         total = len(results)
         autofilled = [r for r in results if r['autofilled']]
         manual = [r for r in results if not r['autofilled']]
 
         total_detected = sum(r['articles_detected'] for r in results)
         total_found = sum(r['articles_found'] for r in results)
+
+        # TÂCHE 1: Count ambiguous articles
+        ambiguous_count = len([r for r in manual if r.get('reason') == 'ambiguous_articles'])
 
         report = f"""# Fiches Auto-fill Report
 
@@ -343,6 +346,11 @@ Generated: corpus_autofill_fiches.py
 - Total articles detected in fiches: {total_detected}
 - Total articles found in primary index: {total_found}
 - Match rate: {total_found/total_detected*100:.1f}% ({total_found}/{total_detected})
+
+**TÂCHE 1 - Ambiguous Articles (NEW):**
+- Fiches blocked due to ambiguous articles: {ambiguous_count}
+- Total unique ambiguous articles found: {len(self.ambiguous_articles)}
+- Ambiguous articles: {', '.join(sorted(self.ambiguous_articles)) if self.ambiguous_articles else 'None'}
 
 ---
 
@@ -373,11 +381,14 @@ Generated: corpus_autofill_fiches.py
             report += f"""
 ### Reason: {reason.replace('_', ' ').title()} ({len(fiches)})
 
-| File | Domain | Articles Detected |
-|------|--------|-------------------|
+| File | Domain | Articles Detected | Details |
+|------|--------|-------------------|---------|
 """
             for r in fiches[:30]:  # Show max 30
-                report += f"| {r['file'][:45]} | {r['domain']} | {r['articles_detected']} |\n"
+                details = ""
+                if reason == 'ambiguous_articles' and 'ambiguous_articles' in r:
+                    details = f"Ambiguous: {', '.join(r['ambiguous_articles'])}"
+                report += f"| {r['file'][:45]} | {r['domain']} | {r['articles_detected']} | {details} |\n"
 
             if len(fiches) > 30:
                 report += f"| ... and {len(fiches) - 30} more |\n"
@@ -396,6 +407,7 @@ Generated: corpus_autofill_fiches.py
 ### For Manual-required Fiches
 - **No articles detected**: These fiches may be overview/summary documents without specific article references
 - **Articles not in index**: The referenced articles may be from external sources not in the corpus, or article IDs may need normalization
+- **Ambiguous articles** (TÂCHE 1): Articles like "1", "2", "17" are too ambiguous to autofill safely. Manual review required to determine correct source text.
 
 ---
 
